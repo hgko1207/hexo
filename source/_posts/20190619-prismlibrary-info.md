@@ -1,0 +1,47 @@
+---
+title: Prism Library 사용
+categories:
+  - Programming
+  - C#
+tags:
+  - C#
+  - Prism
+  - WPF
+date: 2019-06-19 16:26:34
+thumbnail:
+---
+
+최근 WPF 기반으로 응용 어플리케이션을 개발하고 있습니다. C#을 처음하는 거라 처음에는 익숙하지 않았지만 자바와 비슷한 면이 많아 금방 적응하였습니다. WPF 개발을 하는데 Prism Library를 적용하였습니다. Prism은 WPF를 통해 풍부하고 유연하고 유지보수가 쉬운 설계를 할수 있게 도와준다고 합니다. 그리고 MVVM 패턴, Dependency Inejction, CompositeView, Event Aggregator들을 이용하여 독립적인 컴포넌트들 간의 느슨한 결합들을 이용한 설계 중심의 어플리케이션 제작에도 도움을 준다고 합니다.
+
+즉, WPF 어플리케이션을 만들 시 MVVM 디자인 패턴으로 개발하고 이에 추가적으로 Prism이 제공하는 CompositeView 제작방식과 Event Aggregator 기능들을 사용할 수 있는 것 입니다.
+
+#### Prism 설계 목표(Prism Design Goals)
+
+- 재사용성(Reuse)
+- 확장성(Extensibility)
+- 유연성(Flexibility)
+- 협업(Team Development)
+- 품질(Quality)
+
+#### Prism Key Concepts
+
+- Modules
+- Module catalog
+- Shell
+- Views
+- View models
+- Models
+- Commands
+- Regions
+- Navigation
+- EventAggregator
+- Dependency injection container
+- Services
+- Controllers
+- Bootstrapper
+
+위의 내용은 Prism의 설계 목표와 핵심 개념들압나다.
+
+#### Prism 아키텍쳐
+
+<img width="100%" src="/images/wpf/prism.png" alt="" title="Prism 아키텍쳐" >

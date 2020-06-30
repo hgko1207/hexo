@@ -1,0 +1,70 @@
+---
+title: Cesium 초기 설정
+categories:
+  - Web
+  - Cesium
+tags:
+  - Web
+  - JavaScript
+  - Cesium
+  - CesiumJS
+  - 3D
+date: 2019-01-07 11:37:21
+thumbnail:
+---
+
+GIS 관련 프로젝트를 하다보니 오픈소스인 CesiumJS나 Openlayers 라이브러리를 사용하게 되었습니다. 최근에는 2D, 3D 모드가 가능한 CesiumJS를 주로 사용하였습니다.
+
+- Cesium 이란?
+  - 순수 웹 기불을 이용한 3D Globe 엔진
+  - WebGL 기반
+  - 다양한 배경 영상/지도 기본 제공
+  - 3D / 2.5D / 2D 모드 지원 -> Openlayers3에 통합
+  - 카메라 움직임 추적, 시간 시뮬레이션 등 다양한 기능 제공
+
+Cesium을 시작할 때 초기 설정이 복잡하다. 아래 두 개의 링크를 따라가서 따라하면 쉽게 할 수 있습니다. 하지만 웹에서 커스터마이징을 하기 위해 아래 코드 처럼 Cesium에서 지원하는 기본적인 기능들을 끄고 지도만 보이도록 하였습니다.
+API들은 문서나 인터넷 검색으로 찾아봅시다.
+
+[![](/images/cesium-up-and-running.png)](https://cesiumjs.org/tutorials/cesium-up-and-running/)
+
+[![](/images/cesium-demos.png)](https://cesiumjs.org/demos/)
+
+```javascript
+var viewer = new Cesium.Viewer('cesiumContainer', {
+  imageryProvider: new Cesium.WebMapServiceImageryProvider({
+    url: 'http://localhost:8080/geoserver/gwc/service/wms',
+    layers: 'osm:osm',
+    parameters: {
+      service: 'WMS',
+      version: '1.1.1',
+      request: 'GetMap',
+      layers: 'osm:osm',
+      srs: 'EPSG:3857',
+      crs: 'EPSG:3857',
+      format: 'image/png',
+      tranparent: true,
+      tiled: true,
+    },
+    tilingScheme: new Cesium.WebMercatorTilingScheme(),
+  }),
+  animation: false,
+  baseLayerPicker: false,
+  fullscreenButton: false,
+  vrButton: false,
+  geocoder: false,
+  homeButton: false,
+  infoBox: false,
+  sceneModePicker: false,
+  selectionIndicator: false,
+  timeline: false,
+  navigationHelpButton: false,
+  projectionPicker: false,
+  selectedEntity: false,
+  trackedEntity: false,
+  clockTrackedDataSource: false,
+});
+var scene = viewer.scene;
+var camera = viewer.camera;
+var handler = new Cesium.ScreenSpaceEventHandler(viewer.canvas);
+var ellipsoid = scene.globe.ellipsoid;
+```
