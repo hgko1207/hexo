@@ -24,7 +24,6 @@ import numpy as np
 배열의 dtype을 본다.
 
 ```python
-# In
 arr = np.array([[1, 2, 3], [1, 2, 3]])
 arr.dtype
 
@@ -35,7 +34,6 @@ dtype('int32')
 .astype()으로 datatype을 변환 가능하다.
 
 ```python
-# In
 arr = arr.astype('float32')
 arr = arr.astype(np.float32)
 
@@ -47,7 +45,6 @@ array([[1., 2., 3.],
 len(arr.shape) 를 통해서 차원이 갯수를 확인할 수 있지만, 아래와 같이 ndim을 통해 차원 수를 확인한다.
 
 ```python
-# In
 len(arr.shape)
 arr.ndim
 
@@ -60,7 +57,6 @@ arr.ndim
 차원을 바꾼다.
 
 ```python
-# In
 arr = arr.reshape([1, 6])
 arr.shape
 
@@ -71,7 +67,6 @@ arr.shape
 차원을 몇 개로 나눠야할지 모를 경우 -1 을 활용한다.
 
 ```python
-# In
 arr = arr.reshape(-1)
 arr.shape
 
@@ -82,7 +77,6 @@ arr.shape
 3차원으로 늘리기
 
 ```python
-# In
 arr = np.random.randn(8, 8) # (8, 8)
 arr = arr.reshape([32, 2]) # (32, 2)
 arr = arr.reshape([-1, 2, 1])
@@ -96,7 +90,6 @@ arr = arr.reshape([-1, 2, 1])
 배열을 1차원으로 바꿔준다. 나중에 배열 layer를 flatten 할 때 같은 기능이라 생각하면 된다.
 
 ```python
-# In
 arr = arr.ravel()
 arr.shape
 
@@ -109,7 +102,6 @@ arr.shape
 안의 값은 유지하되 차원 수를 늘리고 싶을 때 사용한다.
 
 ```python
-# In
 arr = np.expand_dims(arr, 0)
 arr.shape
 

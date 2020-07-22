@@ -25,7 +25,6 @@ import matplotlib.pyplot as plt
 ### 이미지 불러오기
 
 ```python
-# In
 path = 'images/dog.jpg'
 
 image_pil = Image.open(path)
@@ -40,7 +39,6 @@ image.shape
 ### 이미지 들여다 보기
 
 ```python
-# In
 np.min(image), np.max(image)
 
 # Out
@@ -68,7 +66,6 @@ plt.show()
 ### 이미지 흑백으로 열기
 
 ```python
-# In
 image_pil = Image.open(path).convert("L")
 image_bw = np.array(image_pil)
 

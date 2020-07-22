@@ -28,7 +28,6 @@ import numpy as np
 numpy array는 1 또는 5, 10와 같이 숫자 데이터를 array화 해줄 수 있다.
 
 ```python
-# In
 arr = np.array(5);
 arr.shape # 배열의 형태(크기)를 나타낸다.
 
@@ -37,7 +36,6 @@ arr.shape # 배열의 형태(크기)를 나타낸다.
 ```
 
 ```python
-# In
 arr.ndim # 배열의 차원을 나타낸다.
 
 # Out
@@ -50,7 +48,6 @@ arr.ndim # 배열의 차원을 나타낸다.
 - 이때는 1차원이 되는데 numpy 에서 shape를 표현할 때 (1)이 아닌 (1,) 형식으로 표현하게 된다.
 
 ```python
-# In
 arr = np.array([5])
 arr.shape
 
@@ -65,7 +62,6 @@ arr.shape
 대괄호를 추가적으로 씌우면 차원이 추가적으로 하나 생긴다.
 
 ```python
-# In
 arr = np.array([[1, 2, 3]])
 arr.shape
 
@@ -76,7 +72,6 @@ arr.shape
 아래의 shape를 보면 차원이 2개 있고, 각 차원 마다 각각 3개의 값이 들어있다는 의미이다.
 
 ```python
-# In
 arr = np.array([[1, 2, 3], [1, 2, 3], [1, 2, 3]])
 arr.shape
 
@@ -87,7 +82,6 @@ arr.shape
 참고로 0차원 숫자에 대괄호를 2번 씌우면 두 개의 차원이 된다.
 
 ```python
-# In
 arr = np.array([[10]])
 arr.shape
 
@@ -98,7 +92,6 @@ arr.shape
 ### 다차원
 
 ```python
-# In
 arr = np.array([[[[1, 2, 3], [1, 2, 3], [1, 2, 3]], [[1, 2, 3], [1, 2, 3], [1, 2, 3]]], [[[1, 2, 3], [1, 2, 3], [1, 2, 3]], [[1, 2, 3], [1, 2, 3], [1, 2, 3]]]])
 
 # Out
@@ -123,7 +116,6 @@ array([[[[1, 2, 3],
 4차원의 배열을 나타낸다.
 
 ```python
-# In
 arr.shape
 
 # Out
