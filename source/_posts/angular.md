@@ -1,5 +1,5 @@
 ---
-title: Angular 강좌
+title: '[Angular] 강좌 추천'
 categories:
   - Web
   - Angular

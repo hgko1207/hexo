@@ -1,8 +1,8 @@
 ---
-title: Prism Library 사용
+title: '[WPF] Prism Library 사용'
 categories:
   - Programming
-  - C#
+  - WPF
 tags:
   - C#
   - Prism

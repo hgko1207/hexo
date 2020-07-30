@@ -7,9 +7,6 @@ tags:
   - React
   - Android
   - Live Reload
-  - 리액트
-  - 안드로이드
-  - 라이브 리로드
   - JavaScript
 date: 2019-01-08 17:59:53
 thumbnail:

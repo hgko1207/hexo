@@ -4,6 +4,7 @@ menu:
     # Delete this row if you don't want categories in your header nav bar
     Categories:
     About: /about
+    Profile: /profile
 
 # Customize
 customize:
@@ -14,7 +15,7 @@ customize:
     theme_color: '#006bde'
     highlight: androidstudio
     sidebar: right # sidebar position, options: left, right
-    thumbnail: false # enable posts thumbnail, options: true, false
+    thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
         # twitter: /
@@ -32,7 +33,7 @@ widgets:
     - archive
     - tagcloud
     - links
-#    - google_adsense
+    - google_adsense
 
 # Search
 search:
@@ -99,7 +100,7 @@ plugins:
       ad_slot: # the id of your add unit
     baidu_analytics: # enter Baidu Analytics hash key
     bing_site_verification: # enter Bing verification key here
-     naver-site-verification: 8974a1bf7460b68dfde9ce6e43e6538f4ed56eaf
+    naver-site-verification: 8974a1bf7460b68dfde9ce6e43e6538f4ed56eaf
     statcounter:
       sc_project: # enter statcounter project id
       sc_invisible: # enter 1 to make statcounter invisible

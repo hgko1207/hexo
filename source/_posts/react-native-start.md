@@ -6,8 +6,6 @@ categories:
 tags:
   - React
   - React Native
-  - 리액트
-  - 리액트 네이티브
   - JavaScript
 date: 2019-01-11 13:20:56
 thumbnail:

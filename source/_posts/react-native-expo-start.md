@@ -7,8 +7,6 @@ tags:
   - React
   - React Native
   - Expo
-  - 리액트
-  - 리액트 네이티브
   - JavaScript
   - Node.js
   - Expo Cli

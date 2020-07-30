@@ -1,5 +1,5 @@
 ---
-title: Chart 라이브러리 정리
+title: '[JavaScript] Chart 라이브러리 정리'
 categories:
   - Web
   - JavaScript
@@ -7,7 +7,6 @@ tags:
   - Web
   - JavaScript
   - Chart
-  - Library
 date: 2019-01-07 13:19:53
 thumbnail:
 ---

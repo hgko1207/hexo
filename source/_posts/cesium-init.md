@@ -1,14 +1,14 @@
 ---
-title: Cesium 초기 설정
+title: '[Cesium] 초기 설정'
 categories:
   - Web
   - Cesium
 tags:
   - Web
   - JavaScript
-  - Cesium
   - CesiumJS
   - 3D
+  - Map
 date: 2019-01-07 11:37:21
 thumbnail:
 ---

@@ -1,5 +1,5 @@
 ---
-title: AndroidStudio에서 lombok 사용하기
+title: '[Android Studio] lombok 사용하기'
 categories:
   - Programming
   - Android

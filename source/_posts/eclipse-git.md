@@ -1,5 +1,5 @@
 ---
-title: 이클립스에서 Git 사용법
+title: '[Git] 이클립스에서 Git 사용법'
 categories:
   - IT
   - Git

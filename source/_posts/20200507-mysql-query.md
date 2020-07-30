@@ -1,5 +1,5 @@
 ---
-title: MySQL Query
+title: '[Database] MySQL Query'
 categories:
   - Programming
   - Database

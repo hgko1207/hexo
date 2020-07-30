@@ -1,5 +1,5 @@
 ---
-title: IE에서 작동하지 않는 BLOB 다운로드
+title: '[JavaScript] IE에서 작동하지 않는 BLOB 다운로드'
 categories:
   - Web
   - JavaScript

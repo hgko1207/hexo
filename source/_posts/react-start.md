@@ -1,11 +1,10 @@
 ---
-title: 리액트 시작하기
+title: React 시작하기
 categories:
   - Web
   - React
 tags:
   - React
-  - 리액트
   - JavaScript
   - Node.js
   - VSCode

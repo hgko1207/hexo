@@ -1,5 +1,5 @@
 ---
-title: JPA Annotation 정리
+title: '[JPA] Annotation 정리'
 categories:
   - Programming
   - Spring Framework
