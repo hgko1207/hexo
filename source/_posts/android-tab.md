@@ -7,7 +7,7 @@ tags:
   - Android
   - 안드로이드
 date: 2019-01-07 13:42:09
-thumbnail:
+thumbnail: /images/thumbnail/android.png
 ---
 
 ### FragmentStatePagerAdapter의 getItem() 이 두 번 호출될 때

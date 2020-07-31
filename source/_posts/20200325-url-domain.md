@@ -9,7 +9,7 @@ tags:
   - net
   - co.kr
 date: 2020-03-25 10:01:05
-thumbnail:
+thumbnail: /images/thumbnail/information.png
 ---
 
 - com - company 회사의 도메인에 씁니다.

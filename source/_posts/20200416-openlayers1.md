@@ -1,5 +1,5 @@
 ---
-title: getGetFeatureInfoUrl 함수 사용
+title: '[Openlayers] getGetFeatureInfoUrl 함수 사용'
 categories:
   - Web
   - Openlayers
@@ -8,7 +8,7 @@ tags:
   - JavaScript
   - Map
 date: 2020-04-16 10:02:45
-thumbnail:
+thumbnail: /images/thumbnail/openLayers.png
 ---
 
 Geoserver에서 필요한 정보를 가져오기 위해 OpenLayers의 getGetFeatureInfoUrl 함수를 사용하였습니다.

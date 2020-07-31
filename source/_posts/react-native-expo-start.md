@@ -11,7 +11,7 @@ tags:
   - Node.js
   - Expo Cli
 date: 2019-01-11 16:35:26
-thumbnail:
+thumbnail: /images/thumbnail/react.png
 ---
 
 # Expo

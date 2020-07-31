@@ -7,7 +7,7 @@ tags:
   - SAR 위성
   - SAR
 date: 2020-04-20 09:31:30
-thumbnail:
+thumbnail: /images/thumbnail/satellite.png
 ---
 
 ## SAR 위성 소개

@@ -6,7 +6,7 @@ categories:
 tags:
   - Hexo
 date: 2019-02-13 10:38:15
-thumbnail:
+thumbnail: /images/thumbnail/hexo.png
 ---
 
 ## Hexo

@@ -7,7 +7,7 @@ tags:
   - Satellite
   - Sensor
 date: 2020-04-27 09:42:37
-thumbnail:
+thumbnail: /images/thumbnail/satellite.png
 ---
 
 ## Microwave 특징

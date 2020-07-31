@@ -8,7 +8,7 @@ tags:
   - TensorFlow
   - Python
 date: 2020-06-30 11:34:28
-thumbnail:
+thumbnail: /images/thumbnail/ai.png
 ---
 
 인공지능(AI)을 통해 개발을 하기 위해 개발 도구들을 설치합니다.

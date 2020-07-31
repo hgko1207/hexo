@@ -9,7 +9,7 @@ tags:
   - AngularJS
   - Angular 강좌
 date: 2019-01-07 09:55:40
-thumbnail:
+thumbnail: /images/thumbnail/angular.png
 ---
 
 ### Angular 강좌 추천

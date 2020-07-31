@@ -9,7 +9,7 @@ tags:
   - Live Reload
   - JavaScript
 date: 2019-01-08 17:59:53
-thumbnail:
+thumbnail: /images/thumbnail/react.png
 ---
 
 ## Live Reload

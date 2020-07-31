@@ -8,7 +8,7 @@ tags:
   - BLOB
   - Download
 date: 2020-04-20 09:56:01
-thumbnail:
+thumbnail: /images/thumbnail/javascript.png
 ---
 
 이미지를 Jcrop 으로 자르고 Canvas 영역을 blob 형식으로 바꿔서 a Tag를 생성하여 다운로드를 시도하였습니다. 크롬에서는 잘 동작하였지만 IE에서는 동작하지 않고 에러를 발생하였습니다.

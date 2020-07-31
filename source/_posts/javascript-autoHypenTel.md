@@ -9,7 +9,7 @@ tags:
   - input
   - HTML
 date: 2019-01-18 15:22:36
-thumbnail:
+thumbnail: /images/thumbnail/javascript.png
 ---
 
 사용자 등록 시 전화번호를 입력하게 되는데 아래 그림처럼 세 개의 입력을 받아 합치는 형식으로 많이 되어 있습니다.

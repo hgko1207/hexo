@@ -9,7 +9,7 @@ tags:
   - lombok
   - Java
 date: 2020-04-18 20:14:23
-thumbnail:
+thumbnail: /images/thumbnail/androidstudio.png
 ---
 
 자바에서 코드를 작성 시 모델을 만들다 보면 constructor와 기본 getter/setter 그리고 상황에 따라서 builder를 만들어 사용해야 합니다.

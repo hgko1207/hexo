@@ -7,7 +7,7 @@ tags:
   - Android
   - Android Studio
 date: 2020-04-21 09:49:50
-thumbnail:
+thumbnail: /images/thumbnail/androidstudio.png
 ---
 
 ## 1. Android Studio 다운로드 및 설치

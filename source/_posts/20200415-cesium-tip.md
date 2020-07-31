@@ -11,7 +11,7 @@ tags:
   - 3D
   - Map
 date: 2020-04-15 22:04:56
-thumbnail:
+thumbnail: /images/thumbnail/cesium.png
 ---
 
 ## 영상 레이어 추가

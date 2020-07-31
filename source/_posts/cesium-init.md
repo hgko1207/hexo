@@ -10,7 +10,7 @@ tags:
   - 3D
   - Map
 date: 2019-01-07 11:37:21
-thumbnail:
+thumbnail: /images/thumbnail/cesium.png
 ---
 
 GIS 관련 프로젝트를 하다보니 오픈소스인 CesiumJS나 Openlayers 라이브러리를 사용하게 되었습니다. 최근에는 2D, 3D 모드가 가능한 CesiumJS를 주로 사용하였습니다.

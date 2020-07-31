@@ -7,7 +7,7 @@ tags:
   - Developer
   - Growth
 date: 2020-04-14 10:55:09
-thumbnail:
+thumbnail: /images/thumbnail/information.png
 ---
 
 # 회사에서 성장하기
@@ -52,5 +52,3 @@ thumbnail:
 - 초기에 결정된 스펙은 무조건 변경된다.
 - 나는 이에 어떻게 대응할 것인가
 - 변경될 수 있는 요소들을 어떻게 제어할 것인가
-
-

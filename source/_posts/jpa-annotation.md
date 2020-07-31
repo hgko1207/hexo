@@ -11,7 +11,7 @@ tags:
   - Annotation
   - Database
 date: 2019-01-07 14:15:34
-thumbnail:
+thumbnail: /images/thumbnail/spring.png
 ---
 
 ### JPA(Hibernate) Annotation 정리

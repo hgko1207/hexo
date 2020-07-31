@@ -9,7 +9,7 @@ tags:
   - Node.js
   - VSCode
 date: 2019-01-09 14:10:34
-thumbnail:
+thumbnail: /images/thumbnail/react.png
 ---
 
 ## 리액트란

@@ -7,7 +7,7 @@ tags:
   - Satellite
   - Sensor
 date: 2020-05-11 10:17:10
-thumbnail:
+thumbnail: /images/thumbnail/satellite.png
 ---
 
 ## Hyperspectral 특징

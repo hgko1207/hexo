@@ -8,7 +8,7 @@ tags:
   - Java
   - Plugin
 date: 2019-01-07 18:25:03
-thumbnail:
+thumbnail: /images/thumbnail/rcp.png
 ---
 
 ## 이클립스 RCP 플러그인

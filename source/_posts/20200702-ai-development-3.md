@@ -8,7 +8,7 @@ tags:
   - AI
   - Numpy
 date: 2020-07-02 10:36:18
-thumbnail:
+thumbnail: /images/thumbnail/numpy.png
 ---
 
 Numpy 기초에 대해 다뤄보겠습니다.

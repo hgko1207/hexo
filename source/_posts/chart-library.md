@@ -8,7 +8,7 @@ tags:
   - JavaScript
   - Chart
 date: 2019-01-07 13:19:53
-thumbnail:
+thumbnail: /images/thumbnail/javascript.png
 ---
 
 지금까지 웹 개발을 하면서 사용해본 Chart를 정리 해보았습니다.

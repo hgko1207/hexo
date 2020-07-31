@@ -6,7 +6,7 @@ tags:
   - Satellite
   - 진 정사영상
 date: 2020-06-29 14:50:50
-thumbnail:
+thumbnail: /images/thumbnail/satellite.png
 ---
 
 ## 정사영상

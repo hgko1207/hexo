@@ -10,7 +10,7 @@ tags:
   - Repository
   - EGit
 date: 2019-01-18 11:17:07
-thumbnail:
+thumbnail: /images/thumbnail/git.png
 ---
 
 기존에는 사내에서 개발할 때 SVN으로 형상관리를 하였는데, 이번에 개인 공부도 하고 프로젝트로 만들다 보니 GitHub를 사용하게 되었습니다. GitHub는 원격 저장소를 제공하며 여러가지 프로젝트 진행을 원활하게 하는 도구를 함께 제공하는 이점이 있어서 사용하였습니다.

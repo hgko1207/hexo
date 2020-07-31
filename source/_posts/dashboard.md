@@ -10,7 +10,7 @@ tags:
   - Bootstrap
   - Web Design
 date: 2019-01-04 18:13:00
-thumbnail:
+thumbnail: /images/thumbnail/dashboard.png
 ---
 
 ### 대시보드 템플릿

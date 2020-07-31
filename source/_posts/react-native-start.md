@@ -8,7 +8,7 @@ tags:
   - React Native
   - JavaScript
 date: 2019-01-11 13:20:56
-thumbnail:
+thumbnail: /images/thumbnail/react.png
 ---
 
 ## React Native 란

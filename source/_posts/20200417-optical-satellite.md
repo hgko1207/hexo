@@ -6,7 +6,7 @@ tags:
   - 광학 위성
   - Satellite
 date: 2020-04-17 13:04:26
-thumbnail:
+thumbnail: /images/thumbnail/satellite.png
 ---
 
 ## 위성영상 활용 목적

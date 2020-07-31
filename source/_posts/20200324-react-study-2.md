@@ -10,7 +10,7 @@ tags:
   - JavaScript
   - ES6
 date: 2020-03-24 10:41:09
-thumbnail:
+thumbnail: /images/thumbnail/react.png
 ---
 
 # React 세미나😊(2)
@@ -51,7 +51,7 @@ $ code .
 ```
 
 설치가 완료되면 Visual Studio Code 편집기로 프로젝트를 엽니다.
-![프로젝트 구조](https://hgko1207.github.io/images/react/react-open.png "프로젝트 구조")
+![프로젝트 구조](https://hgko1207.github.io/images/react/react-open.png '프로젝트 구조')
 처음 프로젝트가 설치되면 여러가지 파일이 생성되는데 초기 세팅을 위해 불필요한 파일을 제거하는 것이 좋습니다. `src` 폴더에서 App.js, index.js 파일을 제외한 파일을 제거하고 import된 코드를 제거합니다.
 
 ### 3. React 개발
@@ -61,7 +61,7 @@ $ code .
 JSX (JavaScript eXtension)는 자바스크립트 언어 문법의 확장입니다. 자바스크립트 안에서 HTML 문법을 사용해서 화면을 구성할 수 있게 도와주는 문법으로, React 개발에 엄청난 도움을 줍니다.
 
 ```jsx
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class HelloMessage extends React.Component {
   render() {
@@ -83,12 +83,12 @@ export default HelloMessage;
 
 ```jsx
 // App.js
-import React, { Component } from "react";
-import styled from "styled-components";
-import "./App.css";
+import React, { Component } from 'react';
+import styled from 'styled-components';
+import './App.css';
 
 const Content = styled.div`
-  background-color: "blue";
+  background-color: 'blue';
   font-size: 16px;
 `;
 
@@ -96,7 +96,7 @@ function App() {
   return (
     <div>
       <div className="App"></div>
-      <div style={{ backgroundColor: "black", fontSize: "12px", color: "white" }}></div>
+      <div style={{ backgroundColor: 'black', fontSize: '12px', color: 'white' }}></div>
       <Content />
     </div>
   );
@@ -116,7 +116,7 @@ JSX는 꼭 지켜야 할 몇몇 제한이 있습니다.
 
 1. JSX를 사용하는 스크립트 파일은 상단에 React 라이브러리를 꼭 불러와야 합니다.
    ```jsx
-   import React from "react";
+   import React from 'react';
    ```
 2. 열어 놓은 태그는 꼭 닫아야 합니다.
    ```jsx
@@ -163,10 +163,10 @@ React는 Component 기반 라이브러리입니다. 하나의 코드로 작성�
 위와 같은 html코드가 있다고 해봅시다. 이를 React로 만들게 되면 다음과 같습니다.
 
 ```jsx
-import React, { Component } from "react";
-import Header from "./component/Header";
-import Footer from "./component/Footer";
-import ContentList from "./component/ContentList";
+import React, { Component } from 'react';
+import Header from './component/Header';
+import Footer from './component/Footer';
+import ContentList from './component/ContentList';
 
 class App extends Component {
   render() {

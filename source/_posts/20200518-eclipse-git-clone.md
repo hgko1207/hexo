@@ -9,7 +9,7 @@ tags:
   - GitHub
   - Clone
 date: 2020-05-18 10:48:33
-thumbnail:
+thumbnail: /images/thumbnail/git.png
 ---
 
 이클립스와 Git 원격저장소 연동하는 방법과 프로젝트를 내려받는 방법에 대해 알아보도록 하겠습니다.

@@ -9,7 +9,7 @@ tags:
   - React UI
   - UI Library
 date: 2020-04-08 17:36:55
-thumbnail:
+thumbnail: /images/thumbnail/react.png
 ---
 
 React로 개발 시 기본적인 디자인을 적용하기 위해 고민이 많이 됩니다. 유료 템플릿 프로젝트를 구매해서 사용할 수 있지만 매번 사는게 부담이기 때문에 디자인을 하기 무척 힘듭니다.

@@ -10,7 +10,7 @@ tags:
   - JavaScript
   - ES6
 date: 2020-03-24 10:39:16
-thumbnail:
+thumbnail: /images/thumbnail/react.png
 ---
 
 # React 세미나😊(1)

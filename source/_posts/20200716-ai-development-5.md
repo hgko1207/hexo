@@ -7,8 +7,10 @@ tags:
   - Python
   - AI
   - Graph
+  - Numpy
+  - matplotlib
 date: 2020-07-16 18:08:35
-thumbnail:
+thumbnail: /images/thumbnail/matplotlib.png
 ---
 
 ## Graph Visualization

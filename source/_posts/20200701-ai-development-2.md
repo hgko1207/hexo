@@ -8,7 +8,7 @@ tags:
   - AI
   - Numpy
 date: 2020-07-01 17:11:52
-thumbnail:
+thumbnail: /images/thumbnail/numpy.png
 ---
 
 ## Numpy 란

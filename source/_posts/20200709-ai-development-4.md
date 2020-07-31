@@ -8,7 +8,7 @@ tags:
   - AI
   - Numpy
 date: 2020-07-09 16:16:50
-thumbnail:
+thumbnail: /images/thumbnail/numpy.png
 ---
 
 ## zeros

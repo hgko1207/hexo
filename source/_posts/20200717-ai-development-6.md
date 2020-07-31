@@ -6,8 +6,10 @@ categories:
 tags:
   - Python
   - AI
+  - Numpy
+  - matplotlib
 date: 2020-07-17 18:20:17
-thumbnail:
+thumbnail: /images/thumbnail/matplotlib.png
 ---
 
 ## Image Visualization

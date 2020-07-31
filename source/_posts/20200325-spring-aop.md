@@ -7,7 +7,7 @@ tags:
   - Spring Framework
   - AOP
 date: 2020-03-25 10:04:18
-thumbnail:
+thumbnail: /images/thumbnail/spring.png
 ---
 
 AOP는 공통관심사항을 분리하여 반복되는 부분을 추출해 핵심 로직에 영향을 미치지 않고 소스의 중복을 줄이는 방법으로 기존 OOP에서 공통관심사항을 여러 모듈에서 적용하며 발생하는 중복된 코드 양산의 한계를 극복하기 위해 나오게 되었습니다.

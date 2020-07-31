@@ -8,7 +8,7 @@ tags:
   - Query
   - Database
 date: 2020-05-07 11:17:14
-thumbnail:
+thumbnail: /images/thumbnail/mysql.png
 ---
 
 ## SELECT
