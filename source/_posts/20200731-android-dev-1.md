@@ -1,0 +1,28 @@
+---
+title: '[Android] FragmentStatePagerAdapter 사용 팁'
+categories:
+  - Programming
+  - Android
+tags:
+  - Android
+date: 2020-07-31 10:49:56
+thumbnail: /images/thumbnail/android.png
+---
+
+### FragmentStatePagerAdapter의 getItem() 이 두 번 호출될 때
+
+Viewpager를 사용하여 Tab을 구성하였을 때 `FragmentStatePagerAdapter`를 사용하였다.탭에 추가한 Fragment 와는 상관없이 getItem()이 두 번 호출이 되어 Fragment를 두번 로드하게 되는 현상때문에 문제가 생겨 꼬이게 된다. 이럴 경우 Fragment 화면이 보일 때와 보이지 않을 때 setUSerVisiblaHint() 함수를 사용하여 처리하는데 탭에 추가한 Fragment가 전부 로드되지 않고 어중간하게 두 개의 화면만 로드되었기 때문에 다른 탭을 누르거나 다시 돌아왔을 때 setUSerVisiblaHint()와 onCreateView() 함수 비정상적으로 호출되는 바람에 코딩을 하는데 애먹었었다.
+
+그래서 찾은 방법은 아래 코드 처럼 viewPagerAdapter에 Fragment를 3개 추가 하였을 때 setOffscreenPageLimit 함수에 숫자 3을 지정하여 3개의 화면이 미리 로드되게 하면 getItem()은 3번 호출되지만 앞에서 문제되는 것을 해결할 수 있었다.
+
+```java
+private void setupViewPager() {
+    ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
+    viewPagerAdapter.addFragment(new MobileFragment());
+    viewPagerAdapter.addFragment(new LteFragment());
+    viewPagerAdapter.addFragment(new WifiFragment());
+    viewPager.setOffscreenPageLimit(3);
+    viewPager.setAdapter(viewPagerAdapter);
+    tabLayout.setupWithViewPager(viewPager);
+}
+```

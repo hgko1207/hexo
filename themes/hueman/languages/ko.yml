@@ -6,6 +6,7 @@ index:
     category: '카테고리'
     uncategorized: '미지정'
     tag: '태그'
+    profile: '프로파일'
 nav:
     current_page:
         other: 'Page %d '
