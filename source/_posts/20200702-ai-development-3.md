@@ -13,13 +13,13 @@ thumbnail: /images/thumbnail/numpy.png
 
 Numpy 기초에 대해 다뤄보겠습니다.
 
-## Numpy Basic
+## Load Package
 
 ```python
 import numpy as np
 ```
 
-### data type
+## data type
 
 배열의 dtype을 본다.
 
@@ -52,7 +52,7 @@ arr.ndim
 2
 ```
 
-### Reshape
+## Reshape
 
 차원을 바꾼다.
 
@@ -85,7 +85,7 @@ arr = arr.reshape([-1, 2, 1])
 (32, 2, 1)
 ```
 
-### Ravel
+## Ravel
 
 배열을 1차원으로 바꿔준다. 나중에 배열 layer를 flatten 할 때 같은 기능이라 생각하면 된다.
 

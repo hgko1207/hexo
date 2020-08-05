@@ -1,4 +1,8 @@
-# 블로그
+# Hexo 블로그
+
+## 테마
+
+- hueman
 
 ## Install
 
@@ -14,9 +18,10 @@ npm i hexo-deployer-git --save
 npm i hexo-auto-canonical --save
 npm i hexo-autonofollow --save
 npm i hexo-generator-seo-friendly-sitemap --save
+npm i hexo-generator-robotstxt --save
 ```
 
-### hexo-renderer-markdown-it-plus
+### Markdown
 
 ```bash
 npm un hexo-renderer-marked --save

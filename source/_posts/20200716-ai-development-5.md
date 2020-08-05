@@ -13,9 +13,7 @@ date: 2020-07-16 18:08:35
 thumbnail: /images/thumbnail/matplotlib.png
 ---
 
-## Graph Visualization
-
-### Load Packages
+## Load Packages
 
 ```python
 import numpy as np
@@ -24,7 +22,7 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 ```
 
-### Basic Attributes
+## Basic Attributes
 
 ```python
 alpha : 투명도
