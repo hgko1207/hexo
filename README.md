@@ -27,3 +27,9 @@ npm i hexo-generator-robotstxt --save
 npm un hexo-renderer-marked --save
 npm i hexo-renderer-markdown-it-plus --save
 ```
+
+### Search
+
+```bash
+npm i hexo-generator-json-content --save
+```
