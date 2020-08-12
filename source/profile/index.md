@@ -26,7 +26,7 @@ date: 2020-07-29 09:52:04
 - `2020/06` `Spring` [SpringBoot + Thymeleaf + JPA](https://github.com/hgko1207/springboot-thymeleaf-jpa) : SpringBoot 기반 Template Project
 - `2020/05` `Spring` [SpringBoot + React](https://github.com/hgko1207/springboot-react) : SpringBoot와 React를 사용하는 Template Project
 - `2020/03` `JavaScript` [번역 서비스](https://github.com/hgko1207/translation-service) : 구글, 및 파파고 번역을 동시에 할 수 있도록 지원
-- `2020/03` `JavaScript` [Paper Translation](https://github.com/hgko1207/paper-translation) : 논문 번역 시 불필요한 문자들을 제거하여 번역이 쉽도록 해주는 프로그램
+- `2020/03` `JavaScript` [Paper Translation](https://github.com/hgko1207/paper-translation) : 논문 번역 시 불필요한 문자들을 제거하여 번역이 쉽도록 도와주는 사이트
 - `2020/03` `JavaScript` [Node + React](https://github.com/hgko1207/create-react-app-express) : Node와 React를 사용한 간단한 웹 프로젝트
 - `2019/12` `Spring` [SpringBoot + jsp + Tiles](https://github.com/hgko1207/springboot-jsp-tiles/commits/master) : SpringBoot 기반 Template Project
 - `2019/12` `Spring` [SpringBoot + PostgreSQL + JPA](https://github.com/hgko1207/springboot-postgresql-jpa) : SpringBoot 기반 Database 연동 Template Project
