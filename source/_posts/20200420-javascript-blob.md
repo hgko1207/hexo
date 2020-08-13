@@ -15,7 +15,7 @@ thumbnail: /images/thumbnail/javascript.png
 
 그래서 아래 코드처럼 변형을 하였더니 둘다 잘 동작하였습니다.
 
-##### 이미지 다운로드
+### 소스 코드
 
 ```js
 function downloadURI(blob, name) {

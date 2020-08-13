@@ -5,11 +5,12 @@ date: 2020-07-29 09:52:04
 
 ## 개요
 
-- Web Developer
-- Java / JavaScript / Python / C#
+- Web Developer(Backend, Frontend)
+- Java / JavaScript / Python / C# / C++
 
 ## 최근 관심사
 
+- Nodejs / React
 - DeepLearning
 
 ## Contact

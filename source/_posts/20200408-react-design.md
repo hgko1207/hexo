@@ -36,8 +36,6 @@ React로 개발 시 기본적인 디자인을 적용하기 위해 고민이 많�
 9. Use Transition (트랜지션을 사용하라)
 10. React Immediately (즉각적인 반응)
 
-설치
-
 ```bash
 npm i antd
 npm i --save @ant-design/icons
@@ -49,8 +47,6 @@ npm i --save @ant-design/icons
 
 - 리액트 기반 UI 라이브러리 중에 가장 인기 있고, 성숙한 라이브러리
 - 구글 머테리얼 디자인 기반으로 제작
-
-설치
 
 ```bash
 npm install @material-ui/core
@@ -64,8 +60,6 @@ npm install @material-ui/core
 - Bootstrap 3.x 버전을 기반으로 제작된 라이브러리
 - Bootstrap 4.x 버전으로 마이그레이션 할 수 있음
 
-설치
-
 ```bash
 npm install react-bootstrap bootstrap
 ```
@@ -75,8 +69,6 @@ npm install react-bootstrap bootstrap
 [![](/images/react/ui/reactstrap.png)](https://reactstrap.github.io/)
 
 - Bootstrap 4.x 버전을 기반으로 제작된 라이브러리
-
-설치
 
 ```bash
 npm install --save reactstrap react react-dom
@@ -88,8 +80,6 @@ npm install --save reactstrap react react-dom
 
 - 부트스트랩 만큼이나 인기 있는 Semantic UI의 리액트 버전
 - Semantic UI에 jQuery 의존성을 제거하고 순수하게 리액트로만 개발 된 버전
-
-설치
 
 ```bash
 yarn add semantic-ui-react
