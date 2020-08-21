@@ -1,5 +1,5 @@
 ---
-title: Metronic Dashboard
+title: '[Web Design] Metronic Dashboard'
 categories:
   - Web
   - Design
@@ -13,11 +13,11 @@ date: 2019-01-04 18:13:00
 thumbnail: /images/thumbnail/dashboard.png
 ---
 
-### 대시보드 템플릿
+## 대시보드 템플릿
 
 웹 개발을 하다보면 작은 프로젝트인데도 디자인 요청이 있다. 그럴 때 마다 디자인된 부트스트랩 기반 템플릿을 찾곤 했습니다. 매번 디자인이 아쉽고 템플릿을 사용하여도 직접 CSS를 작업하는 경우가 많았는데 지인의 추천으로 **Metronic**을 알게 되었습니다.
 
-#### Metronic - Responsive Admin Dashboard Template
+### Metronic - Responsive Admin Dashboard Template
 
 The World’s #1 Bootstrap 4 HTML, Angular 9, React, VueJS & Laravel Admin Dashboard Theme
 
