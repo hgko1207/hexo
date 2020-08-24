@@ -6,7 +6,7 @@ date: 2020-07-29 09:52:04
 ## 개요
 
 - Web Developer(Backend, Frontend)
-- Java / JavaScript / Python / C# / C++
+- Java / JavaScript / Python / C#(WPF) / C++
 
 ## 최근 관심사
 
