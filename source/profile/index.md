@@ -5,13 +5,16 @@ date: 2020-07-29 09:52:04
 
 ## 개요
 
-- Web Developer(Backend, Frontend)
+- Web Developer(Backend, Frontend), FullStack
 - Java / JavaScript / Python / C#(WPF) / C++
+- Node.js / React / React Natice
+- Android
+- MySQL, MSSQL, PostgreSQL, Oracle
 
 ## 최근 관심사
 
-- Nodejs / React
 - DeepLearning
+- Docker
 
 ## Contact
 
@@ -22,6 +25,7 @@ date: 2020-07-29 09:52:04
 
 ### Web
 
+- `2020/08` `Web` xx 회사 홈페이지 개발
 - `2020/07` `Spring` 스마트 노지 토양환경 모니터링 시스템
 - `2020/06` `Spring` 미디어운용센터 AI 관제 시스템
 - `2020/06` `Spring` [SpringBoot + Thymeleaf + JPA](https://github.com/hgko1207/springboot-thymeleaf-jpa) : SpringBoot 기반 Template Project
@@ -48,5 +52,6 @@ date: 2020-07-29 09:52:04
 
 ## 회사 내 경험
 
+- `2020/09` `Web` 네트워크 장애 진단, 감시 시스템 개발
 - `2019/05` `Web` AI 대회 관리 시스템 개발
 - `2018/05` `Web` 사내 전자 결재 시스템 개발
