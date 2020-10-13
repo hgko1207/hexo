@@ -12,13 +12,10 @@ thumbnail: /images/thumbnail/postgresql.png
 
 최근에 CentOS 7에 PostgreSQL을 설치했다. 설치 과정을 정리해봤다.
 
-## 운영체제
+## 운영환경
 
-CentOS 7.6
-
-## Version
-
-PostgreSQL 11.9
+- CentOS 7.6
+- PostgreSQL 11.9
 
 ## 인터넷이 되는 환경
 
