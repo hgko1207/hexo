@@ -3,18 +3,20 @@ title: Profile
 date: 2020-07-29 09:52:04
 ---
 
-## 개요
+## 기술
 
 - Web Developer(Backend, Frontend), FullStack
 - Java / JavaScript / Python / C#(WPF) / C++
 - Node.js / React / React Natice
 - Android
 - MySQL, MSSQL, PostgreSQL, Oracle
+- Docker
 
 ## 최근 관심사
 
 - DeepLearning
 - Docker
+- Vue.js
 
 ## Contact
 
@@ -28,7 +30,7 @@ date: 2020-07-29 09:52:04
 - `2020/11` `Spring` 조명 제어 시스템
 - `2020/08` `Web` xx 회사 홈페이지 개발
 - `2020/07` `Spring` 스마트 노지 토양환경 모니터링 시스템
-- `2020/06` `Spring` 미디어운용센터 AI 관제 시스템
+- `2020/06` `Spring` AI 관제 시스템
 - `2020/06` `Spring` [SpringBoot + Thymeleaf + JPA](https://github.com/hgko1207/springboot-thymeleaf-jpa) : SpringBoot 기반 Template Project
 - `2020/05` `Spring` [SpringBoot + React](https://github.com/hgko1207/springboot-react) : SpringBoot와 React를 사용하는 Template Project
 - `2020/03` `JavaScript` [번역 서비스](https://github.com/hgko1207/translation-service) : 구글, 및 파파고 번역을 동시에 할 수 있도록 지원
