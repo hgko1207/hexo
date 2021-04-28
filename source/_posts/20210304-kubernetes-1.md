@@ -1,10 +1,10 @@
 ---
 title: '[Kubernetes] 명령어들'
 categories:
-    - IT
-    - Kubernetes
+  - IT
+  - Kubernetes
 tags:
-    - Kubernetes
+  - Kubernetes
 date: 2021-03-04 11:17:05
 thumbnail: /images/thumbnail/kubernetes.png
 ---
