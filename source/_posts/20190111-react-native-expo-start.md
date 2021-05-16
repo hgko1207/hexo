@@ -18,7 +18,7 @@ thumbnail: /images/thumbnail/react.png
 
 리액트 네이티브는 리액트 아키텍처를 모바일에 적용한 것으로, ES6 문법과 리액트를 이용해 모바일 어플리케이션을 개발할 수 있도록 해주는 프레임워크입니다. 리액트 네이티브 프로젝트 생성 시 `react-native init <프로젝트 이름>`을 입력하여 사용하였습니다. 이것만으로도 충분하다고 느껴졌는데 다른 강좌를 보던 중에 Expo 툴을 발견하게 되었습니다.
 
-**[Expo](https://expo.io/)**는 리액트 네이티브 어플리케이션의 빌드를 돕는 툴 입니다. 네이티브 API에 접근하는 것도 쉽게 만들어주고, 안드로이드와 iOS 버전을 알아서 빌드해줍니다. 무엇보다 코드를 수정하면 바로 hot reloading 시켜주는 것이 가장 편합니다.
+[Expo](https://expo.io/) 는 리액트 네이티브 어플리케이션의 빌드를 돕는 툴 입니다. 네이티브 API에 접근하는 것도 쉽게 만들어주고, 안드로이드와 iOS 버전을 알아서 빌드해줍니다. 무엇보다 코드를 수정하면 바로 hot reloading 시켜주는 것이 가장 편합니다.
 
 작년 12월 쯤에 리액트 네이티브를 알게 되고 최근에 Expo도 접하게 되면서 찾던 중 처음에는 Expo Xde를 다운받아 사용하라고 하여서 Expo 홈페이지를 찾아봤지만 다운받지 못하였습니다. 그러던 중 xde 지원이 중단되고 대신 Expo dev tool(=expo cli 최신버전)을 설치해서 사용하라고 하는 내용을 보게 되었습니다.
 
@@ -62,15 +62,15 @@ $ expo start
 ### 5. 모바일 디바이스 연결
 
 - **실제 모바일 디바이스**
-  먼저 [Expo](https://expo.io/) 홈페이지에서 계정을 생성합니다. 그런 다음 모바일에서 **_"Expo client"_** 앱을 설치합니다. 그리고 프로젝트 실행 화면에서 **_Publish or republish project..._** 을 클릭하고 내용을 입력 후 **_Publish Project_** 버튼을 클릭합니다.
+  먼저 [Expo](https://expo.io/) 홈페이지에서 계정을 생성합니다. 그런 다음 모바일에서 **"Expo client"** 앱을 설치합니다. 그리고 프로젝트 실행 화면에서 **Publish or republish project...** 을 클릭하고 내용을 입력 후 **Publish Project** 버튼을 클릭합니다.
 
-<img width="100%" src="/images/react/react-expo-start-app.png" alt="모바일 디바이스 연결" title="" >
+<img width="100%" src="/images/react/react-expo-start-app.png" alt="모바일 디바이스 연결" title="">
 
 클릭하는 순간 터미널(또는 명령프롬프트)에 계정 정보를 입력하라는 문구가 뜹니다. 그럼 생성한 계정정보를 입력 후 엔터키를 누르고 프로젝트 실행 화면으로 넘어와서 성공했는지 확인을 합니다.
 
-<img width="100%" src="/images/react/react-expo-start-app1.png" alt="모바일 디바이스 연결 성공 확인" title="" >
+<img width="100%" src="/images/react/react-expo-start-app1.png" alt="모바일 디바이스 연결 성공 확인" title="">
 
-**_"Expo client"_** 앱을 실행하고 생성한 계정정보를 입력합니다. 로그인 성공 후 하단에 있는 **_Projects_** 탭을 클릭합니다. 그러면 Publish 성공한 프로젝트가 보입니다. 프로젝트를 클릭하면 우리가 작업한 화면이 보일 것 입니다. 코드를 수정하면 바로 앱에서 변경되는 것을 확인할 수 있습니다.
+**"Expo client"** 앱을 실행하고 생성한 계정정보를 입력합니다. 로그인 성공 후 하단에 있는 **_Projects_** 탭을 클릭합니다. 그러면 Publish 성공한 프로젝트가 보입니다. 프로젝트를 클릭하면 우리가 작업한 화면이 보일 것 입니다. 코드를 수정하면 바로 앱에서 변경되는 것을 확인할 수 있습니다.
 
 <img width="95%" src="/images/react/react-expo-start-app2.png" alt="Expo client 앱 화면" title="" >
 

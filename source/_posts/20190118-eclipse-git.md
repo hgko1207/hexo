@@ -21,29 +21,29 @@ thumbnail: /images/thumbnail/git.png
 
 먼저 공식 사이트인 https://github.com/ 에서 회원가입을 합니다. 회원가입 후 로그인을 하고 **_"Start a project"_** 버튼을 클릭합니다. 아래 그림처럼 화면이 나옵니다.
 
-<img width="100%" src="/images/git/git-repository.png" alt="원격 저장소 생성" title="원격 저장소 생성" >
+<img width="100%" src="/images/git/git-repository.png" alt="원격 저장소 생성" title="원격 저장소 생성">
 
 원격 저장소 이름을 입력하고 다른 것은 수정하지 말고 **_"Create repository"_** 버튼을 클릭하면 아래와 같은 원격저장소가 생성됩니다. 빨간 네모 박스의 경로를 복사해둡니다.
 
-<img width="100%" src="/images/git/git-success.png" alt="원격 저장소 생성 완료" title="원격 저장소 생성 완료" >
+<img width="100%" src="/images/git/git-success.png" alt="원격 저장소 생성 완료" title="원격 저장소 생성 완료">
 
 ### 2. EGit 설치
 
-이클립스를 실행하고 **[Help] -> [Eclipse Marketplace]**를 클릭합니다.
+이클립스를 실행하고 **Help -> Eclipse Marketplace** 를 클릭합니다.
 
-<img width="80%" src="/images/git/eclipse-git-1.png" alt="Eclipse Marketplace" title="" >
+<img width="80%" src="/images/git/eclipse-git-1.png" alt="Eclipse Marketplace" title="">
 
 Marketplace에서 Egit를 검색합니다. 아래 그림 처럼 **EGit - Git Integration for Eclipse** 를 찾아 설치합니다. 설치가 완료되면 이클립스를 다시 실행하게 됩니다.
 
-<img width="50%" src="/images/git/eclipse-git-2.png" alt="EGit 설치" title="" >
+<img width="50%" src="/images/git/eclipse-git-2.png" alt="EGit 설치" title="">
 
 재실행 후에 이클립스의 오른쪽 위에 퍼스펙티브 버튼을 클릭하면 창이 보입니다.
 
-<img width="45%" src="/images/git/eclipse-git-3.png" alt="퍼스펙티브 추가" title="" >
+<img width="45%" src="/images/git/eclipse-git-3.png" alt="퍼스펙티브 추가" title="">
 
 Git을 선택하고 **[OK]** 버튼을 눌러 활성화 시킵니다. Git 퍼스펙티브가 추가된 것을 볼 수 있으며 아이콘을 클릭하면 아래 그림처럼 기본화면이 변경됩니다.
 
-<img width="100%" src="/images/git/eclipse-git-4.png" alt="퍼스펙티브 변경" title="" >
+<img width="100%" src="/images/git/eclipse-git-4.png" alt="퍼스펙티브 변경" title="">
 
 ### 3. 원격 저장소 연동
 
@@ -81,7 +81,7 @@ Branch를 선택하는 화면이 보이는데 Branch를 만들지 않았으므�
 
 <img width="70%" src="/images/git/eclipse-git-11.png" alt="" title="" >
 
-아래와 같은 화면이 뜨면 **_Commit Message_** 항목에 메시지를 작성 한 후 프로젝트 파일 전체를 **_Staged Changes_**로 옮깁니다. 그런 후에 마지막으로 **[Commit and Push]** 버튼을 클릭합니다.
+아래와 같은 화면이 뜨면 **_Commit Message_** 항목에 메시지를 작성 한 후 프로젝트 파일 전체를 **_Staged Changes_** 로 옮깁니다. 그런 후에 마지막으로 **[Commit and Push]** 버튼을 클릭합니다.
 
 <img width="100%" src="/images/git/eclipse-git-12.png" alt="" title="" >
 
@@ -99,7 +99,7 @@ Branch에 push 하기 과정인데 이 부분은 패스하겠습니다. **[Next]
 
 ## 5. GitHub에서 프로젝트 확인
 
-[GitHub](https://github.com/) 홈페이지를 가서 Push된 프로젝트를 확인 할 수 있습니다. 그림 처럼 프로젝트가 올라가있고 수정된 이력도 보여집니다. 이클립스에서 소스 코드를 수정하고 위에서 본 **Commit** 과정과 같이 하면 프로젝트를 관리할 수 있습니다.
+[GitHub](https://github.com/) 홈페이지를 가서 Push 된 프로젝트를 확인 할 수 있습니다. 그림 처럼 프로젝트가 올라가있고 수정된 이력도 보여집니다. 이클립스에서 소스 코드를 수정하고 위에서 본 **Commit** 과정과 같이 하면 프로젝트를 관리할 수 있습니다.
 
 <img width="100%" src="/images/git/eclipse-git-16.png" alt="" title="" >
 

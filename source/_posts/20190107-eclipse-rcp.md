@@ -2,8 +2,9 @@
 title: 이클립스 플러그인 추가
 categories:
   - Programming
-  - RCP
+  - Eclipse RCP
 tags:
+  - Eclipse
   - RCP
   - Java
   - Plugin
@@ -13,19 +14,19 @@ thumbnail: /images/thumbnail/rcp.png
 
 # Eclipse Piug-in 추가
 
-Eclipse에 플러그인을 추가하는 방법에는 두 가지가 있다. 첫 번째 방법은 플러그인을 직접 복사해서 설치하는 방법이고, 두 번째 방법은 Eclipse에서 제공하는 Software Update Manager를 활용하는 방법이다.
+Eclipse에 플러그인을 추가하는 방법에는 두 가지가 있습니다. 첫 번째 방법은 플러그인을 직접 복사해서 설치하는 방법이고, 두 번째 방법은 Eclipse에서 제공하는 Software Update Manager를 활용하는 방법입니다.
 
 ### 직접 복사하는 방법
 
-설치하고자하는 플러그인을 Eclipse_home/plugin 디렉토리에 복사한 다음 Eclipse를 재시작하면 새롭게 설치된 Eclipse 플러그인 기능을 활용할 수 있다.
+설치하고자하는 플러그인을 Eclipse_home/plugin 디렉토리에 복사한 다음 Eclipse를 재시작하면 새롭게 설치된 Eclipse 플러그인 기능을 활용할 수 있습니다.
 
 ### Software Update Manager를 활용하는 방법
 
-Eclipse에서 제공하는 Software Update Manager 기능은 플러그인을 개발한 곳에서 이 기능을 사용할 수 있도록 지원하지 않으면 사용할 수 없다.
+Eclipse에서 제공하는 Software Update Manager 기능은 플러그인을 개발한 곳에서 이 기능을 사용할 수 있도록 지원하지 않으면 사용할 수 없습니다.
 
-Eclipse에서 `Help->Install New Software`로 이동 후 설치 할 플러그인 URL를 입력하여 다운받는다.
+Eclipse에서 `Help->Install New Software`로 이동 후 설치 할 플러그인 URL를 입력하여 다운받습니다.
 
-또 다른 방법은 `Help->Eclipse Marketplace`로 이동 후 설치 플러그인을 검색 후 다운받는다.
+또 다른 방법은 `Help->Eclipse Marketplace`로 이동 후 설치 플러그인을 검색 후 다운받습니다.
 
 # 이클립스 RCP
 
@@ -69,15 +70,15 @@ Eclipse에서 `Help->Install New Software`로 이동 후 설치 할 플러그인
 
 ### 1. Platform
 
-Org.eclipse.core.runtime.Platform 클래스는 현재 실행 중인 이클립스 환경에 대한 정보를 제공합니다. 이 클래스를 사용해 설치되어 있는 플러그인(번들), 확장, 확장점, 명령행 인자, 작업 관리자 등의 정보를 얻을 수 있습니다.
+`org.eclipse.core.runtime.Platform` 클래스는 현재 실행 중인 이클립스 환경에 대한 정보를 제공합니다. 이 클래스를 사용해 설치되어 있는 플러그인(번들), 확장, 확장점, 명령행 인자, 작업 관리자 등의 정보를 얻을 수 있습니다.
 
 ### 2. Piug-in 과 번들
 
-Platform.getBundleGroupProviders() 나 Platform.getBundle(String)을 사용해 현재 설치된 플러그 인(번들)에 대한 정보를 얻을 수 있습니다. 플러그인 클래스, 즉 번들 액티베이터에 접근하려면 해당 플러그인을 로드해야 하지만 Bundle 인터페이스에는 별도의 부담 없이 접근할 수 있습니다.
+`Platform.getBundleGroupProviders()` 나 `Platform.getBundle(String)`을 사용해 현재 설치된 플러그 인(번들)에 대한 정보를 얻을 수 있습니다. 플러그인 클래스, 즉 번들 액티베이터에 접근하려면 해당 플러그인을 로드해야 하지만 Bundle 인터페이스에는 별도의 부담 없이 접근할 수 있습니다.
 
 ### 3. Piug-in 확장 레지스트리
 
-Platform.getExtensionRegistry() 메소드를 사용해서 플러그인 확장 레지스트리(extension registry)에 접근할 수 있습니다. 확장 레지스트리에는 각 플러그인을 표현하는 플러그인 디스크립터가 포함되어 있으며 플러그인을 로딩하지 않고도 다양한 플러그인 정보를 얻을 수 있는 메소드를 제공합니다.
+`Platform.getExtensionRegistry()` 메소드를 사용해서 플러그인 확장 레지스트리(extension registry)에 접근할 수 있습니다. 확장 레지스트리에는 각 플러그인을 표현하는 플러그인 디스크립터가 포함되어 있으며 플러그인을 로딩하지 않고도 다양한 플러그인 정보를 얻을 수 있는 메소드를 제공합니다.
 
 # Piug-in 개발
 
@@ -101,22 +102,22 @@ _Project name_ 입력 후 Next 클릭합니다.
 
 <img width="100%" src="/images/rcp/rcp4.png" alt="" title="" >
 
-위와 같이 플러그인 프로젝트가 생성되면 MANIFEST.MF 클릭 -> Extensions 탭으로 이동 기본적으로 “Hello, World Command”를 선택하면 commands, handlers, bindings, menus 4개의 트리가 만들어집니다.
+위와 같이 플러그인 프로젝트가 생성되면 **MANIFEST.MF 클릭 -> Extensions** 탭으로 이동 기본적으로 “Hello, World Command”를 선택하면 commands, handlers, bindings, menus 4개의 트리가 만들어집니다.
 
-Commands는 실제 동작으로부터 독립적이며 선언적이고, org.eclipse.ui.commands 확장점을 통하여 정의되어 있습니다. 그리고 단축키(Key Binding)가 정의될 수 있고, 커맨드의 행동은 핸들러를 통하여 정의됩니다.
+Commands는 실제 동작으로부터 독립적이며 선언적이고, `org.eclipse.ui.commands` 확장점을 통하여 정의되어 있습니다. 그리고 단축키(Key Binding)가 정의될 수 있고, 커맨드의 행동은 핸들러를 통하여 정의됩니다.
 
-Handlers는 commands로부터 명령을 받아 호출되고, 호출되자마자 클래스를 실행합니다. 클래스를 정의할 때 org.eclipse.core.commands.AbstractHandler 클래스를 상속받습니다.
+Handlers는 commands로부터 명령을 받아 호출되고, 호출되자마자 클래스를 실행합니다. 클래스를 정의할 때 `org.eclipse.core.commands.AbstractHandler` 클래스를 상속받습니다.
 
 <img width="75%" src="/images/rcp/rcp5.png" alt="" title="" >
 
-Execute() 메소드는 핸들러가 실행되면 호출 되며, HandlerUtil 클래스를 통하여 서비스에 접근할 수 있습니다.
+`Execute()` 메소드는 핸들러가 실행되면 호출 되며, HandlerUtil 클래스를 통하여 서비스에 접근할 수 있습니다.
 
 - Bindings는 메뉴에 단축키를 지정할 수 있습니다.
 - Menus는 애플리케이션 메인 메뉴, 툴바, 뷰 툴바, 팝업메뉴를 만들 수 있습니다.
 
 <img width="65%" src="/images/rcp/rcp6.png" alt="" title="" >
 
-org.eclipse.ui.menus 에서 menuContribution는 사용자 인터페이스에서 메뉴가 표시되는 위치를 정의할 수 있는 locationURI 속성을 가지고 있습니다. locationURI 속성에는 기본적으로 menu:와 toolbar:, popup: 으로 시작하며 그 다음에는 메뉴가 표시될 위치를 지정할 수 있습니다. 예를 들어, 파일 메뉴(ID:fileMenu)의 하의 메뉴에 위치시키려면 아래와 같은 위치식을 이용합니다.
+`org.eclipse.ui.menus` 에서 menuContribution는 사용자 인터페이스에서 메뉴가 표시되는 위치를 정의할 수 있는 locationURI 속성을 가지고 있습니다. locationURI 속성에는 기본적으로 menu:와 toolbar:, popup: 으로 시작하며 그 다음에는 메뉴가 표시될 위치를 지정할 수 있습니다. 예를 들어, 파일 메뉴(ID:fileMenu)의 하의 메뉴에 위치시키려면 아래와 같은 위치식을 이용합니다.
 예) menu:fileMenu?after=addition
 
 ## Piug-in 배포
@@ -125,7 +126,7 @@ org.eclipse.ui.menus 에서 menuContribution는 사용자 인터페이스에서 
 
 <img width="80%" src="/images/rcp/rcp7.png" alt="" title="" >
 
-Export -> Plug-in Development -> Deployable plug-ins and fragments 선택 후 Next 클릭합니다.
+**Export -> Plug-in Development -> Deployable plug-ins and fragments** 선택 후 Next 클릭합니다.
 
 <img width="75%" src="/images/rcp/rcp8.png" alt="" title="" >
 
@@ -138,3 +139,4 @@ Export -> Plug-in Development -> Deployable plug-ins and fragments 선택 후 Ne
 # 참고
 
 - [이클립스 커맨드 튜토리얼](http://eclipse.or.kr/wiki/%ED%8A%B9%EC%A7%91%EA%B8%B0%EC%82%AC:Eclipse_%EC%BB%A4%EB%A7%A8%EB%93%9C_%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC)
+- [Eclipse RCP 란?](https://narup.tistory.com/77)

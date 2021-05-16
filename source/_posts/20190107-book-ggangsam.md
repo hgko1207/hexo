@@ -11,7 +11,7 @@ thumbnail:
 
 ### 책 정보
 
-<img width="100%" src="/images/book/ggangsam.png" alt="" title="깡샘의 안드로이드 프로그래밍" >
+<img width="100%" src="/images/book/ggangsam.png" alt="" title="깡샘의 안드로이드 프로그래밍">
 
 ### 책 소개
 
