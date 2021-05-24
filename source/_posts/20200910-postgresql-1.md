@@ -10,7 +10,7 @@ date: 2020-09-10 18:22:53
 thumbnail: /images/thumbnail/postgresql.png
 ---
 
-최근에 CentOS 7에 PostgreSQL을 설치했다. 설치 과정을 정리해봤다.
+최근에 CentOS 7에 PostgreSQL을 설치했습니다. 설치 과정을 정리해봤습니다.
 
 ## 운영환경
 

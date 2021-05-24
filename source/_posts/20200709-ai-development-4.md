@@ -13,7 +13,7 @@ thumbnail: /images/thumbnail/numpy.png
 
 ## zeros
 
-0으로 채워진 numpy 배열을 만든다.
+0으로 채워진 numpy 배열을 만듭니다.
 
 ```python
 np.zeros([3, 3])
@@ -26,7 +26,7 @@ array([[0., 0., 0.],
 
 ## ones
 
-1로 채워진 numpy 배열을 만든다.
+1로 채워진 numpy 배열을 만듭니다.
 
 ```python
 np.ones([3, 3])
@@ -39,7 +39,7 @@ array([[1., 1., 1.],
 
 ## arange
 
-하나의 값만 입력하면 1씩 증가하는 1차원 배열을 만든다.
+하나의 값만 입력하면 1씩 증가하는 1차원 배열을 만듭니다.
 
 ```python
 np.arange(10)
@@ -48,7 +48,7 @@ np.arange(10)
 array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 ```
 
-두 개의 인자를 넣으면 입력한 값의 범위만큼 배열을 만든다.
+두 개의 인자를 넣으면 입력한 값의 범위만큼 배열을 만듭니다.
 
 ```python
 np.arange(4, 9)
@@ -59,7 +59,7 @@ array([4, 5, 6, 7, 8])
 
 ### reshape
 
-1차원 배열의 차원 수를 바꿀때 사용된다.
+1차원 배열의 차원 수를 바꿀때 사용됩니다.
 
 ```python
 np.arange(9).reshape(3, 3)
@@ -72,7 +72,7 @@ array([[0, 1, 2],
 
 ## Index
 
-기본적으로 python에서 쓰는 방식과 동일하다.
+기본적으로 python에서 쓰는 방식과 동일합니다.
 
 ```python
 arr = np.arange(9).reshape(3, 3)
@@ -84,7 +84,7 @@ array([3, 4, 5])
 
 ## Slicing
 
-다차원 배열의 원소 중 복수 개를 접근하기 위해 사용한다.
+다차원 배열의 원소 중 복수 개를 접근하기 위해 사용합니다.
 
 ```python
 arr = np.arange(9).reshape(3, 3)
@@ -105,7 +105,7 @@ array([[4, 5],
 
 ### Boolean Indexing
 
-원하는 행 또는 열의 값만 얻을 수 있고, 값들을 변경할 수 있다.
+원하는 행 또는 열의 값만 얻을 수 있고, 값들을 변경할 수 있습니다.
 
 ```python
 data = np.random.randn(3, 3)
@@ -139,7 +139,7 @@ array([[1.        , 1.        , 1.        ],
 
 ## Broadcast
 
-연산 하려는 서로 다른 두 개의 행렬의 shape가 같지 않고, 한쪽의 차원이라도 같거나 또는 값의 갯수가 한 개 일 때 이를 여러 복사를 하여 연산을 한다.
+연산 하려는 서로 다른 두 개의 행렬의 shape가 같지 않고, 한쪽의 차원이라도 같거나 또는 값의 갯수가 한 개 일 때 이를 여러 복사를 하여 연산을 합니다.
 
 ```python
 arr = np.arange(9).reshape(3, 3)
@@ -171,7 +171,7 @@ array([[ 1,  3,  5],
 
 ## Math Function
 
-배열 연산에 대해 여러가지 예제이다.
+배열 연산에 대해 여러가지 예제입니다.
 
 ```python
 arr + 5
@@ -185,10 +185,10 @@ np.multiply(arr, 3)
 ```python
 np.sum(arr)
 np.sum(arr + arr_2)
-np.sum(arr, 0) # 0차원 기준으로 더해서 배열을 만든다.
+np.sum(arr, 0) # 0차원 기준으로 더해서 배열을 만듭니다.
 
 np.max(arr)
-np.max(arr, 0) # 0차원에서 가장 큰 값들을 배열로 만든다.
+np.max(arr, 0) # 0차원에서 가장 큰 값들을 배열로 만듭니다.
 
 np.min(arr)
 
@@ -197,7 +197,7 @@ np.mean(arr)
 
 ```python
 arr = np.array([1, 6, 3, 7, 3, 2, 9, 0, 2])
-np.argmax(arr) # 가장 큰 수의 index값을 리턴한다.
+np.argmax(arr) # 가장 큰 수의 index값을 리턴합니다.
 
 # Out
 6
@@ -210,7 +210,7 @@ np.argmin(arr)
 
 ```python
 arr = np.array([3, 5, 6, 6, 3, 3, 1])
-np.unique(arr) # 유니크한 값들을 리턴한다.
+np.unique(arr) # 유니크한 값들을 리턴합니다.
 
 # Out
 array([1, 3, 5, 6])

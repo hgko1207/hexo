@@ -10,7 +10,7 @@ date: 2021-05-12 16:58:49
 thumbnail: /images/thumbnail/android.png
 ---
 
-Yahoo Weather API 를 이용하여 현재 위치의 날씨 정보를 가져와 보여주는 Android 앱을 만들어봤다.
+Yahoo Weather API 를 이용하여 현재 위치의 날씨 정보를 가져와 보여주는 Android 앱을 만들어봤습니다.
 
 ## 개발 환경
 
@@ -39,7 +39,7 @@ implementation 'zh.wang.android:yweathergetter4a:1.3.0'
 
 ## 코드 작성
 
-Activity 또는 Fragment 에 `YahooWeatherInfoListener` 인터페이스를 implements 하면 `gotWeatherInfo` 함수를 오버라이딩(Override)을 하게 된다.
+Activity 또는 Fragment 에 `YahooWeatherInfoListener` 인터페이스를 implements 하면 `gotWeatherInfo` 함수를 오버라이딩(Override)을 하게 됩니다.
 
 ```java
 public class WeatherActivity extends Activity implements YahooWeatherInfoListener {
@@ -56,7 +56,7 @@ public class WeatherActivity extends Activity implements YahooWeatherInfoListene
 }
 ```
 
-이제 날씨 정보를 불러오기 위해 아래 함수 중 상황에 맞게 호출한다.
+이제 날씨 정보를 불러오기 위해 아래 함수 중 상황에 맞게 호출합니다.
 
 ```java
 // 장소 이름으로 쿼리
@@ -69,7 +69,7 @@ public void queryYahooWeatherByLatLon(final Context context, final String lat, f
 public void queryYahooWeatherByGPS(final Context context, final YahooWeatherInfoListener result)
 ```
 
-이번 프로젝트에는 GPS를 사용하여 현재 위치의 날씨 정보를 얻었다. 쿼리 함수를 호출하면 오버라이딩한 `gotWeatherInfo` 함수를 통해 날씨 정보를 얻을 수 있다.
+이번 프로젝트에는 GPS를 사용하여 현재 위치의 날씨 정보를 얻었습니다. 쿼리 함수를 호출하면 오버라이딩한 `gotWeatherInfo` 함수를 통해 날씨 정보를 얻을 수 있습니다.
 
 ```java
 YahooWeather yahooWeather = YahooWeather.getInstance();
@@ -80,7 +80,7 @@ yahooWeather.setSearchMode(YahooWeather.SEARCH_MODE.GPS);
 yahooWeather.queryYahooWeatherByGPS(getApplicationContext(), this);
 ```
 
-날씨 정보를 한 번만 불러오는 것이 아니라 1분 마다 얻기 위해 Timer 를 사용하였다. Timer 를 사용하기 위해 위의 코드를 함수로 만들었다.
+날씨 정보를 한 번만 불러오는 것이 아니라 1분 마다 얻기 위해 Timer 를 사용하였습니다. Timer 를 사용하기 위해 위의 코드를 함수로 만들었습니다.
 
 ```java
 Timer timer = new Timer();
@@ -104,7 +104,7 @@ public void searchByGPS() {
 }
 ```
 
-이제 1분 마다 날씨 정보를 불러올 수 있게 되었다. 현재 위치, 시간, 온도, 습도, 대기압, 풍향, 풍속 등의 다양한 날씨 정보를 화면에 표출하여 완성하였다.
+이제 1분 마다 날씨 정보를 불러올 수 있게 되었습니다. 현재 위치, 시간, 온도, 습도, 대기압, 풍향, 풍속 등의 다양한 날씨 정보를 화면에 표출하여 완성하였습니다.
 
 ```java
 @Override
@@ -458,7 +458,7 @@ public class WeatherActivity extends AppCompatActivity implements YahooWeatherIn
 </LinearLayout>
 ```
 
-TextView 에 공통으로 스타일을 지정하기 위해 styles.xml 에 추가한다.
+TextView 에 공통으로 스타일을 지정하기 위해 styles.xml 에 추가합니다.
 
 ```xml
 <style name="TextStyle1">
@@ -480,7 +480,7 @@ TextView 에 공통으로 스타일을 지정하기 위해 styles.xml 에 추가
 
 ## 실행 결과
 
-앱을 실행하면 아래 이미지와 같이 현재 위치의 날씨 정보를 확인할 수 있다.
+앱을 실행하면 아래 이미지와 같이 현재 위치의 날씨 정보를 확인할 수 있습니다.
 
 <img width="50%" src="/images/android/dev1/weather.png" alt="" title="">
 

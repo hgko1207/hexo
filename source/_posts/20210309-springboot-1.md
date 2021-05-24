@@ -25,7 +25,7 @@ thumbnail: /images/thumbnail/spring.png
 
 ## Maven 빌드 중에 데이터베이스 연결을 제외하는 방법
 
-- Maven Build -> **[Goals]** 입력 란에 `clean install -DskipTests` 작성
+- Maven Build -> **[Goals]** 입력 란에 `clean install -DskipTests` 작성합니다.
 
 - 또는 pom.xml에 아래 코드를 추가합니다.
 
