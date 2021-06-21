@@ -21,7 +21,7 @@ thumbnail: /images/thumbnail/javascript.png
 
 <img width="75%" src="/images/javascript/hypen-2.png" alt="" title="" >
 
-### 1. HTML
+## 1) HTML
 
 먼저 HTML 소스 코드입니다. **input** 태그를 사용하고 **pattern**과 **maxlength**, **required**, **placeholder**를 사용하였습니다. 속성에 대한 설명은 참고 사이트를 보시면 됩니다.
 
@@ -38,11 +38,11 @@ thumbnail: /images/thumbnail/javascript.png
 />
 ```
 
-### 2. JavaScript
+## 2) JavaScript
 
 먼저 전화번호 크기에 따라 나눴습니다. 서울 전화번호는 02로 두자리로 시작하고 핸드폰은 010, 011.. 이고 다른 지역 전화번호는 031, 041, 051 등 세자리로 시작하여 {2}-{3 or 4}-{4} 또는 {3}-{3 or 4}-{4} 형태가 되도록 문자열을 잘라내는 방식으로 하였습니다.
 
-```javascript
+```js
 function autoHypenTel(str) {
   str = str.replace(/[^0-9]/g, '');
   var tmp = '';
@@ -103,7 +103,7 @@ function autoHypenTel(str) {
 
 호출 부분 코드입니다. 키가 입력될 때마다 검사를 진행합니다.
 
-```javascript
+```js
 $('#telInput').keyup(function (event) {
   event = event || window.event;
   var _val = this.value.trim();

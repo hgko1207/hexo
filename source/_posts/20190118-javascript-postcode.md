@@ -16,7 +16,7 @@ thumbnail: /images/thumbnail/javascript.png
 
 웹 프로젝트를 하면서 사용자 등록을 하게 될 때 주소를 입력을 하게 되는데, 우편번호 주소 조회가 되도록 처리해달라는 요청이 있었습니다. 그래서 우편번호 서비스를 검색해 봤을 때 여러가지가 있었지만 개인적으로 좋아보이는 **Daum 우편번호 서비스**를 사용하게 되었습니다.
 
-#### Daum 우편번호 서비스
+### Daum 우편번호 서비스
 
 - 쉽고 간편하게 우편번호 검색, 도로명 주소 입력 기능을 만들 수 있습니다.
 - Key를 발급받을 필요가 없습니다.
@@ -30,7 +30,7 @@ thumbnail: /images/thumbnail/javascript.png
 
 아래는 적용한 코드입니다.
 
-### 1. HTML
+## 1) HTML
 
 부끄럽지만 HTML 코드는 아래와 같습니다. **우편번호**, **도로명 주소**, **상세 주소** 입력 란이 있고 **우편번호 찾기** 버튼이 있습니다. 버튼을 클릭하게 되면 **execDaumPostcode()** 함수를 호출하게 됩니다.
 
@@ -40,19 +40,10 @@ thumbnail: /images/thumbnail/javascript.png
     주&nbsp;&nbsp;소&nbsp;&nbsp;<span class="m--font-orange vertical-middle">*</span>
   </label>
   <div class="col-md-2">
-    <input
-      type="text"
-      class="form-control m-input"
-      name="postcode"
-      id="postcode"
-      placeholder="우편번호"
-      readonly
-    />
+    <input type="text" class="form-control m-input" name="postcode" id="postcode" placeholder="우편번호" readonly />
   </div>
   <div class="col-md-2 postcode-btn">
-    <button type="button" class="btn btn-info m-btn--air" onclick="execDaumPostcode()">
-      우편번호 찾기
-    </button>
+    <button type="button" class="btn btn-info m-btn--air" onclick="execDaumPostcode()">우편번호 찾기</button>
   </div>
   <div class="col-md-4 offset-md-5">
     <input
@@ -80,17 +71,17 @@ thumbnail: /images/thumbnail/javascript.png
 
 <img width="100%" src="/images/javascript/postcode-2.png" alt="우편번호 찾기 화면" title="" >
 
-### 2. JavaScript
+## 2) JavaScript
 
-버튼을 클릭하여 **execDaumPostcode()** 함수가 호출되면서 주소 검색 팝업창이 보여지게 합니다. 팝업팡에서 주소 검색 결과 항목을 클릭했을 때 우편번호와 도로명주소 입력란에 값을 채워넣게 됩니다.
+버튼을 클릭하여 `execDaumPostcode()` 함수가 호출되면서 주소 검색 팝업창이 보여지게 합니다. 팝업팡에서 주소 검색 결과 항목을 클릭했을 때 우편번호와 도로명주소 입력란에 값을 채워넣게 됩니다.
 
-```javascript
+```JS
 <!--autoload=false 파라미터를 이용하여 자동으로 로딩되는 것을 막습니다.-->
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js?autoload=false"></script>
 
 <script>
-  /** 우편번호 찾기 */
-  function execDaumPostcode() {
+/** 우편번호 찾기 */
+function execDaumPostcode() {
     daum.postcode.load(function(){
         new daum.Postcode({
             oncomplete: function(data) {
@@ -100,7 +91,7 @@ thumbnail: /images/thumbnail/javascript.png
             }
         }).open();
     });
-  }
+}
 </script>
 ```
 

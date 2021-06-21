@@ -36,5 +36,4 @@ kubectl describe pods
 
 # 개별 상세 정보 확인
 kubectl describe pod <name>
-
 ```
