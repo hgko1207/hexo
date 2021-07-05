@@ -6,11 +6,12 @@ date: 2020-07-29 09:52:04
 ## 기술
 
 - Web Developer(Backend, Frontend), FullStack
+- Spring Framework / JPA/Hibernate / Spring Boot
 - Java / JavaScript / Python / C#(WPF) / C++
 - Node.js / React / React Natice
-- Android
-- MySQL, MSSQL, PostgreSQL, Oracle
-- Docker
+- Android / Gradle
+- MySQL / MSSQL / PostgreSQL / Oracle
+- Docker / Kafka
 
 ## 최근 관심사
 
@@ -27,7 +28,8 @@ date: 2020-07-29 09:52:04
 
 ### Web
 
-- `2021/03` `Web` 캠퍼스형 방과 후 학교 관리 시스템(웹, 모바일)
+- `2021/05` `C#` 현미경 영상분석 소프트웨어 개발
+- `2021/03` `Spring` 캠퍼스형 방과 후 학교 관리 시스템(웹, 모바일)
 - `2020/11` `Spring` 조명 제어 시스템
 - `2020/08` `Web` xx 회사 홈페이지 개발
 - `2020/07` `Spring` 스마트 노지 토양환경 모니터링 시스템
@@ -60,6 +62,6 @@ date: 2020-07-29 09:52:04
 
 ## 회사 내 경험
 
-- `2020/09` `Web` 네트워크 장애 진단, 감시 시스템 개발
-- `2019/05` `Web` AI 대회 관리 시스템 개발
-- `2018/05` `Web` 사내 전자 결재 시스템 개발
+- `2020/09` `React` 네트워크 장애 진단, 감시 시스템 개발
+- `2019/05` `Spring` AI 대회 관리 시스템 개발
+- `2018/05` `Spring` 사내 전자 결재 시스템 개발
