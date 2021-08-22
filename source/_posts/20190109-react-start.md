@@ -27,7 +27,7 @@ React는 사용자 인터페이스를 만들기위해 페이스북과 인스타�
 
 ### 1. Node.js 설치: Windows
 
-Node.js 공식 다운로드 페이지(https://nodejs.org/ko/download/) 에서 Window Installer를 다운로드하고 설치합니다.
+Node.js 공식 다운로드 페이지(https://nodejs.org/ko/download/) 에서 Windows Installer를 다운로드하고 설치합니다.
 
 [![Windows Installer를 클릭하여 다운로드](/images/react/nodejs-download.png)](https://nodejs.org/ko/download/)
 
@@ -43,7 +43,7 @@ v10.15.0
 
 리액트 애플리케이션을 만들면서 코드를 수정할 때는 코드 에디터를 설치하여 사용하는 것이 편합니다. 브래킷(Bracket), 아톰, VS Code 를 써본 결과 모든 운영체제를 지원하는 **VS Code**를 사용하고 있습니다.
 
-VS Code 공식 다운로드 페이지(https://code.visualstudio.com/Download) 에서 운영체제에 맞는 버전을 설치합니다. 여기서는 Window 버전을 설치합니다. 이 에디터는 macOS, Window, 리눅스를 모두 지원합니다.
+VS Code 공식 다운로드 페이지(https://code.visualstudio.com/Download) 에서 운영체제에 맞는 버전을 설치합니다. 여기서는 Windows 버전을 설치합니다. 이 에디터는 macOS, Window, 리눅스를 모두 지원합니다.
 
 [![Visual Studio Code 다운로드](/images/react/vscode-download.png)](https://code.visualstudio.com/Download)
 
