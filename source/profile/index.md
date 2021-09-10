@@ -15,7 +15,6 @@ date: 2020-07-29 09:52:04
 
 ## 최근 관심사
 
-- DeepLearning
 - Docker
 - Vue.js
 
