@@ -3,27 +3,47 @@ title: Profile
 date: 2020-07-29 09:52:04
 ---
 
-## 기술
+## 보유기술
 
-- Spring Framework / Spring Boot / JPA/Hibernate
-- Java / JavaScript / Python / C#(WPF) / C++
-- Node.js / React / React Natice / Nginx
-- Android / Gradle
-- MySQL / MSSQL / PostgreSQL / Oracle
-- Docker / Kafka / Zookeeper
-- Git / Jenkins
+- **Programming Laguage**
 
-## 최근 관심사
+  - Java, C#, C++, HTML5, CSS, JavaScript, Python
 
-- Docker
+- **Framework / Library**
+
+  - Spring Framework, Spring Boot, JPA, Querydsl
+  - NodeJS, React, React Natice
+  - Bootstrap, JQuery, JSP, Thymeleaf
+  - Android, WPF
+
+- **Server**
+
+  - MySQL, MSSQL, PostgreSQL, Oracle
+  - Docker, Nginx, Tomcat
+  - Kafka, Zookeeper
+
+- **Tooling / DevOps**
+
+  - GitHub, GitLab, SVN
+  - Gradle, maven
+  - Jenkins, Travis CI
+
+- **Environment**
+
+  - Linux, Windows, AWS
+
+## 관심분야
+
+- AWS
 - Vue.js
+- Go
 
 ## Contact
 
-- GitHub : [hgko1207](https://github.com/hgko1207)
+- GitHub : https://github.com/hgko1207
 - E-Mail : khkkhk1207@gmail.com
 
-## 개인적인 경험
+## 개인 프로젝트
 
 ### Web
 
@@ -46,7 +66,7 @@ date: 2020-07-29 09:52:04
 ### Server
 
 - `2019/09` `Java` 가축 분뇨 관리 시스템
-- `2018/03` `Java(RCP)` 주차공간 모니터링 시스템
+- `2018/03` `Java(Eclipse RCP)` 주차공간 모니터링 시스템
 
 ### Android
 
@@ -67,9 +87,3 @@ date: 2020-07-29 09:52:04
 - `2019/12` `Spring` [SpringBoot + PostgreSQL + JPA](https://github.com/hgko1207/springboot-postgresql-jpa) : SpringBoot 기반 Database 연동 Template Project
 - `2019/12` `Spring` [SpringBoot + Thymeleaf + Gradle](https://github.com/hgko1207/springboot-thymeleaf-gradle) : SpringBoot 기반 Template Project
 - `2019/12` `Spring` [SpringBoot + jsp + MySQL + JPA](https://github.com/hgko1207/springboot-jsp-mysql-jpa) : SpringBoot 기반 Database 연동 Template Project
-
-## 회사 프로젝트
-
-- `2020/09` `React` 네트워크 장애 진단, 감시 시스템 개발
-- `2019/05` `Spring` AI 대회 관리 시스템 개발
-- `2018/05` `Spring` 사내 전자 결재 시스템 개발
