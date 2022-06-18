@@ -7,13 +7,13 @@ date: 2020-07-29 09:52:04
 
 - **Programming Laguage**
 
-  - Java, C#, C++, HTML5, CSS, JavaScript, Python
+  - Java, C#, C++, HTML5, CSS, JavaScript
 
 - **Framework / Library**
 
   - Spring Framework, Spring Boot, JPA, Querydsl
   - NodeJS, React, React Natice
-  - Bootstrap, JQuery, JSP, Thymeleaf
+  - Bootstrap, JQuery
   - Android, WPF
 
 - **Server**
@@ -30,12 +30,12 @@ date: 2020-07-29 09:52:04
 
 - **Environment**
 
-  - Linux, Windows, AWS
+  - Linux, AWS
 
 ## 관심분야
 
-- AWS
 - Vue.js
+- Python
 - Go
 
 ## Contact
