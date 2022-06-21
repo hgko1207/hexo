@@ -57,8 +57,8 @@ date: 2020-07-29 09:52:04
 - `2020/06` `Spring` AI 관제 시스템
 - `2020/03` `React` [번역 서비스](https://github.com/hgko1207/translation-service) : 구글, 및 파파고 번역을 동시에 할 수 있도록 지원
 - `2020/03` `React` [Paper Translation](https://github.com/hgko1207/paper-translation) : 논문 번역 시 불필요한 문자들을 제거하여 번역이 쉽도록 도와주는 사이트
-- `2020/03` `React` [Node + React](https://github.com/hgko1207/create-react-app-express) : Node와 React를 사용한 간단한 웹 프로젝트
-- `2019/10` `Spring` 학교 외의 방과 후 관리 프로그램(웹, 모바일 버전)
+- `2020/03` `React` [NodeJs + React](https://github.com/hgko1207/create-react-app-express) : NodeJS와 React를 사용한 간단한 웹 프로젝트
+- `2019/10` `Spring` 학교 외의 방과 후 관리 프로그램(웹, 모바일)
 - `2019/07` `Spring` 새만금 작물 생육환경 모니터링 시스템
 - `2019/03` `Spring` 학교 내의 방과 후 관리 프로그램
 - `2016/08` `Spring` 가축 사양 관리 시스템
@@ -70,14 +70,14 @@ date: 2020-07-29 09:52:04
 
 ### Android
 
-- `2020/11` `Android` LED 조명 제어 시스템
+- `2020/11` `Android` LED 조명 제어 앱 개발
 
 ### Window Application
 
 - `2021/05` `C#` 현미경 영상분석 소프트웨어 개발
 - `2020/01` `C#` [MapImageViewer](https://github.com/hgko1207/MapImageViewer) : Gdal + WPF를 사용하여 개발한 이미지 뷰어 프로그램
 - `2020/01` `C#` [ImageViewer](https://github.com/hgko1207/ImageViewer) : 이미지를 열고 간단히 뷰어하는 프로그램
-- `2019/04` `C#` [Kiosk](https://github.com/hgko1207/kiosk) : Kiosk에 들어가는 화면 개발
+- `2019/04` `C#` [Kiosk](https://github.com/hgko1207/kiosk) : Kiosk에 들어가는 GUI 개발
 
 ### Project
 
