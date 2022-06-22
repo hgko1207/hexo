@@ -79,7 +79,7 @@ date: 2020-07-29 09:52:04
 - `2020/01` `C#` [ImageViewer](https://github.com/hgko1207/ImageViewer) : 이미지를 열고 간단히 뷰어하는 프로그램
 - `2019/04` `C#` [Kiosk](https://github.com/hgko1207/kiosk) : Kiosk에 들어가는 GUI 개발
 
-### Project
+### Template
 
 - `2020/06` `Spring` [SpringBoot + Thymeleaf + JPA](https://github.com/hgko1207/springboot-thymeleaf-jpa) : SpringBoot 기반 Template Project
 - `2020/05` `React` [SpringBoot + React](https://github.com/hgko1207/springboot-react) : SpringBoot와 React를 사용하는 Template Project
