@@ -2,7 +2,7 @@
 title: com, net, co.kr의 차이는?
 categories:
   - IT
-  - Infomation
+  - Information
 tags:
   - domain
   - com

@@ -1,6 +1,7 @@
 ---
 title: DPPDB
 categories:
+  - IT
   - Satellite
 tags:
   - Satellite

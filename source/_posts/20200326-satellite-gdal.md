@@ -1,6 +1,7 @@
 ---
 title: Gdal 사용법
 categories:
+  - IT
   - Satellite
 tags:
   - Satellite

@@ -2,7 +2,7 @@
 title: '[Spring Boot] 환경에 따른 설정'
 categories:
   - Programming
-  - Spring Framework
+  - Spring
 tags:
   - Spring Boot
   - Properties

@@ -1,6 +1,7 @@
 ---
 title: 지리공간자료 정확도
 categories:
+  - IT
   - Satellite
 tags:
   - Position Accuracy

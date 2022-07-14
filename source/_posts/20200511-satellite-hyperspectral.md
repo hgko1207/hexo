@@ -1,6 +1,7 @@
 ---
 title: Hyperspectral(초분광) 센서
 categories:
+  - IT
   - Satellite
 tags:
   - Hyperspectral

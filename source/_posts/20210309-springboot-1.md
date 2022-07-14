@@ -2,7 +2,7 @@
 title: '[Spring Boot] Maven 빌드'
 categories:
   - Programming
-  - Spring Framework
+  - Spring
 tags:
   - Spring Boot
   - Maven

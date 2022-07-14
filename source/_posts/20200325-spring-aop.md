@@ -2,7 +2,7 @@
 title: Spring AOP
 categories:
   - Programming
-  - Spring Framework
+  - Spring
 tags:
   - Spring Framework
   - AOP

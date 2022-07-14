@@ -1,7 +1,7 @@
 ---
 title: '[MySQL] Query'
 categories:
-  - Programming
+  - Server
   - Database
 tags:
   - MySQL

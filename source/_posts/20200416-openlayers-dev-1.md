@@ -2,7 +2,7 @@
 title: '[Openlayers] getGetFeatureInfoUrl 함수 사용'
 categories:
   - Web
-  - Openlayers
+  - JavaScript
 tags:
   - Openlayers
   - JavaScript
@@ -34,14 +34,12 @@ getGetFeatureInfoUrl 함수를 사용하여 feature 정보를 불러와 표출�
 아래에서 url에 요청할 때 Cross-Origin Read Blocking(CORN) 문제가 있어 ajax 대신 XMLHttpRequest를 사용하였습니다.
 
 ```js
-var url = wmsLayer
-  .getSource()
-  .getGetFeatureInfoUrl([longitude, latitude], view.getResolution(), view.getProjection(), {
-    INFO_FORMAT: 'application/json',
-    FEATURE_COUNT: 10,
-    QUERY_LAYERS: imageLayers,
-    LAYERS: imageLayers,
-  });
+var url = wmsLayer.getSource().getGetFeatureInfoUrl([longitude, latitude], view.getResolution(), view.getProjection(), {
+  INFO_FORMAT: 'application/json',
+  FEATURE_COUNT: 10,
+  QUERY_LAYERS: imageLayers,
+  LAYERS: imageLayers,
+});
 if (url) {
   var parser = new ol.format.GeoJSON();
 

@@ -1,6 +1,7 @@
 ---
 title: PROJ.4 란?
 categories:
+  - IT
   - Satellite
 tags:
   - Satellite

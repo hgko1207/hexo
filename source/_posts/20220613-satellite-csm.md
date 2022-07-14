@@ -1,6 +1,7 @@
 ---
 title: CSM
 categories:
+  - IT
   - Satellite
 tags:
   - Satellite

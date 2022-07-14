@@ -1,7 +1,7 @@
 ---
 title: '[PostgreSQL] CentOS 7에서 PostgreSQL 설치 및 시작'
 categories:
-  - Programming
+  - Server
   - Database
 tags:
   - PostgreSQL

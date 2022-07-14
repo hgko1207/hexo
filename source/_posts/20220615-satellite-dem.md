@@ -1,6 +1,7 @@
 ---
 title: DEM
 categories:
+  - IT
   - Satellite
 tags:
   - Satellite

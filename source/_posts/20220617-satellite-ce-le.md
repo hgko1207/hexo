@@ -1,6 +1,7 @@
 ---
 title: CE, LE 계산
 categories:
+  - IT
   - Satellite
 tags:
   - CE

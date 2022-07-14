@@ -1,7 +1,8 @@
 ---
 title: Chocolatey 설치
 categories:
-  - Util
+  - IT
+  - Information
 tags:
   - Chocolatey
   - Windows
