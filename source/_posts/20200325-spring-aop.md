@@ -21,7 +21,7 @@ AOP는 공통관심사항을 분리하여 반복되는 부분을 추출해 핵�
 스프링 AOP를 이해하기 위해선 5가지 용어에 대한 이해가 필요합니다.
 
 - Aspect - 여러객체에서 공통으로 적용되는 공통 관심사항(ex:트랜잭션, 로깅, 보안)
-- JoinPoint –Aspect가 적용될수있는지점(ex:메소드, 필드)
+- JoinPoint – Aspect가 적용될수있는지점(ex:메소드, 필드)
 - Pointcut – 공통 관심사항이 적용될 Joinpoint
 - Advice – 어느시점(ex: 메소드수행전/후, 예외발생후등)에 어떤 공통관심기능(Aspect)을 적용할지 정의한것
 - Weaving – 어떤 Advice를 어떤 Pointcut(핵심사항)에 적용시킬 것 인지에 대한 설정(Advisor)
