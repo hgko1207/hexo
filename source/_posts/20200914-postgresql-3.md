@@ -1,7 +1,7 @@
 ---
 title: '[PostgreSQL] Command 명령어'
 categories:
-  - Programming
+  - Server
   - Database
 tags:
   - PostgreSQL

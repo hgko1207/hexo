@@ -1,7 +1,7 @@
 ---
 title: '[Kubernetes] 명령어들'
 categories:
-  - IT
+  - Server
   - Kubernetes
 tags:
   - Kubernetes

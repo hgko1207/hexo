@@ -1,7 +1,7 @@
 ---
 title: '[PostgreSQL] TimescaleDB 설치'
 categories:
-  - Programming
+  - Server
   - Database
 tags:
   - PostgreSQL

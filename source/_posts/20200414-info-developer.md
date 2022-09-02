@@ -2,7 +2,7 @@
 title: 개발자의 성장
 categories:
   - IT
-  - Infomation
+  - Information
 tags:
   - Developer
   - Growth

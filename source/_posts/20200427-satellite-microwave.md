@@ -1,6 +1,7 @@
 ---
 title: Microwave(극초단파) 센서
 categories:
+  - IT
   - Satellite
 tags:
   - Microwave

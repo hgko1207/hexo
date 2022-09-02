@@ -1,6 +1,7 @@
 ---
 title: 광학 위성 활용
 categories:
+  - IT
   - Satellite
 tags:
   - 광학 위성

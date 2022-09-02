@@ -2,14 +2,11 @@
 title: '[Cesium] 개발 팁'
 categories:
   - Web
-  - Cesium
+  - JavaScript
 tags:
-  - Cesium
   - CesiumJS
   - JavaScript
-  - Web
   - 3D
-  - Map
 date: 2020-04-15 22:04:56
 thumbnail: /images/thumbnail/cesium.png
 ---

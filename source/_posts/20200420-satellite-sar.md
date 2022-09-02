@@ -1,6 +1,7 @@
 ---
 title: SAR 위성 활용
 categories:
+  - IT
   - Satellite
 tags:
   - Satellite

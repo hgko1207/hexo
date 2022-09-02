@@ -1,6 +1,7 @@
 ---
 title: IR(적외선) 센서
 categories:
+  - IT
   - Satellite
 tags:
   - IR

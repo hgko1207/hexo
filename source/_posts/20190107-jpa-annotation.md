@@ -2,7 +2,7 @@
 title: '[JPA] Annotation 정리'
 categories:
   - Programming
-  - Spring Framework
+  - Spring
 tags:
   - Web
   - Spring Framework
