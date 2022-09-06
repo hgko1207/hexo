@@ -14,13 +14,13 @@ thumbnail: /images/thumbnail/git.png
 
 이클립스와 Git 원격저장소 연동하는 방법과 프로젝트를 내려받는 방법에 대해 알아보도록 하겠습니다.
 
-### 1. 원격저장소 주소 복사
+## 1. 원격저장소 주소 복사
 
 먼저 github 사이트에서 생성한 저장소의 주소를 복사합니다.
 
 <img width="100%" src="/images/git/clone/1.png" alt="" title="" >
 
-### 2. 이클립스 실행
+## 2. 이클립스 실행
 
 이클립스를 실행하고 오른쪽 위에 퍼스펙티브 버튼을 클릭하면 창이 보입니다.
 
@@ -30,7 +30,7 @@ Git을 선택하고 **[OK]** 버튼을 눌러 활성화 시킵니다. Git 퍼스
 
 <img width="100%" src="/images/git/clone/3.png" alt="" title="" >
 
-### 3. 원격저장소 연동
+## 3. 원격저장소 연동
 
 Git 퍼스펙티브 화면에서 **[Clone a Git repository]** 를 클릭합니다.
 

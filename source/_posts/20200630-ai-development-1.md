@@ -5,8 +5,9 @@ categories:
   - AI
 tags:
   - AI
-  - TensorFlow
   - Python
+  - TensorFlow
+  - Pytorch
 date: 2020-06-30 11:34:28
 thumbnail: /images/thumbnail/ai.png
 ---
