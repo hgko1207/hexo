@@ -1,5 +1,5 @@
 ---
-title: '[Git] 이클립스에서 Git Repository 내려받기'
+title: '[Git] 이클립스에서 Git Repository 연동'
 categories:
   - IT
   - Git
