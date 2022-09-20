@@ -40,7 +40,7 @@ sudo yum install -y postgresql11-server postgresql11-contrib
 
 ### 2. 설치
 
-postgresql11-libs -> postgresql11 -> (postgresql11-server, postgresql11-contrib) 순으로 설치
+postgresql11-libs -> postgresql11 -> (postgresql11-server, postgresql11-contrib) 순으로 설치합니다.
 
 ```bash
 sudo rpm -ivh postgresql11-libs-11.5-1PGDG.rhel7.x86_64.rpm
