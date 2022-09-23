@@ -12,7 +12,7 @@ thumbnail: /images/thumbnail/spring.png
 
 Spring Boot 를 사용하여 웹 프로젝트를 할 때에 환경(개발 또는 배포)에 따라 설정 값들을 달리 할 필요가 있습니다.
 
-Spring Boot 에서는 `application.properties` 파일을 `profile` 로 구분하여 사용할 수 있습니다. `profile` 을 작성하지 않을경우 **default** 로 `application.properties` 를 사용합니다.
+Spring Boot 에서는 `application.properties` 파일을 **profile** 로 구분하여 사용할 수 있습니다. **profile** 을 작성하지 않을경우 **default** 로 `application.properties` 를 사용합니다.
 
 ## application.properties 작성 규칙
 
