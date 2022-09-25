@@ -1,5 +1,5 @@
 ---
-title: '[Android] Yahoo Weather API를 이용하여 날씨정보 가져오기'
+title: '[Android] Yahoo Weather API를 이용하여 날씨정보 조회'
 categories:
   - Programming
   - Android
@@ -10,7 +10,7 @@ date: 2021-05-12 16:58:49
 thumbnail: /images/thumbnail/android.png
 ---
 
-Yahoo Weather API 를 이용하여 현재 위치의 날씨 정보를 가져와 보여주는 Android 앱을 만들어봤습니다.
+Yahoo Weather API 를 이용하여 현재 위치의 날씨 정보를 가져오는 예제입니다.
 
 ## 개발 환경
 
