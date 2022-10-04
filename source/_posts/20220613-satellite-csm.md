@@ -13,7 +13,7 @@ thumbnail: /images/thumbnail/satellite.png
 
 # Community Sensor Model(CSM)
 
-NGA(국가지리정보국, National Geospatial Intelligence Agency)에서는 센서 모델을 동일한 방법으로 접근할 필요성에 따라 CSM(Community Sensor Model)을 개발하여 통일된 인터페이스를 제공하였습니다.
+NGA(국가지리정보국, National Geospatial Intelligence Agency)에서는 센서 모델을 동일한 방법으로 접근할 필요성에 따라 CSM(Community Sensor Model)을 개발하여 통일된 인터페이스를 제공합니다.
 
 CSM은 현재 운용되고 있거나 추후 운용이 예상되는 <span style="color:#2e75b6">**위성 센서의 모델, 알고리즘, 소프트웨어에 대한 개발, 시험, 평가를 지원하는 플러그인 소프트웨어 라이브러리**</span>입니다.
 
