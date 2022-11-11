@@ -10,7 +10,7 @@ date: 2020-09-14 10:40:09
 thumbnail: /images/thumbnail/postgresql.png
 ---
 
-## 기본 명령어
+## 명령어
 
 ```bash
 # PostgreSQL 접속
