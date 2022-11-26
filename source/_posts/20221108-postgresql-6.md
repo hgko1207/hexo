@@ -5,6 +5,8 @@ categories:
   - Database
 tags:
   - PostgreSQL
+  - Database
+  - DB
   - 사용자 관리
   - 그룹 관리
 date: 2022-11-08 14:03:30

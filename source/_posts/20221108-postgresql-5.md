@@ -5,6 +5,8 @@ categories:
   - Database
 tags:
   - PostgreSQL
+  - Database
+  - DB
   - 사용자 인증
 date: 2022-11-08 13:39:56
 thumbnail: /images/thumbnail/postgresql.png
