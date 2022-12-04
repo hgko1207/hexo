@@ -53,26 +53,33 @@ thumbnail: /images/thumbnail/spring.png
 
 ## 사용 방법
 
-Spring Boot 프로젝트의 pom.xml 에 dependency 와 plugin 을 추가합니다.
+### 설정
+
+Spring Boot 프로젝트의 pom.xml 에 의존성과 플러그인을 추가합니다.
+
+QueryDSL 을 사용하기 위해서는 com.querydsl 에서 제공하는 `querydsl-jpa` 와 `querydsl-apt` 에 대한 의존성이 필요합니다.
 
 ```xml
-<!-- properties 에 추가 -->
-<querydsl.version>4.4.0</querydsl.version>
-
 <!-- dependencies 에 추가 -->
 <dependency>
   <groupId>com.querydsl</groupId>
+  <artifactId>querydsl-jpa</artifactId>
+</dependency>
+
+<dependency>
+  <groupId>com.querydsl</groupId>
   <artifactId>querydsl-apt</artifactId>
-  <version>${querydsl.version}</version>
-  <scope>provided</scope>
 </dependency>
 
 <dependency>
   <groupId>com.querydsl</groupId>
   <artifactId>querydsl-jdo</artifactId>
-  <version>${querydsl.version}</version>
 </dependency>
+```
 
+com.mysema.maven 에서 제공하는 apt-maven-plugin 을 설치합니다.
+
+```xml
 <!-- build - plugins 에 추가 -->
 <plugin>
   <groupId>com.mysema.maven</groupId>
@@ -92,6 +99,10 @@ Spring Boot 프로젝트의 pom.xml 에 dependency 와 plugin 을 추가합니�
   </executions>
 </plugin>
 ```
+
+이제 프로젝트 우클릭 후 maven -> Update Project... 수행하면 Entity 에 대한 Q 클래스들이 `target/generated-sources/java` 경로에 생성된 것을 확인할 수 있습니다.
+
+### 도메인 클래스 생성
 
 테이블 도메인 클래스를 생성합니다.
 
@@ -141,15 +152,30 @@ public class TeamService {
 
 ### JPAQuery 사용 예
 
+`JPAQuery` 을 Bean 등록 후 사용 가능합니다.
+
+```java
+@SpringBootApplication
+public class TestWebApplication {
+    public static void main(String[] args) {
+      SpringApplication.run(TestWebApplication.class, args);
+    }
+
+    @Bean
+    public JPAQueryFactory jpaQueryFactory(EntityManager em) {
+        return new JPAQueryFactory(em);
+    }
+}
+```
+
 ```java
 @Service
+@RequiredArgsConstructor
 public class TeamService {
 
-  @PersistenceContext
-  private EntiryManager em;
+  private final JPAQueryFactory factory;
 
   public void testQuerydsl() {
-    JPAQuery query = new JPAQuery(em);
     QTeam team = QTeam.team;
 
     List<Team> teams = query.from(team)
@@ -157,5 +183,31 @@ public class TeamService {
                             .list(team);
     System.out.println("querydsl =>" + teams);
   }
+}
+```
+
+### BooleanBuilder 사용 예
+
+상황에 따라 동적으로 변경되는 쿼리를 작성할 경우 BooleanBuilder 를 사용하면 간편하게 쿼리를 작성할 수 있습니다.
+
+```java
+@Service
+@RequiredArgsConstructor
+public class TeamService {
+
+    private final JPAQueryFactory factory;
+
+    public void testQuerydsl(String name) {
+        QTeam team = QTeam.team;
+
+        // 검색 조건에 따른 동적 쿼리 작성
+        BooleanBuilder builder = new BooleanBuilder();
+        if (StringUtils.hasText(name)) {
+            builder.and(team.name.contains(name));
+        }
+
+        List<Team> teams = factory.selectFrom(team).where(builder).fetch();
+        System.out.println("querydsl =>" + teams);
+    }
 }
 ```
