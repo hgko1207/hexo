@@ -13,7 +13,7 @@ thumbnail: /images/thumbnail/spring.png
 
 `QueryDslPredicateExecutor` 를 이용하는 findAll, findOne 등은 where, Sort, Limit 등의 조건만 넣을 수 있습니다. 하지만 Join 이나 Group by 등의 기능을 사용하려면 인터페이스 선언만으로는 기능을 구현하기 힘듭니다.
 
-이를 해결하기 위해서 Spring Data JPA 에서 제공하는 `QuerydslRepositorySupport` 추상 클래스가 있습니다. `QuerydslRepositorySupport` 는 개발자에게 querydsl 객체를 직접 제공합니다.
+이를 해결하기 위해서 **Spring Data JPA** 에서 제공하는 `QuerydslRepositorySupport` 추상 클래스가 있습니다. `QuerydslRepositorySupport` 는 개발자에게 querydsl 객체를 직접 제공합니다.
 
 예를 들어 권한별 사용자 수에 대한 데이터가 필요하다면, 다음과 같이 할 수 있습니다.
 
