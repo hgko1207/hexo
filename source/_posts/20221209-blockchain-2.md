@@ -10,16 +10,20 @@ date: 2022-12-09 12:59:18
 thumbnail: /images/thumbnail/blockchain.png
 ---
 
+**메타마스크** 설치 및 사용 방법을 알아보겠습니다.
+
 # 메타마스크(MetaMask) 란
 
 > Ethereum 블록 체인과 상호 작용하는 데 사용되는 소프트웨어 암호 화폐 지갑입니다. 이를 통해 사용자는 브라우저 확장 프로그램이나 모바일 앱을 통해 이더리움 지갑에 액세스할 수 있으며, 이를 통해 분산 애플리케이션과 상호 작용할 수 있습니다.
 > [위키백과](https://en.wikipedia.org/wiki/MetaMask)
 
+이더리움 지갑 중 메타마스크는 커뮤니티에서 사용죄는 가장 인기 있는 지갑 중 하나입니다.
+
 # 설치 및 사용 방법
 
 ## 설치
 
-https://metamask.io/ 링크로 접속하여 Download 버튼을 클릭합니다.
+[메타마스크 웹사이트](https://metamask.io/)에서 크롬 플러그인으로 설치 할 수 있습니다. 사이트로 접속하여 Download 버튼을 클릭합니다.
 
 ![](/images/blockchain/metamask/1.png)
 

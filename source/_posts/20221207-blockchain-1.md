@@ -12,6 +12,8 @@ date: 2022-12-07 10:20:28
 thumbnail: /images/thumbnail/blockchain.png
 ---
 
+**ganache-cli** 를 설치하고 실행하는 방법을 알아보겠습니다.
+
 ## Ganache
 
 "가나슈"라고 읽으면 되고, 가상의 이더리움 네트워크를 생성해서 Smart Contract 를 실행할 수 있도록 해주는 프로그램입니다. 이런 가상 환경을 TestRPC 라고 합니다.
