@@ -2,9 +2,9 @@
 title: '메타마스크(MetaMask) 설치 및 사용 방법'
 categories:
   - IT
-  - BlockChain
+  - Blockchain
 tags:
-  - BlockChain
+  - Blockchain
   - Metamask
 date: 2022-12-09 12:59:18
 thumbnail: /images/thumbnail/blockchain.png

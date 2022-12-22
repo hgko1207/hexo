@@ -2,9 +2,9 @@
 title: '[Ethereum] ganache-cli 설치 및 실행'
 categories:
   - IT
-  - BlockChain
+  - Blockchain
 tags:
-  - BlockChain
+  - Blockchain
   - Ethereum
   - ganache
   - ganache-cli
@@ -36,19 +36,19 @@ Ganache 는 NPM 을 통해 설치할 수 있습니다.
 
 ## Ganache 설치
 
-```bash
-npm install -g ganache-cli
+```shell
+$ npm install -g ganache-cli
 ```
 
 ## 실행
 
-```bash
+```shell
 $ ganache-cli <options>
 ```
 
 `ganache-cli` 명령어를 통해 실행합니다. 옵션 없이 실행 시 아래와 같은 결과를 볼 수 있습니다.
 
-```bash
+```shell
 $ ganache-cli
 Ganache CLI v6.12.2 (ganache-core: 2.13.2)
 
@@ -100,7 +100,7 @@ Listening on 127.0.0.1:8545
 
 기존 Mnemonic 을 가지고 있다면 -m 옵션을 추가하여 설정할 수 있습니다.
 
-```bash
+```shell
 $ ganache-cli -d -m "taxi"
 Ganache CLI v6.12.2 (ganache-core: 2.13.2)
 
