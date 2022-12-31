@@ -22,8 +22,7 @@ thumbnail: /images/thumbnail/react.png
 먼저 Node.js가 설치되어 있어야 합니다.
 Node.js 공식 다운로드 페이지([https://nodejs.org/ko/download/](https://nodejs.org/ko/download/))에서 Window Installer를 다운로드하고 설치합니다.
 
-```Bash
-# 설치 버전정보 확인
+```shell
 $ node -v
 $ npm -v
 ```
@@ -39,9 +38,9 @@ $ npm -v
 
 먼저 프로젝트 생성을 합니다.
 
-```Bash
-# npm 5.2.0+ 설치해야 한다.
-# 최신 npm 버전에는 npx가 설치되어 있다.
+주의사항은 npm 5.2.0 이상 버전을 설치해야 합니다. 최신 npm 버전에는 npx가 설치되어 있습니다.
+
+```shell
 $ npm install npx -global
 
 $ npx create-react-app test-project

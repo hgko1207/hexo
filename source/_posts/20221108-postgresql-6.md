@@ -17,13 +17,13 @@ thumbnail: /images/thumbnail/postgresql.png
 
 ### 사용자 생성
 
-```bash
+```shell
 $ createuser hgko --createdb --no-superuser --no-createrole
 ```
 
 ### 사용자 삭제
 
-```bash
+```shell
 $ dropuser hgko
 ```
 

@@ -28,7 +28,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 설치가 완료되었다면 `choco` 명령어를 입력하였을 때 아래와 같이 버전 정보가 나옵니다.
 
-```bash
+```shell
 C:\Windows\system32> choco
 Chocolatey v0.10.15
 Please run 'choco -?' or 'choco <command> -?' for help menu.
@@ -41,13 +41,13 @@ C:\Windows\system32>
 
 구글 크롬을 예제로 설치해보겠습니다. 검색 창에 `google chrome` 을 검색하면 결과가 나오고 오른쪽에 설치 명령어가 보여집니다. 명령어를 복사하고 PowerShell 에 입력하면 설치가 진행됩니다.
 
-```bash
+```shell
 > choco install googlechrome
 ```
 
 설치가 완료되었으면 아래 명령어를 입력하여 설치된 패키지들을 확인합니다.
 
-```bash
+```shell
 > choco search googlechrome
 ```
 

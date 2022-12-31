@@ -10,7 +10,7 @@ date: 2022-12-09 12:59:18
 thumbnail: /images/thumbnail/blockchain.png
 ---
 
-**메타마스크** 설치 및 사용 방법을 알아보겠습니다.
+**메타마스크** 설치 및 사용 방법에 대해 알아보겠습니다.
 
 # 메타마스크(MetaMask) 란
 

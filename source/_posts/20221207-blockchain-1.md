@@ -12,7 +12,7 @@ date: 2022-12-07 10:20:28
 thumbnail: /images/thumbnail/blockchain.png
 ---
 
-**ganache-cli** 를 설치하고 실행하는 방법을 알아보겠습니다.
+**ganache-cli** 를 설치하고 실행하는 방법에 대해 알아보겠습니다.
 
 ## Ganache
 

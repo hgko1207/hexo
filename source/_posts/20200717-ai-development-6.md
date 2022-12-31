@@ -165,9 +165,10 @@ plt.show()
 
 ### 준비
 
-```bash
-# Install
-pip install opencv-python
+먼저 opencv 패키지를 설치합니다.
+
+```shell
+$ pip install opencv-python
 ```
 
 ```python

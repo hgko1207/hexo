@@ -10,7 +10,7 @@ date: 2020-10-08 13:12:58
 thumbnail: /images/thumbnail/postgresql.png
 ---
 
-TimescaleDB는 빠른 수집, 복잡한 쿼리를 편리하게 사용하기 위해 설계된 오픈 소스 시계열 데이터베이스 입니다.
+**TimescaleDB**는 빠른 수집, 복잡한 쿼리를 편리하게 사용하기 위해 설계된 오픈 소스 시계열 데이터베이스 입니다.
 
 PostgreSQL을 기반으로 하며 자동 파티셔닝과 SQL 지원을 제공합니다. PostgreSQL 보다 10 ~ 100배 빠른 쿼리를 수행하고 시계열에 대해 최적화가 되어 있습니다.
 
@@ -27,27 +27,27 @@ PostgreSQL이 설치 되어있어야 합니다. 미설치 시 [[PostgreSQL] Cent
 
 ### 1. PostgreSQL 설치 확인
 
-```bash
-rpm -qa | grep postgresql
+```shell
+$ rpm -qa | grep postgresql
 ```
 
 ### 2. 계정 확인
 
-```bash
-cat /etc/passwd | grep postgres
+```shell
+$ cat /etc/passwd | grep postgres
 ```
 
 postgres 계정이 없으면 생성합니다.
 
-```bash
-sudo useradd postgres
-sudo passwd postgres
+```shell
+$ sudo useradd postgres
+$ sudo passwd postgres
 ```
 
 ### 3. 설정 변경
 
 ```bash
-vi /var/lib/pgsql/11/data/postgresql.conf
+$ vi /var/lib/pgsql/11/data/postgresql.conf
 
 #listen_addresses = 'localhost'  ->  listen_addresses = '*'
 #password_encryption = md5  ->  password_encryption = md5
@@ -58,7 +58,7 @@ vi /var/lib/pgsql/11/data/postgresql.conf
 아래 명령어를 복사해서 붙여넣습니다.
 
 ```bash
-sudo cat > /etc/yum.repos.d/timescale_timescaledb.repo <<EOL
+$ sudo cat > /etc/yum.repos.d/timescale_timescaledb.repo <<EOL
 [timescale_timescaledb]
 name=timescale_timescaledb
 baseurl=https://packagecloud.io/timescale/timescaledb/el/7/\$basearch
@@ -72,29 +72,29 @@ metadata_expire=300
 EOL
 ```
 
-```bash
-sudo yum update -y
-yum install -y timescaledb-postgresql-11
+```shell
+$ sudo yum update -y
+$ yum install -y timescaledb-postgresql-11
 ```
 
 ### 5. 데이터베이스 설정
 
 계속 y를 눌러줍니다.
 
-```bash
-sudo timescaledb-tune --pg-config=/usr/pgsql-11/bin/pg_config
+```shell
+$ sudo timescaledb-tune --pg-config=/usr/pgsql-11/bin/pg_config
 ```
 
 ### 6. PostgreSQL 재시작
 
-```bash
-systemctl restart postgresql-11
+```shell
+$ systemctl restart postgresql-11
 ```
 
 ### 7. 접속
 
-```bash
-sudo su
-su - postgres
-psql
+```shell
+$ sudo su
+$ su - postgres
+$ psql
 ```

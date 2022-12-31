@@ -33,7 +33,7 @@ thumbnail: /images/thumbnail/react.png
 
 터미널(또는 명령프롬프트) 창을 열고, 다음 명령어를 입력하여 실행합니다.
 
-```bash
+```shell
 $ npm install -g expo-cli
 ```
 
@@ -42,7 +42,7 @@ $ npm install -g expo-cli
 프로젝트 생성할 때는 `expo init <프로젝트 이름>` 명령어를 사용합니다.
 init 입력 후 프로젝트 개발 목적에 맞게 선택 합니다. 그런다음 **_Use Yarn to install dependencies?_** 하는 질문에 **Y** 를 입력하고 엔터를 입력합니다. 그러면 설치가 시작되고 완료 후 프로젝트가 정상적으로 생성이 되었는지 확인합니다.
 
-```bash
+```shell
 $ expo init react-native-project
 ```
 
@@ -52,7 +52,7 @@ $ expo init react-native-project
 
 프로젝트를 실행하면 새 탭이 생성되면서 아래 그림처럼 보여집니다.
 
-```bash
+```shell
 $ cd react-native-project
 $ expo start
 ```

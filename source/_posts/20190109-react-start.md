@@ -1,5 +1,5 @@
 ---
-title: React 시작하기
+title: '[React] 설치 및 설정'
 categories:
   - Web
   - React
@@ -33,8 +33,7 @@ Node.js 공식 다운로드 페이지(https://nodejs.org/ko/download/) 에서 Wi
 
 설치가 끝나면 터미널(또는 명령프롬프트) 창을 열고, 다음 명령어를 입력하여 제대로 설치했는지 확인합니다.
 
-```bash
-# 설치 확인
+```shell
 $ node -v
 v10.15.0
 ```
@@ -51,7 +50,7 @@ VS Code 공식 다운로드 페이지(https://code.visualstudio.com/Download) �
 
 create-react-app 도구는 npm으로 설치 할 수 있습니다. 패키지를 설치하는 방법은 두가지가 있는데, 첫 번째는 지역적으로 설치하는 것이고, 두 번째는 전역적으로 설치하는 것입니다. create-react-app은 커맨드라인 도구라서 모든 디렉토리에서 필요하므로 전역적으로 설치합니다.
 
-```bash
+```shell
 $ npm install -g create-react-app
 ```
 
@@ -59,7 +58,7 @@ $ npm install -g create-react-app
 
 프로젝트 생성할 때는 `create-react-app <프로젝트 이름>` 명령어를 사용합니다.
 
-```bash
+```shell
 $ create-react-app test-react
 $ cd test-react
 $ npm start

@@ -12,9 +12,10 @@ thumbnail: /images/thumbnail/postgresql.png
 
 ## 명령어
 
-```bash
-# PostgreSQL 접속
-psql -U postgres
+PostgreSQL에 접속합니다.
+
+```shell
+$ psql -U postgres
 ```
 
 | 명령어           | 설명                         |

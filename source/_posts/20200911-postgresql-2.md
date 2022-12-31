@@ -16,11 +16,14 @@ thumbnail: /images/thumbnail/postgresql.png
 
 외부에서 접속 하기 위해선 우선 `postgres` 비밀번호를 설정해야 합니다.
 
-```bash
-// postgres 계정으로 접속
-su - postgres psql
+postgres 계정으로 접속합니다.
 
-// 비밀번호 설정
+```shell
+$ su - postgres psql
+```
+
+```bash
+# 비밀번호 설정
 \password postgres
 
 # 종료
@@ -31,41 +34,52 @@ su - postgres psql
 
 방화벽에서 5432 포트를 개방합니다.
 
-```bash
-firewall-cmd --permanent --zone=public --add-port=5432/tcp
-firewall-cmd --reload
+```shell
+$ firewall-cmd --permanent --zone=public --add-port=5432/tcp
+$ firewall-cmd --reload
 ```
 
 ### 3. 설정 파일 변경
 
 postgresql 접속 후 Data 디렉토리 확인을 할 수 있습니다.
 
-```bash
-show data_directory;
+```shell
+$ show data_directory;
 -> /var/lib/pgsql/11/data
 ```
 
-```bash
-# postgresql.conf 설정 파일을 엽니다.
-vi /var/lib/pgsql/11/data/postgresql.conf
+postgresql.conf 설정 파일을 엽니다.
 
-# 설정 파일에서 아래와 같이 변경
+```shell
+$ vi /var/lib/pgsql/11/data/postgresql.conf
+```
+
+설정 파일에서 아래와 같이 변경합니다.
+
+```bash
 # listen_addresses = 'localhost' -> 주석으로 되어있음
 listen_addresses = '*'
 ```
 
-### 3. 보안 설정 변경
+### 4. 보안 설정 변경
 
 외부 접속을 위해 보안 설정을 변경합니다.
 
+root 계정으로 복귀합니다.
+
+```shell
+$ su - root
+```
+
+설정 파일을 엽니다.
+
+```shell
+$ vi /var/lib/pgsql/11/data/pg_hba.conf
+```
+
+설정 정보를 아래와 같이 변경합니다.
+
 ```bash
-# root 계정으로 복귀합니다.
-su - root
-
-# 설정 파일을 엽니다.
-vi /var/lib/pgsql/11/data/pg_hba.conf
-
-# 설정 정보를 아래와 같이 변경합니다.
 local all all peer => local all all md5
 host all all 127.0.0.1/32 ident => host all all 0.0.0.0/0 md5
 host all all ::1/128 ident => host all all ::1/128 md5
@@ -73,10 +87,10 @@ host all all ::1/128 ident => host all all ::1/128 md5
 
 - `md5` : 패스워드를 md5로 암호화해서 전송
 
-### 4. 서비스 재시작
+### 5. 서비스 재시작
 
-```bash
-sudo systemctl restart postgresql-11
+```shell
+$ sudo systemctl restart postgresql-11
 ```
 
 ## 참고

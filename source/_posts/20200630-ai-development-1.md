@@ -38,8 +38,8 @@ Anaconda는 여러가지 수학 및 과학 패키지들을 기본적으로 포�
 
 설치가 잘 되었나 확인하려면 **workspace** 폴더에서 커맨드 창을 열고 아래 명령어를 입력합니다.
 
-```bash
-c:\workspace> jupyter notebook
+```shell
+$ c:\workspace> jupyter notebook
 ```
 
 Jupyter Notebook 페이지가 실행되고 Python 코드를 작성할 수 있습니다.
@@ -54,8 +54,7 @@ Jupyter Notebook 페이지가 실행되고 Python 코드를 작성할 수 있습
 [TensorFlow 2 설치](https://www.tensorflow.org/install) 사이트에 접속합니다.
 설치 가이드에 따라 설치를 합니다.
 
-```bash
-# Current stable release for CPU and GPU
+```shell
 $ pip install tensorflow
 ```
 
