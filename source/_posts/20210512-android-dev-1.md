@@ -10,7 +10,7 @@ date: 2021-05-12 16:58:49
 thumbnail: /images/thumbnail/android.png
 ---
 
-Yahoo Weather API 를 이용하여 현재 위치의 날씨 정보를 가져오는 예제입니다.
+**Yahoo Weather API** 를 이용하여 현재 위치의 날씨 정보를 조회하는 방법에 대해 알아보겠습니다.
 
 ## 개발 환경
 

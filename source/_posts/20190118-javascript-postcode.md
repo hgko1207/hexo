@@ -75,7 +75,7 @@ thumbnail: /images/thumbnail/javascript.png
 
 버튼을 클릭하여 `execDaumPostcode()` 함수가 호출되면서 주소 검색 팝업창이 보여지게 합니다. 팝업팡에서 주소 검색 결과 항목을 클릭했을 때 우편번호와 도로명주소 입력란에 값을 채워넣게 됩니다.
 
-```JS
+```javascript
 <!--autoload=false 파라미터를 이용하여 자동으로 로딩되는 것을 막습니다.-->
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js?autoload=false"></script>
 

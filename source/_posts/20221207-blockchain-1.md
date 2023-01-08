@@ -2,12 +2,13 @@
 title: '[Ethereum] ganache-cli 설치 및 실행'
 categories:
   - IT
-  - Blockchain
+  - BlockChain
 tags:
   - Blockchain
   - Ethereum
   - ganache
   - ganache-cli
+  - 가나슈
 date: 2022-12-07 10:20:28
 thumbnail: /images/thumbnail/blockchain.png
 ---

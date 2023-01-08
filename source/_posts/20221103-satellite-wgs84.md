@@ -26,14 +26,14 @@ thumbnail: /images/thumbnail/satellite.png
 도를 도 분 초로 변환하는 자바 소스 코드입니다.
 
 ```java
-float lat = 37.494961
-flaot lon = 127.030380
+float lat = 37.494961;
+float lon = 127.030380;
 
 lat_do = (int)lat;
-lat_min = (lat - (int)lat) * 60
-lat_sec = ((lat - (int)lat) * 60 - lat_min) * 60
+lat_min = (lat - (int)lat) * 60;
+lat_sec = ((lat - (int)lat) * 60 - lat_min) * 60;
 
 lon_do = (int)lon;
-lon_min = (lon - (int)lon) * 60
-lon_sec = ((lon - (int)lon) * 60 - lon_min) * 60
+lon_min = (lon - (int)lon) * 60;
+lon_sec = ((lon - (int)lon) * 60 - lon_min) * 60;
 ```

@@ -12,7 +12,9 @@ date: 2022-06-17 21:56:43
 thumbnail: /images/thumbnail/satellite.png
 ---
 
-관측값 즉, 지상기준점과 측정점의 차이에 대해 CE 및 LE 결과를 내기 위해 구현을 하게 되었고 참고자료를 바탕으로 정리하였습니다. 소스 코드는 [CE, LE 계산](https://hgko1207.github.io/2020/11/23/satellite-ce-le/) 사이트에 있습니다.
+관측값 즉, 지상기준점과 측정점의 차이에 대해 CE 및 LE 결과를 내기 위해 구현을 하게 되었고 참고자료를 바탕으로 정리하였습니다.
+
+소스 코드는 [CE, LE 계산](https://hgko1207.github.io/2020/11/23/satellite-ce-le/) 사이트에 있습니다.
 
 ## CE(Circular Error)
 
