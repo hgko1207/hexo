@@ -8,6 +8,7 @@ tags:
   - JavaScript
   - Node.js
   - VSCode
+  - 리액트
 date: 2019-01-09 14:10:34
 thumbnail: /images/thumbnail/react.png
 ---

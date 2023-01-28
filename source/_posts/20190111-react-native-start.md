@@ -7,6 +7,7 @@ tags:
   - React
   - React Native
   - JavaScript
+  - 리액트
 date: 2019-01-11 13:20:56
 thumbnail: /images/thumbnail/react.png
 ---

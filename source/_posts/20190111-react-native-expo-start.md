@@ -10,6 +10,7 @@ tags:
   - JavaScript
   - Node.js
   - Expo Cli
+  - 리액트
 date: 2019-01-11 16:35:26
 thumbnail: /images/thumbnail/react.png
 ---
