@@ -2,7 +2,7 @@
 title: '[Web Design] Metronic Dashboard'
 categories:
   - Web
-  - Design
+  - HTML/CSS
 tags:
   - Metronic
   - Web
