@@ -5,8 +5,8 @@ categories:
   - JavaScript
 tags:
   - JavaScript
-  - BLOB
   - Download
+  - 자바스크립트
 date: 2020-04-20 09:56:01
 thumbnail: /images/thumbnail/javascript.png
 ---

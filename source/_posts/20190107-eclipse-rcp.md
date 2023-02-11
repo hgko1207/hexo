@@ -8,6 +8,8 @@ tags:
   - RCP
   - Java
   - Plugin
+  - 이클립스
+  - 자바
 date: 2019-01-07 18:25:03
 thumbnail: /images/thumbnail/rcp.png
 ---

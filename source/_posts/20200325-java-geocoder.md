@@ -6,6 +6,9 @@ categories:
 tags:
   - Java
   - Geocoder
+  - 자바스크립트
+  - 위도
+  - 경도
 date: 2020-03-25 10:18:14
 thumbnail: /images/thumbnail/java.png
 ---
@@ -30,7 +33,7 @@ Geocoding 이란 주소를 위도, 경도로 변환해주는 Google 에서 제�
 
 ```java
 public static Float[] findGeoPoint(String location) {
-  
+
     if (location == null)
       return null;
 

@@ -8,6 +8,8 @@ tags:
   - Hypen
   - input
   - HTML
+  - 자바스크립트
+  - 전화번호
 date: 2019-01-18 15:22:36
 thumbnail: /images/thumbnail/javascript.png
 ---

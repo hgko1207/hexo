@@ -8,6 +8,7 @@ tags:
   - Android
   - lombok
   - Java
+  - 안드로이드
 date: 2020-04-18 20:14:23
 thumbnail: /images/thumbnail/androidstudio.png
 ---
