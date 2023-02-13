@@ -6,6 +6,7 @@ categories:
 tags:
   - Android
   - Weather
+  - 안드로이드
 date: 2021-05-12 16:58:49
 thumbnail: /images/thumbnail/android.png
 ---
