@@ -7,7 +7,7 @@ date: 2020-07-29 09:52:04
 
 - **Programming Laguage**
 
-  - Java, C#, C++, HTML5, CSS, JavaScript
+  - Java, C#, C++, HTML5, CSS, JavaScript, Python
 
 - **Framework / Library**
 
@@ -21,6 +21,7 @@ date: 2020-07-29 09:52:04
   - MySQL, MSSQL, PostgreSQL, Oracle
   - Docker, Nginx, Tomcat
   - Kafka, Zookeeper
+  - Elasticsearch
 
 - **Tooling / DevOps**
 
@@ -35,13 +36,14 @@ date: 2020-07-29 09:52:04
 ## 관심분야
 
 - Vue.js
-- Python
 - Go
+- AI
 
 ## Contact
 
 - GitHub : https://github.com/hgko1207
 - E-Mail : khkkhk1207@gmail.com
+- 블로그 : https://hgko-dev.tistory.com/
 
 ## 개인 프로젝트
 

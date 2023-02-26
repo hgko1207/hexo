@@ -1,28 +1,40 @@
 <aside id="sidebar">
-    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
-    <div class="sidebar-top">
-        <p><%= __('sidebar.follow') %>:</p>
-        <ul class="social-links">
-            <% for (var i in theme.customize.social_links) { %>
-                <% if (theme.customize.social_links[i]) { %>
-                <li>
-                    <a class="social-tooltip" title="<%= i %>" href="<%- url_for(theme.customize.social_links[i]) %>" target="_blank" rel="noopener">
-                        <i class="icon fa fa-<%= i %>"></i>
-                    </a>
-                </li>
-                <% } %>
-            <% } %>
-        </ul>
-    </div>
-    <% if (is_post()) { %>
-        <%- partial('post/nav', {post: page}) %>
-    <% } %>
-    <div class="widgets-container">
-        <% if (theme.widgets) { %>
-            <% theme.widgets.forEach(function(widget) { %>
-                <%- partial('widget/' + widget, {post: page}) %>
-            <% }) %>
-        <% } %>
-    </div>
-    <!-- <%- partial('ads/coupang_ad') %> -->
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+  <div class="sidebar-top">
+    <p><%= __('sidebar.follow') %>:</p>
+    <ul class="social-links">
+      <% for (var i in theme.customize.social_links) { %> <% if (theme.customize.social_links[i]) { %>
+      <li>
+        <a
+          class="social-tooltip"
+          title="<%= i %>"
+          href="<%- url_for(theme.customize.social_links[i]) %>"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="icon fa fa-<%= i %>"></i>
+        </a>
+      </li>
+      <% } %> <% } %>
+    </ul>
+  </div>
+  <% if (is_post()) { %> <%- partial('post/nav', {post: page}) %> <% } %>
+  <div class="widgets-container">
+    <% if (theme.widgets) { %> <% theme.widgets.forEach(function(widget) { %> <%- partial('widget/' + widget, {post:
+    page}) %> <% }) %> <% } %>
+  </div>
+  <!-- <%- partial('ads/coupang_ad') %> -->
+
+  <!-- hits 방문자수 -->
+  <a href="https://hits.seeyoufarm.com">
+    <style>
+      .hits {
+        width: auto;
+        height: auto;
+        max-width: 99px;
+        max-height: 20px;
+      }
+    </style>
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fhgko1207.github.io&count_bg=%23E6ADD5&title_bg=%23BF98D2&icon=&icon_color=%23E7E7E7&title=%EB%B0%A9%EB%AC%B8%EC%9E%90%EC%88%98&edge_flat=false"/>
+  </a>
 </aside>

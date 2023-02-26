@@ -47,5 +47,3 @@ thumbnail: /images/thumbnail/elasticsearch.png
 ![](/images/elastic/kibana/9.png)
 
 샘플 데이터를 추가하면 키바나의 Visualize(시각화)와 Daashboard(대시보드) 등에도 샘플들이 함께 추가됩니다.
-
-![](/images/elastic/kibana/9.png)

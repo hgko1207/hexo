@@ -5,11 +5,11 @@
 # Site
 title: 규니의 블로그
 subtitle: hgko's IT Blog
-description: Information related to IT and satellite
+description: Information related to IT
 author: Hyeong Gyun Ko
 language: en
 timezone: Asia/Seoul
-keywords: IT, Satellite, Web
+keywords: IT, Web, Mobile
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
