@@ -6,6 +6,7 @@ categories:
 tags:
   - Spring Boot
   - Maven
+  - 스프링부트
 date: 2021-03-09 13:52:07
 thumbnail: /images/thumbnail/spring.png
 ---
