@@ -1,8 +1,9 @@
 ---
-title: Numpy 기초(3)
+title: '[Python] Numpy 기초(3)'
 categories:
   - Programming
-  - AI
+  - Language
+  - Python
 tags:
   - Python
   - AI

@@ -1,8 +1,9 @@
 ---
-title: React Native 시작하기
+title: '[React Native] 시작하기'
 categories:
-  - Web
-  - React
+  - Programming
+  - Mobile
+  - React Native
 tags:
   - React
   - React Native

@@ -1,7 +1,8 @@
 ---
-title: '[Spring Boot] Maven 빌드'
+title: '[Spring Boot] Maven 빌드 방법'
 categories:
   - Programming
+  - Backend
   - Spring
 tags:
   - Spring Boot

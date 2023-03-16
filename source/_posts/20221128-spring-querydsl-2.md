@@ -2,6 +2,7 @@
 title: '[Spring] QuerydslRepositorySupport 사용'
 categories:
   - Programming
+  - Backend
   - Spring
 tags:
   - Spring

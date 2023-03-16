@@ -1,7 +1,8 @@
 ---
-title: 이클립스 플러그인 추가
+title: '[Eclipse RCP] 이클립스 플러그인 추가'
 categories:
   - Programming
+  - Frontend
   - Eclipse RCP
 tags:
   - Eclipse

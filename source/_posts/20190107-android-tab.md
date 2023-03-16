@@ -2,10 +2,12 @@
 title: '[Android] Tab 구성 시 주의사항'
 categories:
   - Programming
+  - Mobile
   - Android
 tags:
   - Android
   - 안드로이드
+  - Tab
 date: 2019-01-07 13:42:09
 thumbnail: /images/thumbnail/android.png
 ---

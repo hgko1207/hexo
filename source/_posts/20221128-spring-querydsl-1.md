@@ -2,6 +2,7 @@
 title: '[Spring] JPA with Querydsl'
 categories:
   - Programming
+  - Backend
   - Spring
 tags:
   - Spring

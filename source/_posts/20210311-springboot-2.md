@@ -1,7 +1,8 @@
 ---
-title: '[Spring Boot] 환경에 따른 설정'
+title: '[Spring Boot] 환경에 따른 설정 방법'
 categories:
   - Programming
+  - Backend
   - Spring
 tags:
   - Spring Boot

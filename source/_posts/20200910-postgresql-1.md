@@ -1,11 +1,14 @@
 ---
 title: '[PostgreSQL] CentOS 7에서 PostgreSQL 설치 및 시작'
 categories:
-  - Server
-  - Database
+  - Programming
+  - DB
+  - PostgreSQL
 tags:
   - PostgreSQL
   - CentOS
+  - DB
+  - Database
 date: 2020-09-10 18:22:53
 thumbnail: /images/thumbnail/postgresql.png
 ---

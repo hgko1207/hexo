@@ -1,7 +1,8 @@
 ---
 title: '[Kibana] 사용 방법'
 categories:
-  - Server
+  - Programming
+  - DB
   - Elasticsearch
 tags:
   - Kibana

@@ -2,6 +2,7 @@
 title: '[Android] Yahoo Weather API를 이용하여 날씨정보 조회'
 categories:
   - Programming
+  - Mobile
   - Android
 tags:
   - Android

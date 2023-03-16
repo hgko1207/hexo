@@ -13,15 +13,15 @@ customize:
         height: 60
         url: images/logo.png
     theme_color: '#006bde'
-    highlight: androidstudio
+    highlight: zenburn
     sidebar: right # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
         # twitter: /
-        facebook: https://www.facebook.com/profile.php?id=100003526102847
         # stack-overflow: /
         github: https://github.com/hgko1207
+        facebook: https://www.facebook.com/profile.php?id=100003526102847
         # weibo: /
         rss: /
 

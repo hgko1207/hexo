@@ -2,6 +2,7 @@
 title: '[Android Studio] 설치 및 주요 기능'
 categories:
   - Programming
+  - Mobile
   - Android
 tags:
   - Android

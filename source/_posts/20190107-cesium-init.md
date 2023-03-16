@@ -1,7 +1,8 @@
 ---
 title: '[Cesium] 초기 설정'
 categories:
-  - Web
+  - Programming
+  - Language
   - JavaScript
 tags:
   - JavaScript

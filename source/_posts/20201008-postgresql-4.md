@@ -1,11 +1,13 @@
 ---
 title: '[PostgreSQL] TimescaleDB 설치'
 categories:
-  - Server
-  - Database
+  - Programming
+  - DB
+  - PostgreSQL
 tags:
   - PostgreSQL
   - 명령어
+  - DB
 date: 2020-10-08 13:12:58
 thumbnail: /images/thumbnail/postgresql.png
 ---

@@ -1,7 +1,8 @@
 ---
 title: '[Kibana] 윈도우에 설치 및 실행 방법'
 categories:
-  - Server
+  - Programming
+  - DB
   - Elasticsearch
 tags:
   - Kibana

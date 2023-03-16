@@ -1,7 +1,8 @@
 ---
 title: '[Elasticsearch] 윈도우에 설치 및 실행 방법(8.X 버전)'
 categories:
-  - Server
+  - Programming
+  - DB
   - Elasticsearch
 tags:
   - Elasticsearch

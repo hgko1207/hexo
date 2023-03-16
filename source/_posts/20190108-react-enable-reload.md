@@ -1,8 +1,9 @@
 ---
-title: React Native Live Reload
+title: '[React Native] Live Reload'
 categories:
-  - Web
-  - React
+  - Programming
+  - Mobile
+  - React Native
 tags:
   - React
   - Android

@@ -1,7 +1,8 @@
 ---
 title: '[Openlayers] getGetFeatureInfoUrl 함수 사용'
 categories:
-  - Web
+  - Programming
+  - Language
   - JavaScript
 tags:
   - Openlayers

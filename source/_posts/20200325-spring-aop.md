@@ -2,6 +2,7 @@
 title: Spring AOP
 categories:
   - Programming
+  - Backend
   - Spring
 tags:
   - Spring Framework

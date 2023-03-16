@@ -1,7 +1,8 @@
 ---
 title: '[React] UI 추천'
 categories:
-  - Web
+  - Programming
+  - Frontend
   - React
 tags:
   - React

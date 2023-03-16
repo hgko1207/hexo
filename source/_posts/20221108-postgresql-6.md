@@ -1,8 +1,9 @@
 ---
 title: '[PostgreSQL] 사용자, 그룹 관리'
 categories:
-  - Server
-  - Database
+  - Programming
+  - DB
+  - PostgreSQL
 tags:
   - PostgreSQL
   - Database

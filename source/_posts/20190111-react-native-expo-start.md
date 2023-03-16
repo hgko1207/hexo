@@ -1,8 +1,9 @@
 ---
-title: React Native Expo 사용
+title: '[React Native] Expo 사용 방법'
 categories:
-  - Web
-  - React
+  - Programming
+  - Mobile
+  - React Native
 tags:
   - React
   - React Native

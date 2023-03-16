@@ -1,7 +1,8 @@
 ---
-title: '[React] 설치 및 설정'
+title: '[React] 설치 및 설정 방법'
 categories:
-  - Web
+  - Programming
+  - Frontend
   - React
 tags:
   - React
@@ -12,6 +13,8 @@ tags:
 date: 2019-01-09 14:10:34
 thumbnail: /images/thumbnail/react.png
 ---
+
+React 설치 및 설정 방법에 대해 알아보겠습니다.
 
 ## 리액트란
 

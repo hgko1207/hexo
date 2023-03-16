@@ -1,12 +1,14 @@
 ---
 title: '[MySQL] Query'
 categories:
-  - Server
-  - Database
+  - Programming
+  - DB
+  - MySQL
 tags:
   - MySQL
   - Query
   - Database
+  - DB
 date: 2020-05-07 11:17:14
 thumbnail: /images/thumbnail/mysql.png
 ---

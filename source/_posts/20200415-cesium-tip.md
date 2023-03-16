@@ -1,7 +1,8 @@
 ---
 title: '[Cesium] 개발 팁'
 categories:
-  - Web
+  - Programming
+  - Language
   - JavaScript
 tags:
   - CesiumJS

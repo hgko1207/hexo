@@ -1,10 +1,12 @@
 ---
 title: '[PostgreSQL] Command 명령어'
 categories:
-  - Server
-  - Database
+  - Programming
+  - DB
+  - PostgreSQL
 tags:
   - PostgreSQL
+  - Command
   - 명령어
 date: 2020-09-14 10:40:09
 thumbnail: /images/thumbnail/postgresql.png

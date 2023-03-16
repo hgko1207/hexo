@@ -1,8 +1,9 @@
 ---
-title: 시각화 기초(그래프)
+title: '[Python] 시각화 기초(그래프)'
 categories:
   - Programming
-  - AI
+  - Language
+  - Python
 tags:
   - Python
   - AI
@@ -12,6 +13,8 @@ tags:
 date: 2020-07-16 18:08:35
 thumbnail: /images/thumbnail/matplotlib.png
 ---
+
+Python 에서 **matplotlib** 를 사용하여 시각화하는 방법에 대해 알아보겠습니다.
 
 ## Load Packages
 

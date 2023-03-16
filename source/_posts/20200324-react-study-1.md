@@ -1,7 +1,8 @@
 ---
 title: React Study(1)
 categories:
-  - Web
+  - Programming
+  - Frontend
   - React
 tags:
   - React

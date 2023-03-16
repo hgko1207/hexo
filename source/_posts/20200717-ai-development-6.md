@@ -1,5 +1,5 @@
 ---
-title: 시각화 기초(이미지)
+title: '[Python] 시각화 기초(이미지)'
 categories:
   - Programming
   - AI

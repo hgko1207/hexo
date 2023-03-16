@@ -1,8 +1,9 @@
 ---
 title: '[PostgreSQL] 사용자 인증'
 categories:
-  - Server
-  - Database
+  - Programming
+  - DB
+  - PostgreSQL
 tags:
   - PostgreSQL
   - Database

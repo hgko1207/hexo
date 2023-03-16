@@ -2,6 +2,7 @@
 title: '[JPA] Annotation 정리'
 categories:
   - Programming
+  - Backend
   - Spring
 tags:
   - Web

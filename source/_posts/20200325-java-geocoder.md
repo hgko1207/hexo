@@ -2,6 +2,7 @@
 title: '[java] Geocoder을 이용해 주소를 위도/경도로 변환하기'
 categories:
   - Programming
+  - Language
   - Java
 tags:
   - Java

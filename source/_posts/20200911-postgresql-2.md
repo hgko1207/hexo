@@ -1,8 +1,9 @@
 ---
 title: '[PostgreSQL] 외부 접속 허용'
 categories:
-  - Server
-  - Database
+  - Programming
+  - DB
+  - PostgreSQL
 tags:
   - PostgreSQL
   - CentOS

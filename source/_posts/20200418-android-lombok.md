@@ -1,7 +1,8 @@
 ---
-title: '[Android Studio] lombok 사용하기'
+title: '[Android Studio] lombok 사용 방법'
 categories:
   - Programming
+  - Mobile
   - Android
 tags:
   - Android Studio

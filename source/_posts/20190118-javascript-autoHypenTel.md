@@ -1,7 +1,8 @@
 ---
 title: '[JavaScript] 전화번호 하이픈(-) 자동입력'
 categories:
-  - Web
+  - Programming
+  - Language
   - JavaScript
 tags:
   - JavaScript

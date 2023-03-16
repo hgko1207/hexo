@@ -86,6 +86,9 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: hueman
+auto_category: ## 디렉토리 트리에서 카테고리 생성
+  enable: true ## 활성화 여부
+  depth: 3 ## 생성할 디렉터리 트리의 깊이
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -1,7 +1,8 @@
 ---
 title: '[Kubernetes] 명령어들'
 categories:
-  - Server
+  - Programming
+  - DevOps
   - Kubernetes
 tags:
   - Kubernetes
