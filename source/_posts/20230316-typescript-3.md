@@ -16,15 +16,9 @@ thumbnail: /images/thumbnail/typescript.png
 
 다형성이란, 여러 타입을 받아들임으로써 여러 형태를 가지는 것을 의미합니다.
 
-poly 란?
-
-- many, serveral, much, multi 등과 같은 뜻
-
-morphos 란?
-
-- form, structure 등과 같은 뜻
-
-polymorphos = poly + morphos = 여러 다른 구조
+- **poly:** many, serveral, much, multi 등과 같은 뜻
+- **morphos:** form, structure 등과 같은 뜻
+- **polymorphos = poly + morphos:** 여러 다른 구조
 
 ## 예시
 
