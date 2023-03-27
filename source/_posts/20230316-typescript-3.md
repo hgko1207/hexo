@@ -8,6 +8,7 @@ tags:
   - TypeScript
   - Polymorphism
   - 다형성
+  - generics
 date: 2023-03-16 14:59:01
 thumbnail: /images/thumbnail/typescript.png
 ---

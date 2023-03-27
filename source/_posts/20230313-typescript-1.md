@@ -7,6 +7,7 @@ categories:
 tags:
   - TypeScript
   - Types
+  - 타입
 date: 2023-03-13 13:56:29
 thumbnail: /images/thumbnail/typescript.png
 ---
