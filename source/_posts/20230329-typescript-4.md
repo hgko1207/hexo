@@ -12,7 +12,7 @@ date: 2023-03-29 14:20:34
 thumbnail: /images/thumbnail/typescript.png
 ---
 
-TypeScript 에서 클래스를 생성하고 사용하는 방법에 대해 알아보겠습니다.
+**TypeScript** 에서 클래스를 생성하고 사용하는 방법에 대해 알아보겠습니다.
 
 ## 클래스(Class)
 
