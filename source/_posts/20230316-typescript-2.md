@@ -6,6 +6,7 @@ categories:
   - TypeScript
 tags:
   - TypeScript
+  - 타입스크립트
   - Function Overloads
   - Overloading
 date: 2023-03-16 14:47:52

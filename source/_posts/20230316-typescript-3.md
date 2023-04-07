@@ -6,6 +6,7 @@ categories:
   - TypeScript
 tags:
   - TypeScript
+  - 타입스크립트
   - Polymorphism
   - 다형성
   - generics

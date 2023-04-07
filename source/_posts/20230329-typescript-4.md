@@ -1,18 +1,19 @@
 ---
-title: '[TypeScript] Classes'
+title: '[TypeScript] 클래스(Class) 사용 방법'
 categories:
   - Programming
   - Language
   - TypeScript
 tags:
   - TypeScript
-  - Classes
+  - 타입스크립트
+  - Class
   - 클래스
 date: 2023-03-29 14:20:34
 thumbnail: /images/thumbnail/typescript.png
 ---
 
-**TypeScript** 에서 클래스를 생성하고 사용하는 방법에 대해 알아보겠습니다.
+**TypeScript** 에서 클래스(Class)를 생성하고 사용하는 방법에 대해 알아보겠습니다.
 
 ## 클래스(Class)
 
@@ -72,6 +73,10 @@ abstract class User {
     public nickname: string
   ) {
     abstract getNickname(): void
+
+    getFullName() {
+      return `${this.firstname} ${this.lastname}`;
+    }
   }
 }
 
@@ -90,10 +95,29 @@ class Player extends User {
 
 const hgko = new Player('ko', 'hg', '고수');
 hgko.getNickname();
+hgko.getFullName();
 ```
 
 추상 클래스를 사용하기 위해서는 상속을 받아 사용합니다.
 
+## Static Members
+
+클래스에는 static 멤버가 있을 수 있습니다. 이 멤버는 클래스의 특정 인스턴스와 연결되지 않습니다. 클래스 생성자 객체 자체를 통해 액세스할 수 있습니다. static 멤버는 동일한 public, protected 및 private 과 함께 사용할 수도 있습니다.
+
+```ts
+class MyClass {
+  static x = 0;
+
+  static printX() {
+    console.log(MyClass.x);
+  }
+}
+
+console.log(MyClass.x);
+MyClass.printX();
+```
+
 ## 참고
 
 - https://www.typescriptlang.org/docs/handbook/2/classes.html
+- https://www.typescriptlang.org/docs/handbook/2/classes.html#static-members
