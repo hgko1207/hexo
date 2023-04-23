@@ -46,7 +46,7 @@ const player: {
   name: string;
   age?: number;
 } = {
-  name: 'hgko',
+  name: 'eden',
 };
 ```
 
@@ -75,7 +75,7 @@ type Player = {
 };
 
 const player: Player = {
-  name: 'hgko',
+  name: 'eden',
 };
 ```
 
@@ -95,7 +95,7 @@ type Player = {
 ```ts
 const playerMaker = (name: string): Player => ({ name });
 
-const player = playerMaker('hgko');
+const player = playerMaker('eden');
 // [오류]
 🚫 player.name = "khk"
 
@@ -109,7 +109,7 @@ const numbers: readonly number[] = [1, 2, 3, 4];
 정해진 개수와 순서에 따라 배열 선언이 가능합니다.
 
 ```ts
-const player: [string, number, boolean] = ['hgko', 1, true];
+const player: [string, number, boolean] = ['eden', 1, true];
 // [오류]
 🚫 player[0] = 1 // 바꿀 수 없습니다. string으로 지정됨
 ```
@@ -117,7 +117,7 @@ const player: [string, number, boolean] = ['hgko', 1, true];
 readonly 도 사용 가능 합니다.
 
 ```ts
-const player: readonly [string, number, boolean] = ['hgko', 1, true];
+const player: readonly [string, number, boolean] = ['eden', 1, true];
 ```
 
 ## any / undefined / null 타입

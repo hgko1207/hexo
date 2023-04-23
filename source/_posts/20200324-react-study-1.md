@@ -53,7 +53,7 @@ _const_ 는 블록 범위이며 값이 지정되면 나중에 바꿀 수 없습�
 _let_ 은 블록 범위이며 값이 지정되어도 값을 바꿀 수 있습니다.
 
 ```js
-const name = 'hgko';
+const name = 'eden';
 let tel = '010-0000-0000';
 ```
 
@@ -77,7 +77,7 @@ const sayHello = (name, something) => "Hello " + name + something;
 ``(backticks) 사용
 
 ```jsx
-const name = 'hgko';
+const name = 'eden';
 // ES5
 console.log('Hello ' + name);
 // ES6

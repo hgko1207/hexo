@@ -31,9 +31,9 @@ class Player {
   lastname: string;
 }
 
-const hgko = new Player();
-hgko.firstname = 'ko';
-hgko.lastname = 'hg';
+const eden = new Player();
+eden.firstname = 'ko';
+eden.lastname = 'eden';
 ```
 
 생성자에 매개변수를 추가해서 선언할 수 있습니다.
@@ -47,12 +47,12 @@ class Player {
   ) {}
 }
 
-const hgko = new Player("ko", "hg", "고수");
+const eden = new Player("ko", "eden", "고수");
 
 // [오류]
 // firstname는 private 이기 때문에 접근 불가
 // javascript 에서는 아무 문제없이 작동함
-🚫 hgko.firstname;
+🚫 eden.firstname;
 ```
 
 - public: 모든 클래스에서 접근 가능
@@ -82,7 +82,7 @@ abstract class User {
 
 // [오류]
 // TypeScript 가 추상 클래스의 인스턴스를 만들 수 없다고 경고함
-🚫 const hgko = new User("ko", "hg", "고수");
+🚫 const eden = new User("ko", "eden", "고수");
 ```
 
 ```ts
@@ -93,9 +93,9 @@ class Player extends User {
   }
 }
 
-const hgko = new Player('ko', 'hg', '고수');
-hgko.getNickname();
-hgko.getFullName();
+const eden = new Player('ko', 'eden', '고수');
+eden.getNickname();
+eden.getFullName();
 ```
 
 추상 클래스를 사용하기 위해서는 상속을 받아 사용합니다.

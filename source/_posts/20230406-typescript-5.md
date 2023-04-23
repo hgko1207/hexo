@@ -35,8 +35,8 @@ interface User {
 
 interface Player extends User {}
 
-const hgko: Player = {
-  name: 'hgko',
+const eden: Player = {
+  name: 'eden',
 };
 ```
 
@@ -55,8 +55,8 @@ interface User {
   age: number;
 }
 
-const hgko: User = {
-  name: 'hgko',
+const eden: User = {
+  name: 'eden',
   nickname: 'ko',
   age: 30,
 };
@@ -102,11 +102,7 @@ interface Human {
 }
 
 class Player implements User, Human {
-  constructor(
-    public firstName: string, 
-    public lastName: string, 
-    public health: number
-  ) {}
+  constructor(public firstName: string, public lastName: string, public health: number) {}
 }
 ```
 
