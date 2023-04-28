@@ -7,21 +7,22 @@ date: 2020-07-29 09:52:04
 
 - **Programming Laguage**
 
-  - Java, C#, C++, HTML5, CSS, JavaScript, Python
+  - Java, JavaScript, TypeScript, HTML5, CSS
+  - Python, Dart
+  - C#, C++
 
 - **Framework / Library**
 
   - Spring Framework, Spring Boot, JPA, Querydsl
-  - NodeJS, React, React Natice
+  - NodeJS, React, Next.js, Angular
+  - React Native, Android, WPF
   - Bootstrap, JQuery
-  - Android, WPF
 
 - **Server**
 
-  - MySQL, MSSQL, PostgreSQL, Oracle
+  - MySQL, MSSQL, PostgreSQL, Oracle, Elasticsearch
   - Docker, Nginx, Tomcat
   - Kafka, Zookeeper
-  - Elasticsearch
 
 - **Tooling / DevOps**
 
@@ -31,7 +32,7 @@ date: 2020-07-29 09:52:04
 
 - **Environment**
 
-  - Linux, AWS
+  - Windows, Linux, AWS
 
 ## 관심분야
 
