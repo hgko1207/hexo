@@ -35,7 +35,7 @@ Node.js 공식 다운로드 페이지(https://nodejs.org/ko/download/) 에서 Wi
 
 [![Windows Installer를 클릭하여 다운로드](/images/react/nodejs-download.png)](https://nodejs.org/ko/download/)
 
-설치가 끝나면 터미널(또는 명령프롬프트) 창을 열고, 다음 명령어를 입력하여 제대로 설치했는지 확인합니다.
+설치가 끝나면 터미널(또는 명령프롬프트) 창을 열고, 다음 명령어를 실행하여 제대로 설치했는지 확인합니다.
 
 ```shell
 $ node -v
@@ -74,7 +74,7 @@ $ npm start
 
 ## 프로젝트 구조
 
-VS Code를 실행하여 만들어진 test-react 프로젝트를 열면 아래와 같은 구조로 만들어져 있습니다. 이미 modules가 설치되어 있고, 의존성 패키지는 대부분 `node_modules/react-scripts` 모듈내에 선언되어 있습니다. `src` 폴더안 에 있는 파일들을 추가하고 수정하면서 개발을 하면 됩니다.
+VS Code를 실행하여 만들어진 test-react 프로젝트를 열면 다음과 같은 구조로 만들어져 있습니다. 이미 modules가 설치되어 있고, 의존성 패키지는 대부분 `node_modules/react-scripts` 모듈내에 선언되어 있습니다. `src` 폴더안 에 있는 파일들을 추가하고 수정하면서 개발을 하면 됩니다.
 
 ![프로젝트 구조](/images/react/react-open.png)
 

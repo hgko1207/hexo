@@ -23,7 +23,7 @@ thumbnail: /images/thumbnail/git.png
 
 <img width="100%" src="/images/git/git-repository.png" alt="원격 저장소 생성" title="원격 저장소 생성">
 
-원격 저장소 이름을 입력하고 다른 것은 수정하지 말고 **_"Create repository"_** 버튼을 클릭하면 아래와 같은 원격저장소가 생성됩니다. 빨간 네모 박스의 경로를 복사해둡니다.
+원격 저장소 이름을 입력하고 다른 것은 수정하지 말고 **_"Create repository"_** 버튼을 클릭하면 다음과 같은 원격저장소가 생성됩니다. 빨간 네모 박스의 경로를 복사해둡니다.
 
 <img width="100%" src="/images/git/git-success.png" alt="원격 저장소 생성 완료" title="원격 저장소 생성 완료">
 
@@ -81,7 +81,7 @@ Branch를 선택하는 화면이 보이는데 Branch를 만들지 않았으므�
 
 <img width="70%" src="/images/git/eclipse-git-11.png" alt="" title="" >
 
-아래와 같은 화면이 뜨면 **_Commit Message_** 항목에 메시지를 작성 한 후 프로젝트 파일 전체를 **_Staged Changes_** 로 옮깁니다. 그런 후에 마지막으로 **[Commit and Push]** 버튼을 클릭합니다.
+다음과 같은 화면이 뜨면 **_Commit Message_** 항목에 메시지를 작성 한 후 프로젝트 파일 전체를 **_Staged Changes_** 로 옮깁니다. 그런 후에 마지막으로 **[Commit and Push]** 버튼을 클릭합니다.
 
 <img width="100%" src="/images/git/eclipse-git-12.png" alt="" title="" >
 

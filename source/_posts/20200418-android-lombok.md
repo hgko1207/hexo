@@ -61,7 +61,7 @@ compileOnly 'org.projectlombok:lombok:1.18.12'
 annotationProcessor 'org.projectlombok:lombok:1.18.12'
 ```
 
-이와같은 과정 후에 아래와 같은 결과를 볼 수 있습니다.
+이와같은 과정 후에 다음과 같은 결과를 볼 수 있습니다.
 
 ### 결과
 

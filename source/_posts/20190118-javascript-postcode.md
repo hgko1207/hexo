@@ -34,7 +34,7 @@ thumbnail: /images/thumbnail/javascript.png
 
 ## 1) HTML
 
-부끄럽지만 HTML 코드는 아래와 같습니다. **우편번호**, **도로명 주소**, **상세 주소** 입력 란이 있고 **우편번호 찾기** 버튼이 있습니다. 버튼을 클릭하게 되면 **execDaumPostcode()** 함수를 호출하게 됩니다.
+부끄럽지만 HTML 코드는 다음과 같습니다. **우편번호**, **도로명 주소**, **상세 주소** 입력 란이 있고 **우편번호 찾기** 버튼이 있습니다. 버튼을 클릭하게 되면 **execDaumPostcode()** 함수를 호출하게 됩니다.
 
 ```html
 <div class="form-group m-form__group row">

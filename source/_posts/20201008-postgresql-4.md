@@ -6,11 +6,14 @@ categories:
   - PostgreSQL
 tags:
   - PostgreSQL
-  - 명령어
   - DB
+  - TimescaleDB
+  - 설치
 date: 2020-10-08 13:12:58
 thumbnail: /images/thumbnail/postgresql.png
 ---
+
+## TimescaleDB 란
 
 **TimescaleDB**는 빠른 수집, 복잡한 쿼리를 편리하게 사용하기 위해 설계된 오픈 소스 시계열 데이터베이스 입니다.
 
@@ -57,7 +60,7 @@ $ vi /var/lib/pgsql/11/data/postgresql.conf
 
 ### 4. TimescaleDB 다운로드
 
-아래 명령어를 복사해서 붙여넣습니다.
+다음 명령어를 복사해서 붙여넣습니다.
 
 ```bash
 $ sudo cat > /etc/yum.repos.d/timescale_timescaledb.repo <<EOL

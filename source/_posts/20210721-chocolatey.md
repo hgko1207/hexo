@@ -20,13 +20,13 @@ thumbnail: /images/thumbnail/information.png
 ## PowerShell 사용
 
 관리자 권한으로 실행해야 합니다. 그렇지 않으면 에러 메세지를 보여줍니다.<br>
-아래 설치 명령어를 복사하여 입력하면 설치가 진행됩니다.
+다음 설치 명령어를 복사하여 실행하면 설치가 진행됩니다.
 
 ```bash
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-설치가 완료되었다면 `choco` 명령어를 입력하였을 때 아래와 같이 버전 정보가 나옵니다.
+설치가 완료되었다면 `choco` 명령어를 실행하였을 때 다음과 같이 버전 정보가 나옵니다.
 
 ```shell
 C:\Windows\system32> choco
@@ -45,7 +45,7 @@ C:\Windows\system32>
 > choco install googlechrome
 ```
 
-설치가 완료되었으면 아래 명령어를 입력하여 설치된 패키지들을 확인합니다.
+설치가 완료되었으면 다음 명령어를 실행하여 설치된 패키지들을 확인합니다.
 
 ```shell
 > choco search googlechrome

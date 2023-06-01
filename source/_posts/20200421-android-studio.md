@@ -68,7 +68,7 @@ thumbnail: /images/thumbnail/androidstudio.png
 ## 5. Device File Explorer
 
 연결된 장비(스마트폰 or 가상 디바이스)의 파일 시스템을 탐색하는 뷰를 제공합니다.
-**View > Tool Windows > Device File Explorer** 메뉴를 클릭하여 아래와 같이 Device File Explorer 뷰를 오픈합니다.
+**View > Tool Windows > Device File Explorer** 메뉴를 클릭하여 다음과 같이 Device File Explorer 뷰를 오픈합니다.
 
 <img width="90%" src="/images/studio/deviceFile.png" alt="View > Tool Windows > Device File Explorer 메뉴" title="" >
 

@@ -13,7 +13,7 @@ date: 2023-04-11 11:10:23
 thumbnail: /images/thumbnail/typescript.png
 ---
 
-NextJS, Create React App(CRA) 를 사용하지 않고 초기 프로젝트에 TypeScript 를 설치하고 설정하는 방법에 대해 알아보겠습니다.
+NextJS, Create React App(CRA) 를 사용하지 않고 초기 프로젝트에 **TypeScript** 를 설치하고 설정하는 방법에 대해 알아보겠습니다.
 
 ## 프로젝트 시작
 
@@ -24,7 +24,7 @@ $ mkdir typescripttest
 $ cd typescripttest
 ```
 
-아래 명령어를 사용하여 package.json 을 초기화합니다.
+다음 명령어를 실행하여 `package.json` 을 초기화합니다.
 
 ```bash
 $ npm init -y
@@ -32,7 +32,7 @@ $ npm init -y
 
 ## TypeScript 설치
 
-명령어를 사용하여 TypeScript를 설치합니다.
+다음 명령어를 실행하여 TypeScript 를 설치합니다.
 
 ```bash
 $ npm i -D typescript
@@ -42,7 +42,7 @@ $ npm i -D typescript
 
 TypeScript 설정은 tsconfig.json 파일에서 합니다. 디렉터리에 tsconfig.json 파일이 있으면 해당 디렉터리가 TypeScript 프로젝트의 루트임을 나타냅니다. tsconfig.json 파일은 프로젝트를 컴파일하는 데 필요한 루트 파일과 컴파일러 옵션을 지정합니다.
 
-tsconfig.json 파일을 생성합니다. 다음과 같이 기본적인 설정을 작성합니다.
+`tsconfig.json` 파일을 생성합니다. 다음과 같이 기본적인 설정을 작성합니다.
 
 ```json
 // tsconfig.json
@@ -54,7 +54,7 @@ tsconfig.json 파일을 생성합니다. 다음과 같이 기본적인 설정을
 }
 ```
 
-아래의 명령어로도 기본적인 tsconfig.json 파일 생성이 가능합니다.
+다음 명령어로도 기본적인 `tsconfig.json` 파일 생성이 가능합니다.
 
 ```bash
 $ npm i -g typescript

@@ -33,7 +33,7 @@ thumbnail: /images/thumbnail/react.png
 
 ### 2. expo-cli 설치
 
-터미널(또는 명령프롬프트) 창을 열고, 다음 명령어를 입력하여 실행합니다.
+터미널(또는 명령프롬프트) 창을 열고, 다음 명령어를 실행합니다.
 
 ```shell
 $ npm install -g expo-cli
