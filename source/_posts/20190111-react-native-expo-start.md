@@ -52,7 +52,7 @@ $ expo init react-native-project
 
 ### 4. 프로젝트 실행
 
-프로젝트를 실행하면 새 탭이 생성되면서 아래 그림처럼 보여집니다.
+프로젝트를 실행하면 새 탭이 생성되면서 다음 그림처럼 보여집니다.
 
 ```shell
 $ cd react-native-project

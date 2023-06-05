@@ -14,9 +14,9 @@ date: 2020-04-18 20:14:23
 thumbnail: /images/thumbnail/androidstudio.png
 ---
 
-자바에서 코드를 작성 시 모델을 만들다 보면 constructor와 기본 getter/setter 그리고 상황에 따라서 builder를 만들어 사용해야 합니다.
+자바에서 코드를 작성 시 모델을 만들다 보면 constructor 와 기본 getter/setter 그리고 상황에 따라서 builder를 만들어 사용해야 합니다.
 그런데 이런 일들을 모두 타이핑 하다 보니 보일러플레이트 같은 코드들이 많이도 써야 합니다.
-lombok를 사용하면 모델 객체들의 불필요한 보일러플레이트 코드들을 줄일 수 있습니다.
+lombok 를 사용하면 모델 객체들의 불필요한 보일러플레이트 코드들을 줄일 수 있습니다.
 annotation 방법으로 사용하기 때문에 사용 방법도 간단합니다.
 
 #### lombok annotation
@@ -41,7 +41,7 @@ annotation 방법으로 사용하기 때문에 사용 방법도 간단합니다.
 
 그 외에도 여러가지가 있습니다.
 
-그럼 AndroidStudio에 적용하는 방법을 알아봅니다.
+그럼 AndroidStudio 에 적용하는 방법을 알아봅니다.
 
 #### 적용 방법
 

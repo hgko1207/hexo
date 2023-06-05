@@ -19,7 +19,7 @@ thumbnail: /images/thumbnail/git.png
 
 ### 1. 원격 저장소 생성
 
-먼저 공식 사이트인 https://github.com/ 에서 회원가입을 합니다. 회원가입 후 로그인을 하고 **_"Start a project"_** 버튼을 클릭합니다. 아래 그림처럼 화면이 나옵니다.
+먼저 공식 사이트인 https://github.com/ 에서 회원가입을 합니다. 회원가입 후 로그인을 하고 **_"Start a project"_** 버튼을 클릭합니다. 다음 그림처럼 화면이 나옵니다.
 
 <img width="100%" src="/images/git/git-repository.png" alt="원격 저장소 생성" title="원격 저장소 생성">
 
@@ -33,7 +33,7 @@ thumbnail: /images/thumbnail/git.png
 
 <img width="80%" src="/images/git/eclipse-git-1.png" alt="Eclipse Marketplace" title="">
 
-Marketplace에서 Egit를 검색합니다. 아래 그림 처럼 **EGit - Git Integration for Eclipse** 를 찾아 설치합니다. 설치가 완료되면 이클립스를 다시 실행하게 됩니다.
+Marketplace 에서 Egit 를 검색합니다. 다음 그림 처럼 **EGit - Git Integration for Eclipse** 를 찾아 설치합니다. 설치가 완료되면 이클립스를 다시 실행하게 됩니다.
 
 <img width="50%" src="/images/git/eclipse-git-2.png" alt="EGit 설치" title="">
 
@@ -41,7 +41,7 @@ Marketplace에서 Egit를 검색합니다. 아래 그림 처럼 **EGit - Git Int
 
 <img width="45%" src="/images/git/eclipse-git-3.png" alt="퍼스펙티브 추가" title="">
 
-Git을 선택하고 **[OK]** 버튼을 눌러 활성화 시킵니다. Git 퍼스펙티브가 추가된 것을 볼 수 있으며 아이콘을 클릭하면 아래 그림처럼 기본화면이 변경됩니다.
+Git 을 선택하고 **[OK]** 버튼을 눌러 활성화 시킵니다. Git 퍼스펙티브가 추가된 것을 볼 수 있으며 아이콘을 클릭하면 아래 그림처럼 기본화면이 변경됩니다.
 
 <img width="100%" src="/images/git/eclipse-git-4.png" alt="퍼스펙티브 변경" title="">
 
@@ -57,7 +57,7 @@ Clone Git Repository 창이 보이면 **Clone URL** 를 선택하고 **[Next]** 
 
 <img width="60%" src="/images/git/eclipse-git-6.png" alt="" title="" >
 
-Branch를 선택하는 화면이 보이는데 Branch를 만들지 않았으므로 그냥 **[Next]** 버튼을 클릭합니다.
+Branch 를 선택하는 화면이 보이는데 Branch를 만들지 않았으므로 그냥 **[Next]** 버튼을 클릭합니다.
 
 <img width="60%" src="/images/git/eclipse-git-7.png" alt="" title="" >
 

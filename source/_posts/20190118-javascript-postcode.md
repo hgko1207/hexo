@@ -30,7 +30,7 @@ thumbnail: /images/thumbnail/javascript.png
 
 <img width="100%" src="/images/javascript/postcode-1.png" alt="Daum 우편번호 서비스" title="" >
 
-아래는 적용한 코드입니다.
+다음은 적용한 코드입니다.
 
 ## 1) HTML
 

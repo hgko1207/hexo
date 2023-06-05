@@ -120,8 +120,12 @@ Handlers는 commands로부터 명령을 받아 호출되고, 호출되자마자 
 
 <img width="65%" src="/images/rcp/rcp6.png" alt="" title="" >
 
-`org.eclipse.ui.menus` 에서 menuContribution는 사용자 인터페이스에서 메뉴가 표시되는 위치를 정의할 수 있는 locationURI 속성을 가지고 있습니다. locationURI 속성에는 기본적으로 menu:와 toolbar:, popup: 으로 시작하며 그 다음에는 메뉴가 표시될 위치를 지정할 수 있습니다. 예를 들어, 파일 메뉴(ID:fileMenu)의 하의 메뉴에 위치시키려면 아래와 같은 위치식을 이용합니다.
-예) menu:fileMenu?after=addition
+`org.eclipse.ui.menus` 에서 menuContribution는 사용자 인터페이스에서 메뉴가 표시되는 위치를 정의할 수 있는 locationURI 속성을 가지고 있습니다. locationURI 속성에는 기본적으로 menu:와 toolbar:, popup: 으로 시작하며 그 다음에는 메뉴가 표시될 위치를 지정할 수 있습니다. 예를 들어, 파일 메뉴(ID:fileMenu)의 하의 메뉴에 위치시키려면 다음와 같은 위치식을 이용합니다.
+
+```java
+// 예)
+menu:fileMenu?after=addition
+```
 
 ## Piug-in 배포
 

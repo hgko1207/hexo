@@ -55,7 +55,7 @@ postgresql.conf 설정 파일을 엽니다.
 $ vi /var/lib/pgsql/11/data/postgresql.conf
 ```
 
-설정 파일에서 아래와 같이 변경합니다.
+설정 파일에서 다음과 같이 변경합니다.
 
 ```bash
 # listen_addresses = 'localhost' -> 주석으로 되어있음
@@ -78,7 +78,7 @@ $ su - root
 $ vi /var/lib/pgsql/11/data/pg_hba.conf
 ```
 
-설정 정보를 아래와 같이 변경합니다.
+설정 정보를 다음과 같이 변경합니다.
 
 ```bash
 local all all peer => local all all md5
