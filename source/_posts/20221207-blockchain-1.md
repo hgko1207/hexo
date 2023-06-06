@@ -47,7 +47,7 @@ $ npm install -g ganache-cli
 $ ganache-cli <options>
 ```
 
-`ganache-cli` 명령어를 통해 실행합니다. 옵션 없이 실행 시 아래와 같은 결과를 볼 수 있습니다.
+`ganache-cli` 명령어를 통해 실행합니다. 옵션 없이 실행 시 다음과 같은 결과를 볼 수 있습니다.
 
 ```shell
 $ ganache-cli

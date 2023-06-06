@@ -66,7 +66,7 @@ export function exit(code) {
 }
 ```
 
-JSDoc 주석을 통해 타입을 정의하고 TypeScript 파일에서 아래와 같이 함수를 사용할 수 있습니다.
+JSDoc 주석을 통해 타입을 정의하고 TypeScript 파일에서 다음과 같이 함수를 사용할 수 있습니다.
 
 ```js
 init({

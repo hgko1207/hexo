@@ -69,7 +69,7 @@ Github Page - Community Sensor Model API
 4. 빌드를 하기 전 CSM 폴더 안에 build 폴더를 생성합니다.
 5. CMake gui에서 Source 및 Build(생성한 build 폴더 경로) 경로를 입력하고 **Configure** 버튼을 클릭합니다.
 6. 오류 없이 설정이 완료되면 **Generate** 버튼을 클릭합니다.
-7. CMake Build가 완료되면 아래와 같이 프로젝트가 생성됩니다.
+7. CMake Build가 완료되면 다음과 같이 프로젝트가 생성됩니다.
 
 <img width="75%" src="/images/satellite/csm-build.png" alt="" title="" >
 

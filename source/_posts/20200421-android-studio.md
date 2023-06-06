@@ -13,7 +13,7 @@ thumbnail: /images/thumbnail/androidstudio.png
 
 ## 1. Android Studio 다운로드 및 설치
 
-아래 경로에서 최신 버전의 Android Studio를 다운받아 설치합니다. 현재 최신은 3.6.3 버전입니다.
+다운로드 사이트에서 최신 버전의 Android Studio를 다운받아 설치합니다. 현재 최신은 3.6.3 버전입니다.
 
 [![](/images/studio/download.png)](https://developer.android.com/studio)
 
@@ -31,7 +31,7 @@ thumbnail: /images/thumbnail/androidstudio.png
    - Package: com.hgko.helloapp
    - Language: Java or Kotlin
    - Minimum SDK: API 26: Android 8.0(Oreo)
-4. **Finish** 버튼 클릭하면 아래처럼 프로젝트가 생성됩니다.
+4. **Finish** 버튼 클릭하면 다음과 같이 프로젝트가 생성됩니다.
 
 ![](/images/studio/project.png)
 

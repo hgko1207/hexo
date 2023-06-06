@@ -49,7 +49,7 @@ https://www.elastic.co/kr/downloads/elasticsearch
 
 다운로드가 완료되면 zip 파일이 나오는데 압축을 해제합니다. 이 글에서는 윈도우 C 드라이브 밑에 **elasticsearch-7.17.8** 이라는 폴더에 압축을 해제했습니다.
 
-압축을 해제하면 아래와 같은 폴더 구조가 나옵니다.
+압축을 해제하면 다음과 같은 폴더 구조가 나옵니다.
 
 ![](/images/elastic/elasticsearch/6.png)
 

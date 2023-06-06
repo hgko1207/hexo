@@ -30,7 +30,7 @@ https://www.elastic.co/kr/downloads/elasticsearch
 
 다운로드가 완료되면 zip 파일이 나오는데 압축을 해제합니다. 이 글에서는 윈도우 C 드라이브 밑에 **elasticsearch-8.5.3** 이라는 폴더에 압축을 해제했습니다.
 
-압축을 해제하면 아래와 같은 폴더 구조가 나옵니다.
+압축을 해제하면 다음과 같은 폴더 구조가 나옵니다.
 
 ![](/images/elastic/elasticsearch/5.png)
 
@@ -55,7 +55,7 @@ curl: (52) Empty reply from server
 
 ## 해결하기
 
-엘라스틱서치를 실행하면 명령 프롬프트 마지막에 아래와 같이 출력된 것을 확인할 수 있습니다.
+엘라스틱서치를 실행하면 명령 프롬프트 마지막에 다음과 같이 출력된 것을 확인할 수 있습니다.
 
 ![](/images/elastic/elasticsearch/8.png)
 
