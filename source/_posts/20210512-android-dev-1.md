@@ -58,7 +58,7 @@ public class WeatherActivity extends Activity implements YahooWeatherInfoListene
 }
 ```
 
-이제 날씨 정보를 불러오기 위해 아래 함수 중 상황에 맞게 호출합니다.
+이제 날씨 정보를 불러오기 위해 다음의 함수 중 상황에 맞게 호출합니다.
 
 ```java
 // 장소 이름으로 쿼리

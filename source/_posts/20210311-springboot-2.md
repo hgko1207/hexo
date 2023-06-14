@@ -88,13 +88,13 @@ spring.datasource.password=test!23
 
 #### **STS(Spring Tool Suite)** - Spring Boot Run
 
-아래 이미지와 같이 `Profile` 에 적용하고자 하는 환경 값(예: dev)을 선택하면 `application-dev.properties` 의 설정을 읽어옵니다.
+다음의 이미지와 같이 `Profile` 에 적용하고자 하는 환경 값(예: dev)을 선택하면 `application-dev.properties` 의 설정을 읽어옵니다.
 
 ![](/images/springboot/profile_setting.png)
 
 ### 실행 테스트
 
-`dev` 환경을 주입 후 실행 테스트를 하였습니다. `dev` 환경일 때 서버 포트를 **8081** 으로 설정을 하였었는데 아래의 실행 로그를 보면 `Tomcat started on port(s): 8081` 처럼 **8081** 포트로 서버가 실행 된 것을 확인할 수 있습니다.
+`dev` 환경을 주입 후 실행 테스트를 하였습니다. `dev` 환경일 때 서버 포트를 **8081** 으로 설정을 하였었는데 다음의 실행 로그를 보면 `Tomcat started on port(s): 8081` 처럼 **8081** 포트로 서버가 실행 된 것을 확인할 수 있습니다.
 
 ```bash
 2021-03-11 13:52:28.738  INFO 13588 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
