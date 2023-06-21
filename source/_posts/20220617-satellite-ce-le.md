@@ -65,7 +65,7 @@ thumbnail: /images/thumbnail/satellite.png
 - LE_XX = P(확률계수) \* 𝜎𝑧 (표준편차)
 
 1. 관측값에 대한 표준편차를 구함
-2. 아래의 표에서 p=90/100(0.90) 에 대한 확률 계수인 1.6449를 구함
+2. 다음의 표에서 p=90/100(0.90) 에 대한 확률 계수인 1.6449를 구함
 3. 표준편차와 확률 계수를 곱함
 
 - LE_90 = 1.6449 \* (표준편차)
@@ -79,7 +79,7 @@ thumbnail: /images/thumbnail/satellite.png
 1. 기준점과 측정점을 통해 표준편차와 평균을 구함
 2. 위의 식(누적분포함수)에서 p 값을 계산
 3. p 값에 대해 오차 역함수(Inverse Error Function)을 구함
-4. 아래의 식을 통해 LE를 계산
+4. 다음의 식을 통해 LE를 계산
 
 ![](/images/satellite/cele/le_2.png)
 

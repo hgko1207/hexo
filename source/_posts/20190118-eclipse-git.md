@@ -51,7 +51,7 @@ Git 퍼스펙티브 화면에서 **[Clone a Git repository]** 를 클릭합니�
 
 <img width="100%" src="/images/git/eclipse-git-5.png" alt="" title="" >
 
-Clone Git Repository 창이 보이면 **Clone URL** 를 선택하고 **[Next]** 버튼을 클릭하면 아래의 그림처럼 화면이 보입니다.(이클립스 버전마다 조금씩 다른 것 같습니다.)
+Clone Git Repository 창이 보이면 **Clone URL** 를 선택하고 **[Next]** 버튼을 클릭하면 다음의 그림처럼 화면이 보입니다.(이클립스 버전마다 조금씩 다른 것 같습니다.)
 
 첫 번째 빨간 박스에서 앞에서 복사해둔 Git 원격 저장소 주소를 **URI** 칸에 복사하면 **Host**, **Repository path** 칸에 자동으로 입력됩니다. 그 밑의 빨간 박스에는 깃허브 아이디와 패스워드를 입력하고 **[Next]** 버튼을 클릭합니다.
 
