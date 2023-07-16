@@ -12,15 +12,15 @@ date: 2020-03-26 11:07:02
 thumbnail: /images/thumbnail/satellite.png
 ---
 
-**GDAL** 은 래스터 및 벡터 지리 공간 데이터를 조작 할 수 있는 오픈 소스 라이브러리입니다.
+**GDAL** 은 래스터 및 벡터 지리 공간 데이터를 조작 할 수 있는 오픈 소스 라이브러리다.
 
-- 라이브러리로서 지원되는 모든 형식의 호출 응용 프로그램에 단일 추상 데이터 모델을 제공합니다.
-- 데이터 변환 및 처리를 위한 다양한 명령 행 인터페이스 유틸리티가 제공됩니다.
-- Windows, Linux 및 MacOS 에서 사용가능합니다.
+- 라이브러리로서 지원되는 모든 형식의 호출 응용 프로그램에 단일 추상 데이터 모델을 제공한다.
+- 데이터 변환 및 처리를 위한 다양한 명령 행 인터페이스 유틸리티가 제공된다.
+- Windows, Linux 및 MacOS 에서 사용 가능하다.
 
 ## 1. gdalinfo (http://www.gdal.org/gdalinfo.html)
 
-- GDAL 이 지원하는 영상 정보를 확인합니다.
+- GDAL 이 지원하는 영상 정보를 확인한다.
 
 ```shell
 gdalinfo test.tif
@@ -28,7 +28,7 @@ gdalinfo test.tif
 
 ## 2. gdal_translate (http://www.gdal.org/gdal_translate.html)
 
-- 다른 형식으로 래스터 데이터를 변환합니다.
+- 다른 형식으로 래스터 데이터를 변환
 - 영상 resize 및 포멧 변경
 
 ```shell
@@ -46,9 +46,9 @@ gdalwarp -t_srs EPSG:4326 input.tif output.tif
 
 ## 4. gdal_merge (https://gdal.org/programs/gdal_merge.html)
 
-- 일련의 이미지를 자동으로 모자이크합니다.
-- 모든 이미지는 동일한 좌표계에 밴드 수가 일치해야 합니다.
-- 겹치는 영역에서는 마지막 이미지가 이전 이미지에 복사됩니다.
+- 일련의 이미지를 자동으로 모자이크한다.
+- 모든 이미지는 동일한 좌표계에 밴드 수가 일치해야 한다.
+- 겹치는 영역에서는 마지막 이미지가 이전 이미지에 복사된다.
 
 ```shell
 gdal_merge.py -init 255 -o out.tif in1.tif in2.tif
@@ -73,7 +73,7 @@ gdalmanage identify –r test/
 
 ## 6. gdal_contour (http://www.gdal.org/gdal_contour.html)
 
-- 입력 래스터 표고 모델(DEM)로부터 벡터 등고선 파일을 생성합니다.
+- 입력 래스터 표고 모델(DEM)로부터 벡터 등고선 파일을 생성한다.
 
 ## 7. gdal_polygonize.py (http://www.gdal.org/gdal_polygonize.html)
 
@@ -102,7 +102,7 @@ ogr2ogr -f GeoJSON -t_srs crs:84 [name].geojson [name].shp
 
 ## 9. gdaldem (https://gdal.org/programs/gdaldem.html)
 
-ERS -> GTiff 파일로 변환합니다.
+ERS -> GTiff 파일로 변환한다.
 
 ```shell
 gdaldem color-relief -of GTiff -co "TILED=YES" K220100502_22131215_ref_med_union.ers color_file.txt color.tif

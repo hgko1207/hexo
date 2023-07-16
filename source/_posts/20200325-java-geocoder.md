@@ -14,11 +14,11 @@ date: 2020-03-25 10:18:14
 thumbnail: /images/thumbnail/java.png
 ---
 
-Geocoding 이란 주소를 위도, 경도로 변환해주는 Google 에서 제공하는 API 입니다.
+Geocoding 이란 주소를 위도, 경도로 변환해주는 Google 에서 제공하는 API 이다.
 
 링크 : [지오코딩이란?](https://developers.google.com/maps/documentation/geocoding/start#Geocoding)
 
-처음엔 `HttpURLConnection` 으로 접속해서 `InputStreamReader` 로 읽은 후 JSON 으로 파싱하게 만들었는데 해외 사이트에 geocoder 라이브러리를 이용하여 받아오는 예제가 있었다. 어쨌든 더 편리하고 깔끔하게 해결되었습니다.
+처음엔 `HttpURLConnection` 으로 접속해서 `InputStreamReader` 로 읽은 후 JSON 으로 파싱하게 만들었는데 해외 사이트에 geocoder 라이브러리를 이용하여 받아오는 예제가 있다. 어쨌든 더 편리하고 깔끔하게 해결되었다.
 
 ### Geocoder Maven dependency
 
@@ -62,7 +62,7 @@ public static Float[] findGeoPoint(String location) {
 }
 ```
 
-`latitudeLongitude.getLat().floatValue();` 이 부분은 floart 형이 아닌 toString() 으로도 가능합니다.
+`latitudeLongitude.getLat().floatValue();` 이 부분은 floart 형이 아닌 toString() 으로도 가능하다.
 
 ### 테스트
 

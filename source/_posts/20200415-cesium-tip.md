@@ -14,8 +14,8 @@ thumbnail: /images/thumbnail/cesium.png
 
 ## 영상 레이어 추가
 
-Geoserver에 추가된 영상 레이어를 Cesium 지도에 표출 하는 코드입니다.
-layers 에는 Geoserver에 있는 레이어의 이름을 넣으면 됩니다.
+Geoserver 에 추가된 영상 레이어를 Cesium 지도에 표출 하는 코드다.
+layers 에는 Geoserver 에 있는 레이어의 이름을 넣으면 된다.
 
 ```js
 var imageryLayer = viewer.imageryLayers.addImageryProvider(
@@ -64,8 +64,8 @@ handler.setInputAction(function (event) {
 
 ## 영상 레이어 추가 시 스타일 지정
 
-영상 레이어 추가와 거의 같지만 styles와 COLORSCALERANGE 파라미터가 추가되었습니다.
-styles 에는 Geoserver에 추가된 스타일 이름을 지정하고, COLORSCALERANGE 에는 min, max 값을 지정한다. (COLORSCALERANGE 파라미터는 없어도 됩니다.)
+영상 레이어 추가와 거의 같지만 styles와 COLORSCALERANGE 파라미터가 추가되었다.
+styles 에는 Geoserver 에 추가된 스타일 이름을 지정하고, COLORSCALERANGE 에는 min, max 값을 지정한다. (COLORSCALERANGE 파라미터는 없어도 된다.)
 
 ```js
 var imageryLayer = viewer.imageryLayers.addImageryProvider(

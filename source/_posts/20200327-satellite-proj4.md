@@ -12,6 +12,8 @@ date: 2020-03-27 09:38:26
 thumbnail: /images/thumbnail/satellite.png
 ---
 
+## PROJ.4 란?
+
 - ​다양한 좌표계 변환을 제공하는 라이브러리
 - 자유롭게 인자를 지정하여 표준이 아닌 좌표계 간도 변환 가능
 - USGS의 Gerald Evenden에 의해 만들어진 오픈소스 라이브러리

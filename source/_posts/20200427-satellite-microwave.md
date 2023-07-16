@@ -13,10 +13,10 @@ thumbnail: /images/thumbnail/satellite.png
 
 ## Microwave 특징
 
-- 물체들이 방출하는 마이크로웨이브 파를 위성에서 감지하여 원격탐사에 활용하는 기술
-- 마이크로파의 파장 영역은 보통 1mm~1m임
-- 자연방사 에너지를 관측하는지, 위성에서 Microwave를 쏘아서 되돌아오는 신호를 관측하는지에 따라 <span style="color:#5B9BD5">Passive microwave와 Active microwave</span>로 나눌 수 있음
-- 대표적으로 <span style="color:#5B9BD5">SAR, 산란계, 고도계, 복사계</span>로 나눠짐
+- 물체들이 방출하는 마이크로웨이브 파를 위성에서 감지하여 원격탐사에 활용하는 기술이다.
+- 마이크로파의 파장 영역은 보통 1mm ~ 1m 이다.
+- 자연방사 에너지를 관측하는지, 위성에서 Microwave를 쏘아서 되돌아오는 신호를 관측하는지에 따라 <span style="color:#5B9BD5">Passive microwave와 Active microwave</span>로 나눌 수 있다.
+- 대표적으로 <span style="color:#5B9BD5">SAR, 산란계, 고도계, 복사계</span>로 나눠진다.
 
 ![](/images/microwave/1.png)
 
