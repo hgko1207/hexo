@@ -106,7 +106,7 @@ plt.show()
 
 ### jet
 
-색상 값이 높을수록 빨간색, 낮을수록 파란색으로 표현합니다.
+색상 값이 높을수록 빨간색, 낮을수록 파란색으로 표현한다.
 
 ```python
 plt.imshow(image_bw, 'jet')
@@ -127,7 +127,7 @@ plt.show()
 
 ## 이미지 설정
 
-이미지 보기 사이즈를 조절합니다.
+이미지 보기 사이즈를 조절한다.
 
 ```python
 plt.figure(figsize=(10, 10))
@@ -165,7 +165,7 @@ plt.show()
 
 ### 준비
 
-먼저 opencv 패키지를 설치합니다.
+먼저 opencv 패키지를 설치한다.
 
 ```shell
 $ pip install opencv-python

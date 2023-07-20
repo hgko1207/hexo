@@ -14,7 +14,7 @@ date: 2020-07-16 18:08:35
 thumbnail: /images/thumbnail/matplotlib.png
 ---
 
-Python 에서 **matplotlib** 를 사용하여 시각화하는 방법에 대해 알아보겠습니다.
+Python 에서 **matplotlib** 를 사용하여 시각화하는 방법에 대해 알아보겠다.
 
 ## Load Packages
 
@@ -89,7 +89,7 @@ plt.show()
 
 ### 그래프 옵션
 
-그래프를 그릴 때 표시 되는 색이나 마커 패턴을 바꾸는 것을 확인합니다.
+그래프를 그릴 때 표시 되는 색이나 마커 패턴을 바꾸는 것을 확인한다.
 
 - 색상: r(빨간색), g(초록색), b(파란색), C(청록색), y(노란색), k(검은색), w(흰색)
 - 마커: o(원), v(역삼각형), ^(삼각형), s(네모), +(플러스), .(점)
@@ -103,7 +103,7 @@ plt.show()
 
 ### 그래프 사이즈 조절
 
-plt.figure 안에 figsize를 이용하여 가로, 세로 길이 조절 가능 합니다. (inch 단위)
+plt.figure 안에 figsize를 이용하여 가로, 세로 길이 조절 가능하다. (inch 단위)
 
 ```python
 plt.figure(figsize=(10, 10))
@@ -113,10 +113,10 @@ plt.show()
 
 ![](/images/ai/graph/5.png)
 
-여러 그래프 그리고 그에 대한 크기 조절을 합니다.
+여러 그래프 그리고 그에 대한 크기 조절을 한다.
 
 ```python
-# 맨 위에 있어야 합니다.
+# 맨 위에 있어야 한다.
 plt.figure(figsize=(10, 5))
 
 plt.subplot(2, 2, 1)
@@ -175,6 +175,6 @@ plt.show()
 ### 그래프 저장하기
 
 ```python
-# 현재 작업 위치로 저장합니다.
+# 현재 작업 위치로 저장한다.
 plt.savefig('saved_graph.svg')
 ```

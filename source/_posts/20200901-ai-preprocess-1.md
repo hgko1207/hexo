@@ -10,7 +10,7 @@ date: 2020-09-01 23:10:35
 thumbnail: /images/thumbnail/ai.png
 ---
 
-로컬 데이터를 불러와 전처리시 필요한 내용입니다.
+로컬 데이터를 불러와 전처리시 필요한 내용이다.
 
 ## Load Packages
 
@@ -28,14 +28,14 @@ import matplotlib.pyplot as plt
 ```
 
 ```python
-# 현재 경로를 알려줍니다.
+# 현재 경로를 알려준다.
 os.getcwd()
 
-# 경로를 넣으면 경로의 파일명만 목록 형식으로 보여줍니다.
+# 경로를 넣으면 경로의 파일명만 목록 형식으로 보여준다.
 os.listdir()
 os.listdir('dataset/mnist_png/training/')
 
-# 경로가 포함된 모든 파일들을 목록 형식으로 보여줍니다.
+# 경로가 포함된 모든 파일들을 목록 형식으로 보여준다.
 # 원하는 포맷의 파일만을 가져올 수 있습니다.(png, txt 등)
 glob('dataset/mnist_png/training/*.png')
 ```
