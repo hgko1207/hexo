@@ -45,16 +45,34 @@ highlight:
   tab_replace:
 
 # Markdown
-marked:
-  gfm: true # GitHub flavored markdown 지원
-  pedantic: false # 오리지널 마크다운 사용
-  sanitize: false # HTML 무시
-  tables: true # GFM 테이블 지원
-  breaks: true # GFM
-  smartLists: true # 오리지널 마크다운보다 스마트한 리스트
-  smartypants: true # Use "smart" typograhic punctuation for things like quotes and dashes.
-  modifyAnchors: '' # Use for transform anchorIds. if 1 to lowerCase and if 2 to upperCase.
-  autolink: true # 오토링크 지원. 텍스트에서 링크를 자동으로 인식.
+# marked:
+#   gfm: true # GitHub flavored markdown 지원
+#   pedantic: false # 오리지널 마크다운 사용
+#   sanitize: false # HTML 무시
+#   tables: true # GFM 테이블 지원
+#   breaks: true # GFM
+#   smartLists: true # 오리지널 마크다운보다 스마트한 리스트
+#   smartypants: true # Use "smart" typograhic punctuation for things like quotes and dashes.
+#   modifyAnchors: '' # Use for transform anchorIds. if 1 to lowerCase and if 2 to upperCase.
+#   autolink: true # 오토링크 지원. 텍스트에서 링크를 자동으로 인식.
+
+markdown_it_plus:
+  highlight: true
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer:
+  quotes: “”‘’
+  pre_class: highlight
+  # plugins:
+  #   - plugin:
+  #       name: markdown-it-mark
+  #       enable: true
+  #   - plugin:
+  #       name: markdown-it-task-lists
+  #       enable: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -111,18 +129,3 @@ feed:
   type: rss2
   path: rss2.xml
   limit: false
-
-markdown_it_plus:
-  highlight: true
-  html: true
-  xhtmlOut: true
-  breaks: true
-  langPrefix:
-  linkify: true
-  typographer:
-  quotes: “”‘’
-  pre_class: highlight
-  plugins:
-    - plugin:
-        name: markdown-it-mark
-        enable: true

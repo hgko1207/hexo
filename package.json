@@ -28,6 +28,7 @@
     "hexo-renderer-markdown-it": "^4.1.0",
     "hexo-renderer-markdown-it-plus": "^1.0.4",
     "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
+    "hexo-server": "^1.0.0",
+    "markdown-it-task-lists": "^2.1.1"
   }
 }
