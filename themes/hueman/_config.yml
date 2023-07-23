@@ -13,8 +13,8 @@ customize:
         height: 60
         url: images/logo.png
     theme_color: '#006bde'
-    highlight: androidstudio
-    sidebar: left # sidebar position, options: left, right
+    highlight: tomorrow-night
+    sidebar: right # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
@@ -33,7 +33,7 @@ widgets:
     - archive # 어카이브
     # - tag # 태그
     # - tagcloud # 태그클라우드. 사용된 태그들을 빈도수에 따라 구름처럼 표시
-    # - links # 링크
+    - links # 링크
     - google_adsense
 
 # Search

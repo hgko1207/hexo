@@ -56,23 +56,44 @@ highlight:
 #   modifyAnchors: '' # Use for transform anchorIds. if 1 to lowerCase and if 2 to upperCase.
 #   autolink: true # 오토링크 지원. 텍스트에서 링크를 자동으로 인식.
 
-markdown_it_plus:
-  highlight: true
-  html: true
-  xhtmlOut: true
-  breaks: true
-  langPrefix:
-  linkify: true
-  typographer:
-  quotes: “”‘’
-  pre_class: highlight
-  # plugins:
-  #   - plugin:
-  #       name: markdown-it-mark
-  #       enable: true
-  #   - plugin:
-  #       name: markdown-it-task-lists
-  #       enable: true
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
+    permalink: true
+    permalinkClass: header-anchor
+    permalinkSymbol: ¶
+
+# markdown_it_plus:
+#   highlight: true
+#   html: true
+#   xhtmlOut: true
+#   breaks: true
+#   langPrefix:
+#   linkify: true
+#   typographer:
+#   quotes: “”‘’
+#   pre_class: highlight
+#   # plugins:
+#   #   - plugin:
+#   #       name: markdown-it-mark
+#   #       enable: true
+#   #   - plugin:
+#   #       name: markdown-it-task-lists
+#   #       enable: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')

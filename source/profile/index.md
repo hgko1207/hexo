@@ -46,7 +46,7 @@ date: 2020-07-29 09:52:04
 - E-Mail : khkkhk1207@gmail.com
 - 블로그 : https://hgko-dev.tistory.com/
 
-## 개인 프로젝트
+<!-- ## 개인 프로젝트
 
 ### Web
 
@@ -90,4 +90,4 @@ date: 2020-07-29 09:52:04
 - `2019/12` `Spring` [SpringBoot + jsp + Tiles](https://github.com/hgko1207/springboot-jsp-tiles/commits/master) : SpringBoot 기반 Template Project
 - `2019/12` `Spring` [SpringBoot + PostgreSQL + JPA](https://github.com/hgko1207/springboot-postgresql-jpa) : SpringBoot 기반 Database 연동 Template Project
 - `2019/12` `Spring` [SpringBoot + Thymeleaf + Gradle](https://github.com/hgko1207/springboot-thymeleaf-gradle) : SpringBoot 기반 Template Project
-- `2019/12` `Spring` [SpringBoot + jsp + MySQL + JPA](https://github.com/hgko1207/springboot-jsp-mysql-jpa) : SpringBoot 기반 Database 연동 Template Project
+- `2019/12` `Spring` [SpringBoot + jsp + MySQL + JPA](https://github.com/hgko1207/springboot-jsp-mysql-jpa) : SpringBoot 기반 Database 연동 Template Project -->
