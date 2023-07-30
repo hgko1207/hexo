@@ -1,14 +1,14 @@
 ---
-title: '[JavaScript] 우편번호 주소 조회'
+title: '[JavaScript] Daum 우편번호 서비스 사용 방법'
 categories:
   - Programming
   - Language
   - JavaScript
 tags:
   - JavaScript
-  - Postcode
   - Address
-  - Daum
+  - JQuery
+  - Daum 우편번호
   - kakao
   - 우편번호 서비스
   - 자바스크립트
@@ -18,7 +18,7 @@ thumbnail: /images/thumbnail/javascript.png
 
 웹 프로젝트를 하면서 사용자 등록을 하게 될 때 주소를 입력을 하게 되는데, 우편번호 주소 조회가 되도록 처리해달라는 요청이 있었다. 그래서 우편번호 서비스를 검색해 봤을 때 여러가지가 있었지만 개인적으로 좋아보이는 **Daum 우편번호 서비스**를 사용하게 되었다.
 
-### Daum 우편번호 서비스
+## Daum 우편번호 서비스
 
 - 쉽고 간편하게 우편번호 검색, 도로명 주소 입력 기능을 만들 수 있다.
 - Key 를 발급받을 필요가 없다.
@@ -28,39 +28,47 @@ thumbnail: /images/thumbnail/javascript.png
 
 이 것 말고도 여러 가지 장점이 더 있지만 사용하기 쉽고 무료이며 사용량에 대한 제한이 없고, 특히나 기본 사용법이 정말 쉽게 잘 설명되어 있어서 사용하게 되었다.
 
-<img width="100%" src="/images/javascript/postcode-1.png" alt="Daum 우편번호 서비스" title="" >
+[![Daum 우편번호 서비스](/images/javascript/postcode-1.png)](https://postcode.map.daum.net/guide#usage)
+
+### 예제
+
+```js
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+<script>
+    new daum.Postcode({
+        oncomplete: function(data) {
+            // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분입니다.
+            // 예제를 참고하여 다양한 활용법을 확인해 보세요.
+        }
+    }).open();
+</script>
+```
+
+## 적용
 
 다음은 적용한 코드다.
 
-## 1) HTML
+### HTML
 
-부끄럽지만 HTML 코드는 다음과 같다. **우편번호**, **도로명 주소**, **상세 주소** 입력 란이 있고 **우편번호 찾기** 버튼이 있다. 버튼을 클릭하게 되면 **execDaumPostcode()** 함수를 호출하게 된다.
+HTML 코드는 다음과 같다. **우편번호**, **도로명 주소**, **상세 주소** 입력 란이 있고 **우편번호 찾기** 버튼이 있다. 버튼을 클릭하게 되면 **execDaumPostcode()** 함수를 호출하게 된다.
 
 ```html
-<div class="form-group m-form__group row">
-  <label class="col-md-2 offset-md-3 col-form-label">
-    주&nbsp;&nbsp;소&nbsp;&nbsp;<span class="m--font-orange vertical-middle">*</span>
-  </label>
+<div class="form-group row">
+  <label class="col-md-2 offset-md-3 form-label"> 주 소 <span class="text-danger">*</span> </label>
   <div class="col-md-2">
-    <input type="text" class="form-control m-input" name="postcode" id="postcode" placeholder="우편번호" readonly />
+    <input type="text" class="form-control" name="postcode" id="postcode" placeholder="우편번호" readonly />
   </div>
   <div class="col-md-2 postcode-btn">
-    <button type="button" class="btn btn-info m-btn--air" onclick="execDaumPostcode()">우편번호 찾기</button>
+    <button type="button" class="btn btn-info" onclick="execDaumPostcode()">우편번호 찾기</button>
   </div>
-  <div class="col-md-4 offset-md-5">
+  <div class="offset-md-5 col-md-4 mt-2">
+    <input type="text" class="form-control" name="address" id="address" placeholder="도로명 주소" readonly />
+  </div>
+  <div class="offset-md-5 col-md-4 mt-2">
     <input
       type="text"
-      class="form-control m-input m--margin-top-10"
-      name="address"
-      id="address"
-      placeholder="도로명 주소"
-      readonly
-    />
-  </div>
-  <div class="col-md-4 offset-md-5">
-    <input
-      type="text"
-      class="form-control m-input m--margin-top-10"
+      class="form-control"
+      id="detailA_address"
       name="detailAddress"
       placeholder="상세 주소"
       required
@@ -73,26 +81,36 @@ thumbnail: /images/thumbnail/javascript.png
 
 <img width="100%" src="/images/javascript/postcode-2.png" alt="우편번호 찾기 화면" title="" >
 
-## 2) JavaScript
+### JavaScript
 
 버튼을 클릭하여 `execDaumPostcode()` 함수가 호출되면서 주소 검색 팝업창이 보여지게 한다. 팝업팡에서 주소 검색 결과 항목을 클릭했을 때 우편번호와 도로명주소 입력란에 값을 채워넣게 된다.
 
-```javascript
-<!--autoload=false 파라미터를 이용하여 자동으로 로딩되는 것을 막습니다.-->
-<script src="http://dmaps.daum.net/map_js_init/postcode.v2.js?autoload=false"></script>
+```js
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 
 <script>
 /** 우편번호 찾기 */
 function execDaumPostcode() {
-    daum.postcode.load(function(){
-        new daum.Postcode({
-            oncomplete: function(data) {
-              // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분입니다.
-              $("#postcode").val(data.zonecode);
-              $("#address").val(data.roadAddress);
+      new daum.Postcode({
+          oncomplete: function(data) {
+            // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분입니다.
+
+            // 각 주소의 노출 규칙에 따라 주소를 조합한다.
+            // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+            let addr = ''; // 주소 변수
+
+            //사용자가 선택한 주소 타입에 따라 해당 주소 값을 가져온다.
+            if (data.userSelectedType === 'R') { // 사용자가 도로명 주소를 선택했을 경우
+                addr = data.roadAddress;
+            } else { // 사용자가 지번 주소를 선택했을 경우(J)
+                addr = data.jibunAddress;
             }
-        }).open();
-    });
+
+            $("#postcode").val(data.zonecode);
+            $("#address").val(addr);
+            $("#address").focus();
+          }
+      }).open();
 }
 </script>
 ```
