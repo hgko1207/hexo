@@ -32,7 +32,7 @@ widgets:
     - category # 카테고리
     - archive # 어카이브
     # - tag # 태그
-    # - tagcloud # 태그클라우드. 사용된 태그들을 빈도수에 따라 구름처럼 표시
+    - tagcloud # 태그클라우드. 사용된 태그들을 빈도수에 따라 구름처럼 표시
     - links # 링크
     - google_adsense
 

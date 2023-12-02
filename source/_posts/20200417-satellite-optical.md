@@ -26,6 +26,7 @@ thumbnail: /images/thumbnail/satellite.png
 
    - <span style="color:#ED7D31">**저해상도 활용**</span> : 주로 광범위한 지역의 탐사나 지속적 관찰이 필요한 부분에 사용
    - <span style="color:#5B9BD5">**고해상도 활용**</span> : 고해상도로 갈수록 군사용이나 특수목적으로 사용
+     <br/>
 
 2. **촬영 방식** : 전자광학카메라를 이용한 촬영(광학 신호를 전자신호로 변환하여 영상을 제공하는 방식)
 

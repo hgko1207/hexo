@@ -70,12 +70,12 @@ markdown:
     - markdown-it-ins
     - markdown-it-sub
     - markdown-it-sup
-  anchors:
-    level: 2
-    collisionSuffix: 'v'
-    permalink: true
-    permalinkClass: header-anchor
-    permalinkSymbol: ¶
+  # anchors:
+  #   level: 2
+  #   collisionSuffix: 'v'
+  #   permalink: true
+  #   permalinkClass: header-anchor
+  #   permalinkSymbol: ¶
 
 # markdown_it_plus:
 #   highlight: true
