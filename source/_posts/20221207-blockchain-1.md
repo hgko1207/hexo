@@ -21,7 +21,7 @@ thumbnail: /images/thumbnail/blockchain.png
 
 ## Ganache CLI
 
-Ganache CLI 는 빠르고 사용자 정의 가능한 블록체인 에뮬레이터인 TestRPC 의 최신 버전입니다. 실제 이더리움 노드를 실행하는 오버헤드 없이 블록체인을 호출할 수 있습니다.
+Ganache CLI 는 빠르고 커스터마이징 가능한 블록체인 에뮬레이터인 TestRPC 의 최신 버전입니다. 실제 이더리움 노드를 실행하는 오버헤드 없이 블록체인을 호출할 수 있습니다.
 
 - Transactions are “mined” instantly.
 - No transaction cost.
