@@ -145,8 +145,10 @@ robotstxt:
 # sitemap auto generator
 sitemap:
   path: sitemap.xml
+  tag: false
+  category: false
 
 feed:
   type: rss2
   path: rss2.xml
-  limit: false
+  limit: 20
