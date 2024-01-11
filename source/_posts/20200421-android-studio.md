@@ -1,5 +1,5 @@
 ---
-title: '[Android Studio] 설치 및 주요 기능'
+title: '[Android Studio] 설치 및 주요 기능 정리'
 categories:
   - Programming
   - Mobile
@@ -13,7 +13,7 @@ thumbnail: /images/thumbnail/androidstudio.png
 
 ## 1. Android Studio 다운로드 및 설치
 
-다운로드 사이트에서 최신 버전의 Android Studio를 다운받아 설치합니다. 현재 최신은 3.6.3 버전이다.
+다운로드 사이트에서 최신 버전의 Android Studio를 다운로드하여 설치합니다. 현재 최신은 3.6.3 버전이다.
 
 [![](/images/studio/download.png)](https://developer.android.com/studio)
 
@@ -61,7 +61,7 @@ thumbnail: /images/thumbnail/androidstudio.png
 
 ## 4. SDK 설치
 
-**Tools > SDK Manager** 에서 설치 현황 및 안드로이드 버젼별 SDK 설치/삭제/업데이트 등을 수행할 수 있다.
+**Tools > SDK Manager** 에서 설치 현황 및 안드로이드 버젼 별 SDK 설치/삭제/업데이트 등을 수행할 수 있다.
 
 <img width="100%" src="/images/studio/sdk.png" alt="" title="" >
 

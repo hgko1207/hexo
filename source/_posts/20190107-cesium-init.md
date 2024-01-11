@@ -13,7 +13,7 @@ date: 2019-01-07 11:37:21
 thumbnail: /images/thumbnail/cesium.png
 ---
 
-GIS 관련 프로젝트를 하다보니 오픈소스인 CesiumJS 나 Openlayers 라이브러리를 사용하게 되었다. 최근에는 2D, 3D 모드가 가능한 CesiumJS 를 주로 사용하게 되었다.
+GIS 관련 프로젝트를 하다 보니 오픈소스인 CesiumJS 나 Openlayers 라이브러리를 사용하게 되었다. 최근에는 2D, 3D 모드가 가능한 CesiumJS를 주로 사용하게 되었다.
 
 ## Cesium 이란?
 
@@ -23,8 +23,9 @@ GIS 관련 프로젝트를 하다보니 오픈소스인 CesiumJS 나 Openlayers 
 - 3D / 2.5D / 2D 모드 지원 -> Openlayers3에 통합
 - 카메라 움직임 추적, 시간 시뮬레이션 등 다양한 기능 제공
 
-Cesium 을 시작할 때 초기 설정이 복잡하다. 다음 두 개의 링크를 따라가서 따라하면 쉽게 할 수 있다. 하지만 웹에서 커스터마이징을 하기 위해 아래 코드 처럼 Cesium 에서 지원하는 기본적인 기능들을 끄고 지도만 보이도록 설정해야 한다.
-API 들은 문서나 인터넷 검색으로 찾아봅시다.
+Cesium 을 시작할 때 초기 설정이 복잡하다. 아래 두 개의 링크를 따라가서 따라 하면 쉽게 할 수 있다. 하지만 웹에서 커스터마이징을 하기 위해 아래 코드처럼 Cesium에서 지원하는 기본적인 기능들을 끄고 지도만 보이도록 설정해야 한다.
+
+API들은 문서나 인터넷 검색으로 찾아봅시다.
 
 [![](/images/cesium-up-and-running.png)](https://cesiumjs.org/tutorials/cesium-up-and-running/)
 
@@ -87,7 +88,7 @@ API 들은 문서나 인터넷 검색으로 찾아봅시다.
 </html>
 ```
 
-위의 예제는 미리 구축된 Geoserver 를 베이스 맵으로 설정하였다. Geoserver 가 구축되지 않았다면 Cesium 에서 제공되는 기본 Provider 를 사용하면 된다.
+위의 예제는 미리 구축된 Geoserver 를 베이스 맵으로 설정하였다. Geoserver 가 구축되지 않았다면 Cesium에서 제공되는 기본 Provider를 사용하면 된다.
 
 ```html
 <!-- 예시 -->

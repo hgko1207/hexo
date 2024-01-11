@@ -8,14 +8,16 @@ tags:
   - Openlayers
   - JavaScript
   - Map
+  - 자바스크립트
 date: 2020-04-16 10:02:45
 thumbnail: /images/thumbnail/openLayers.png
 ---
 
-Geoserver 에서 필요한 정보를 가져오기 위해 **OpenLayers** 의 `getGetFeatureInfoUrl` 함수를 사용하였다.
+Geoserver에서 필요한 정보를 가져오기 위해 **OpenLayers**의 `getGetFeatureInfoUrl` 함수를 사용하였습니다.
 
-feature 의 정보 중에 GRAY_INDEX 라는 컬럼의 정보를 가져와야 한다.
-아래 방식으로 image 형태인 layer 를 구성하였다.
+feature의 정보 중에 GRAY_INDEX 라는 컬럼의 정보를 가져와야 합니다.
+
+아래 방식으로 image 형태인 layer 를 구성하였습니다.
 
 ```js
 var wmsLayer = new ol.layer.Image({
@@ -31,8 +33,8 @@ var wmsLayer = new ol.layer.Image({
 });
 ```
 
-`getGetFeatureInfoUrl` 함수를 사용하여 feature 정보를 불러와 표출하였다.
-url 에 요청할 때 Cross-Origin Read Blocking(CORN) 문제가 있어 ajax 대신 XMLHttpRequest 를 사용하였다.
+`getGetFeatureInfoUrl` 함수를 사용하여 feature 정보를 불러와 표출하였습니다.
+아래에서 url 에 요청할 때 Cross-Origin Read Blocking(CORN) 문제가 있어 ajax 대신 XMLHttpRequest를 사용하였습니다.
 
 ```js
 var url = wmsLayer.getSource().getGetFeatureInfoUrl([longitude, latitude], view.getResolution(), view.getProjection(), {

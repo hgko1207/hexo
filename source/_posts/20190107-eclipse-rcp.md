@@ -21,7 +21,7 @@ Eclipse에 플러그인을 추가하는 방법에는 두 가지가 있다. 첫 �
 
 ### 직접 복사하는 방법
 
-설치하고자하는 플러그인을 Eclipse_home/plugin 디렉토리에 복사한 다음 Eclipse를 재시작하면 새롭게 설치된 Eclipse 플러그인 기능을 활용할 수 있다.
+설치하고자 하는 플러그인을 Eclipse_home/plugin 디렉터리에 복사한 다음 Eclipse를 재시작하면 새롭게 설치된 Eclipse 플러그인 기능을 활용할 수 있다.
 
 ### Software Update Manager를 활용하는 방법
 
@@ -29,7 +29,7 @@ Eclipse 에서 제공하는 Software Update Manager 기능은 플러그인을 �
 
 Eclipse 에서 `Help->Install New Software`로 이동 후 설치 할 플러그인 URL를 입력하여 다운받는다.
 
-또 다른 방법은 `Help->Eclipse Marketplace`로 이동 후 설치 플러그인을 검색 후 다운받는다.
+또 다른 방법은 `Help->Eclipse Marketplace`로 이동 후 설치 플러그인을 검색 후 다운로드한다.
 
 # 이클립스 RCP
 

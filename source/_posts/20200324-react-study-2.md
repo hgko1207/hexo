@@ -28,7 +28,7 @@ $ node -v
 $ npm -v
 ```
 
-에디터로는 MS에서 제공하는 Visual Studio Code(VS Code)를 사용한다. vscode 는 크로스 플랫폼 에디터로 다양한 언어를 서포트 하며, IntelliSense 와 Git 기능, 그리고 Extension 을 이용한 확장 기능을 제공하고 있다.
+에디터로는 MS에서 제공하는 Visual Studio Code(VS Code)를 사용한다. vscode 는 크로스 플랫폼 에디터로 다양한 언어를 서포트하며, IntelliSense 와 Git 기능, 그리고 Extension 을 이용한 확장 기능을 제공하고 있다.
 설치 방법은 https://code.visualstudio.com/ 에 접속하여 다운로드 후 설치하면 된다.
 
 > React 개발에 좋은 Extension는 **ESLint**, **Prettier**, **vscode-styled-components**, **Auto Close Tag**, **React-Native/React/Redux snippets for es6/es7** 등 다양하게 있어 설치하고 사용하면 됩니다.
@@ -79,7 +79,7 @@ export default HelloMessage;
 
 1. class 대신 className 을 사용한다.
 2. 스타일 속성은 중괄호 ({}) 안에 객체 형태로 표시하며 단어 사이의 '-'를 없애는 대신 카멜케이스(Camel Case)를 사용해 CSS 프로퍼티는 나타낸다.
-3. `styled-components`는 리액트 CSS-in-JS 관련 라이브러리 중에서 가장 잘나가는 라이브러리로써 자바스크립트 파일 안에 CSS 를 작성하는 형태다.
+3. `styled-components`는 리액트 CSS-in-JS 관련 라이브러리 중에서 가장 잘 나가는 라이브러리로써 자바스크립트 파일 안에 CSS 를 작성하는 형태다.
 
 ```jsx
 // App.js
@@ -188,7 +188,7 @@ Header 나 Footer, ContentList 등은 컴포넌트로 만들고, 이를 조립�
 #### 3.3. Props
 
 `props`란 부모 컴포넌트에서 자식 컴포넌트로 전달해 주는 데이터를 말한다.
-`props`는 읽기 전용 데이터라고 생각하면 된다. 자식 컴포넌트에서 전달 받은 `props`를 변경이 불가능하고 `props`를 전달해준 최상위 부모 컴포넌트만 `props`를 변경할 수 있다.
+`props`는 읽기 전용 데이터라고 생각하면 된다. 자식 컴포넌트에서 전달받은 `props`를 변경이 불가능하고 `props`를 전달해 준 최상위 부모 컴포넌트만 `props`를 변경할 수 있다.
 
 #### 3.4. State
 
@@ -197,7 +197,7 @@ Header 나 Footer, ContentList 등은 컴포넌트로 만들고, 이를 조립�
 
 #### 3.5 LifeCycle API
 
-LifeCycle API는 컴포넌트가 DOM 위에 생성되기 전 후 및 데이터가 변경되어 상태를 업데이트하기 전 후로 실행되는 메소드들이다. 자원낭비를 줄이기 위하여 코드를 최적화 할 때 사용된다. 많이 사용하는 LifeCycle 메소드들은 `constructor`, `componentDidMount`, `render`, `shouldComponentUpdate` 이다.
+LifeCycle API는 컴포넌트가 DOM 위에 생성되기 전 후 및 데이터가 변경되어 상태를 업데이트하기 전 후로 실행되는 메서드들이다. 자원낭비를 줄이기 위하여 코드를 최적화할 때 사용된다. 많이 사용하는 LifeCycle 메서드들은 `constructor`, `componentDidMount`, `render`, `shouldComponentUpdate` 이다.
 
 ## 참고
 

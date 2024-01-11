@@ -15,18 +15,19 @@ date: 2019-01-18 15:22:36
 thumbnail: /images/thumbnail/javascript.png
 ---
 
-사용자 등록 시 전화번호를 입력하게 되는데 아래 그림처럼 세 개의 입력을 받아 합치는 형식으로 많이 개발한다.
+사용자 등록 시 전화번호를 입력하게 되는데 아래 그림처럼 세 개의 입력을 받아 합치는 형식으로 많이 되어 있습니다.
 
 <img width="65%" src="/images/javascript/hypen-1.png" alt="연락처 입력" title="" >
 
-이렇게 개발해도 괜찮지만 좀 더 쉽게 하기 위해서 전화번호 입력 시 자동으로 하이픈(-)이 입력되도록 하는 형식으로 바꾸면 좋겠다 싶어 구현해봤다.
-개발 된 화면은 다음과 같다.
+이렇게 개발해도 괜찮지만 좀 더 쉽게 하기 위해서 전화번호 입력 시 자동으로 하이픈(-)이 입력되도록 하는 형식으로 바꾸면 좋겠다 싶어 반영해 봤습니다.
+
+개발된 화면은 다음과 같습니다.
 
 <img width="75%" src="/images/javascript/hypen-2.png" alt="" title="" >
 
 ## 1) HTML
 
-먼저 HTML 소스 코드다. **input** 태그를 사용하고 **pattern**과 **maxlength**, **required**, **placeholder**를 사용하였다. 속성에 대한 설명은 참고 사이트를 보시면 된다.
+먼저 HTML 소스 코드다. **input** 태그를 사용하고 **pattern**과 **maxlength**, **required**, **placeholder**를 사용하였습니다. 속성에 대한 설명은 참고 사이트를 보시면 됩니다.
 
 ```html
 <input
@@ -43,7 +44,7 @@ thumbnail: /images/thumbnail/javascript.png
 
 ## 2) JavaScript
 
-먼저 전화번호 크기에 따라 나눴다. 서울 전화번호는 02 로 두자리로 시작하고 핸드폰은 010, 011.. 이고 다른 지역 전화번호는 031, 041, 051 등 세자리로 시작하여 {2}-{3 or 4}-{4} 또는 {3}-{3 or 4}-{4} 형태가 되도록 문자열을 잘라내는 방식으로 하였다.
+먼저 전화번호 크기에 따라 나눴습니다. 서울 전화번호는 02로 두자리로 시작하고 핸드폰은 010, 011..이고 다른 지역 전화번호는 031, 041, 051 등 세 자리로 시작하여 {2}-{3 or 4}-{4} 또는 {3}-{3 or 4}-{4} 형태가 되도록 문자열을 잘라내는 방식으로 하였습니다.
 
 ```js
 function autoHypenTel(str) {
@@ -104,7 +105,7 @@ function autoHypenTel(str) {
 }
 ```
 
-호출 부분 코드다. 키가 입력될 때마다 검사를 진행한다.
+호출 부분 코드입니다. 키가 입력될 때마다 검사를 진행합니다.
 
 ```js
 $('#telInput').keyup(function (event) {
@@ -114,10 +115,10 @@ $('#telInput').keyup(function (event) {
 });
 ```
 
-전화번호 시작이 1588, 1668 등과 같은 번호 일 경우에 대해서는 작성하지 않았다. 보다시피 완벽하게 최적화가 되지 않았기 때문에 추후에 수정이 될 것 같다.
+전화번호 시작이 1588, 1668 등과 같은 번호 일 경우에 대해서는 작성하지 않았습니다. 보다시피 완벽하게 최적화가 되지 않았기 때문에 추후에 수정이 될 것 같습니다.
 
 ## 참고
 
 - [HTML Input 속성들(Attributes)](http://jun.hansung.ac.kr/CWP/htmls/HTML%20Input%20Attributes.html)
 - [핸드폰 번호 하이픈(-) 자동입력](https://mulder21c.github.io/2014/11/03/automatically-enter-cell-phone-number-hyphen/)
-- [전화번호 입력시 하이픈(-) 자동 입력](http://www.blueb.co.kr/?c=1/9&cat=Form+Check&uid=2077)
+- [전화번호 입력 시 하이픈(-) 자동 입력](http://www.blueb.co.kr/?c=1/9&cat=Form+Check&uid=2077)

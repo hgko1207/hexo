@@ -17,7 +17,7 @@ thumbnail: /images/thumbnail/satellite.png
 - ​다양한 좌표계 변환을 제공하는 라이브러리
 - 자유롭게 인자를 지정하여 표준이 아닌 좌표계 간도 변환 가능
 - USGS의 Gerald Evenden에 의해 만들어진 오픈소스 라이브러리
-- 현재 OSGeo 프로젝트 중 하나이며 MIT 라이센스
+- 현재 OSGeo 프로젝트 중 하나이며 MIT 라이선스
 - GeoServer, OpenLayers, PostGIS, QGIS, GDAL, OGR, GeoTools 등 엄청나게 많은 프로그램에서 사용 중
 - C, C++, JAVA, Javascript 등 다양한 언어로 포팅 되어 있음​
 
@@ -41,7 +41,7 @@ thumbnail: /images/thumbnail/satellite.png
 
 ## UTM(Universal Transverse Mercator)
 
-- 전세계를 6도 단위로 나누는 표준적인 TM으로 군사지도에서 많이 사용
+- 전 세계를 6도 단위로 나누는 표준적인 TM으로 군사지도에서 많이 사용
 
 1. UTM52N: 경도 120 ~ 126도 사이에서 사용
 

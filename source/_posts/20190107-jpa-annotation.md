@@ -19,7 +19,7 @@ thumbnail: /images/thumbnail/spring.png
 
 ## @Entity
 
-해당 클래스가 엔티티임을 알리기 위해 사용한다. 애플리케이션이 실행이 될 때 엔티티 자동검색을 통하여 이 어노테이션이 선언 된 클래스들은 엔티티 빈으로 등록한다.
+해당 클래스가 엔티티임을 알리기 위해 사용한다. 애플리케이션이 실행이 될 때 엔티티 자동검색을 통하여 이 어노테이션이 선언된 클래스들은 엔티티 빈으로 등록한다.
 
 ## @Table
 
@@ -39,13 +39,13 @@ thumbnail: /images/thumbnail/spring.png
 
 ## @Column
 
-필드와 테이블의 컬럼을 매핑시켜준다. 이 어노테이션은 생략이 가능하며, 생략 시 필드의 이름이 테이블의 컬럼으로 자동으로 매핑이 된다.
+필드와 테이블의 컬럼을 매핑시켜 준다. 이 어노테이션은 생략이 가능하며, 생략 시 필드의 이름이 테이블의 컬럼으로 자동으로 매핑이 된다.
 
 1. name속성(String)
    필드와 매핑 될 컬럼의 이름을 명시한다.
 
 2. nullable속성(boolean)
-   해당 컬럼이 null값을 허용하는가 하지않는가의 여부다.
+   해당 컬럼이 null값을 허용하는가 하지않는 가의 여부다.
 
 3. length속성(int)
    컬럼의 길이값을 의미합니다.
@@ -59,15 +59,15 @@ thumbnail: /images/thumbnail/spring.png
 6. updatable속성(boolean)
    변경된 필드의 값을 테이블에도 반영할지를 결정한다. 기본값은 true
 
-name 속성을 제외한 나머지 속성은 잘 사용되지 않을 것 이라고 생각된다. nullable, length, unique는 DDL과 관련된 속성이고, insertable, updatable은 원래 잘 사용되지 않는 속성이기 때문이다.
+name 속성을 제외한 나머지 속성은 잘 사용되지 않을 것이라고 생각된다. nullable, length, unique는 DDL과 관련된 속성이고, insertable, updatable은 원래 잘 사용되지 않는 속성이기 때문이다.
 
 ## @Temporal
 
-java.util.Date와 java.util.Calendar 값을 매핑 할 때 사용한다.
+java.util.Date와 java.util.Calendar 값을 매핑할 때 사용한다.
 
 - TemporalType.Date : 년-월-일 의 date 타입 (2019-01-04)
 - TemporalType.Time : 시:분:초 의 time 타입 (12:11:11)
-- TemporalType.TIMESTAMP : date + time 의 timestamp(datetime) 타입 (2019-01-04 12:11:11)
+- TemporalType.TIMESTAMP : date + time의 timestamp(datetime) 타입 (2019-01-04 12:11:11)
 - 어노테이션을 사용하지 않을 경우 기본값은 timestamp 다. JPA 데이터베이스 방언에 의해, 데이터베이스의 타입에 따른 timestamp 또는 datetime은 자동으로 작성된다.
 
 ## @ColumnPosition(1)

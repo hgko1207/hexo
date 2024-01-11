@@ -5,8 +5,10 @@ categories:
   - Language
   - JavaScript
 tags:
+  - Cesium
   - CesiumJS
   - JavaScript
+  - 자바스크립트
   - 3D
 date: 2020-04-15 22:04:56
 thumbnail: /images/thumbnail/cesium.png
@@ -14,8 +16,8 @@ thumbnail: /images/thumbnail/cesium.png
 
 ## 영상 레이어 추가
 
-Geoserver 에 추가된 영상 레이어를 Cesium 지도에 표출 하는 코드다.
-layers 에는 Geoserver 에 있는 레이어의 이름을 넣으면 된다.
+Geoserver에 추가된 영상 레이어를 Cesium 지도에 표출하는 코드입니다.
+layers 에는 Geoserver에 있는 레이어의 이름을 넣으면 됩니다.
 
 ```js
 var imageryLayer = viewer.imageryLayers.addImageryProvider(
@@ -37,7 +39,7 @@ var imageryLayer = viewer.imageryLayers.addImageryProvider(
 
 ## CesiumJS 포인트 그리기
 
-마우스 왼쪽 버튼을 누를 때 포인트 그리기
+마우스 왼쪽 버튼을 누를 때 포인트를 그립니다.
 
 ```js
 var ellipsoid = viewer.scene.globe.ellipsoid;
@@ -64,8 +66,8 @@ handler.setInputAction(function (event) {
 
 ## 영상 레이어 추가 시 스타일 지정
 
-영상 레이어 추가와 거의 같지만 styles와 COLORSCALERANGE 파라미터가 추가되었다.
-styles 에는 Geoserver 에 추가된 스타일 이름을 지정하고, COLORSCALERANGE 에는 min, max 값을 지정한다. (COLORSCALERANGE 파라미터는 없어도 된다.)
+영상 레이어 추가와 거의 같지만 styles와 COLORSCALERANGE 파라미터가 추가되었습니다.
+styles 에는 Geoserver에 추가된 스타일 이름을 지정하고, COLORSCALERANGE 에는 min, max 값을 지정한다. (COLORSCALERANGE 파라미터는 없어도 됩니다.)
 
 ```js
 var imageryLayer = viewer.imageryLayers.addImageryProvider(

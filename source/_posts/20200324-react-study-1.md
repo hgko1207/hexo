@@ -20,7 +20,7 @@ thumbnail: /images/thumbnail/react.png
 
 ## React란?
 
-[React](https://ko.reactjs.org/)는 페이스북에서 제공해주는 프론트엔드 라이브러리다. 사용자 인터페이스(User Interface)에 집중하며, Virtual DOM을 통해 속도와 편의를 높이고, 단방향 데이터 플로우를 지원하여 [보일러플레이트 코드](http://web-front-end.tistory.com/27)를 감소 시켜준다. React 는 싱글 페이지 애플리케이션(SPA)이나 모바일 애플리케이션을 개발할 때 사용할 수 있다.
+[React](https://ko.reactjs.org/)는 페이스북에서 제공해 주는 프런트엔드 라이브러리다. 사용자 인터페이스(User Interface)에 집중하며, Virtual DOM을 통해 속도와 편의를 높이고, 단방향 데이터 플로우를 지원하여 [보일러플레이트 코드](http://web-front-end.tistory.com/27)를 감소 시켜준다. React 는 싱글 페이지 애플리케이션(SPA)이나 모바일 애플리케이션을 개발할 때 사용할 수 있다.
 
 #### 특징
 
@@ -44,7 +44,7 @@ thumbnail: /images/thumbnail/react.png
 
 **React**에서 많이 사용되는 자바스크립트 ES6 문법 기초를 먼저 알아보자.
 
-- 기존에 우리가 웹 개발에서 많이 보던 자바스크립트는 2009년 12월에 나온 **ECMAScript5(ES5)** 버전이다. 최근 Node.js, react에서는 2015년 6월에 업데이트 된 **ECMAScript6(ES6)** 문법의 자바스크립트를 사용하고 있다.
+- 기존에 우리가 웹 개발에서 많이 보던 자바스크립트는 2009년 12월에 나온 **ECMAScript5(ES5)** 버전이다. 최근 Node.js, react에서는 2015년 6월에 업데이트된 **ECMAScript6(ES6)** 문법의 자바스크립트를 사용하고 있다.
 - ES6 문법을 사용하면서 처음에는 익숙해지기 어려웠지만 사용할 수록 코드가 간결해지고 깔끔해지면서 가독성이 좋아졌고, 모듈 별로 개발하면서 코드 관리가 쉬워졌다.
 - 현재는 ES8까지 업데이트 되었지만 몇 가지 걸림돌이 있어 넘어가지 않고 있다.
 
@@ -121,7 +121,7 @@ console.log(name, lastName, difName, dinner);
 
 Iterable Object(열거 가능한 오브젝트)를 하나씩 전개한다.
 표현방식 […iterable], 변수 앞에 '…' 찍어서 선언한다.
-변수 뿐만 아니라 Argument, Function에서도 쓰인다.
+변수뿐만 아니라 Argument, Function에서도 쓰인다.
 
 ```js
 const days = ['Mon', 'Tues', 'Wed'];
@@ -134,7 +134,7 @@ console.log(allDays);
 
 #### 1.6. Classes
 
-constructor 메소드도 사용할 수 있고 extends를 통해서 클래스 상속도 가능하다.
+constructor 메서드도 사용할 수 있고 extends를 통해서 클래스 상속도 가능하다.
 
 ```js
 class Human {

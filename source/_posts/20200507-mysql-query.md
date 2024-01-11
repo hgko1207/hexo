@@ -1,5 +1,5 @@
 ---
-title: '[MySQL] Query'
+title: '[MySQL] Query 정리'
 categories:
   - Programming
   - DB
@@ -49,7 +49,7 @@ DELETE FROM 테이블명 WHERE 필드명=데이터값
 SELECT 필드명, count(*) FROM 테이블명 GROUP BY 필드명
 ```
 
-중복된 갯수가 n개 이상인 것
+중복된 개수가 n개 이상인 것
 
 ```sql
 SELECT 필드명, count(*) as 변수명 FROM 테이블명 GROUP BY 필드명 HAVING 변수명 > n;
