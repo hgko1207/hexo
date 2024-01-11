@@ -22,7 +22,7 @@ import numpy as np
 
 ## data type
 
-배열의 dtype 을 봅니다.
+배열의 dtype을 봅니다.
 
 ```python
 arr = np.array([[1, 2, 3], [1, 2, 3]])
@@ -32,7 +32,7 @@ arr.dtype
 dtype('int32')
 ```
 
-`.astype()` 으로 datatype 을 변환 가능하다.
+`.astype()` 으로 datatype을 변환 가능하다.
 
 ```python
 arr = arr.astype('float32')
@@ -43,7 +43,7 @@ array([[1., 2., 3.],
        [1., 2., 3.]], dtype=float32)
 ```
 
-len(arr.shape) 를 통해서 차원이 갯수를 확인할 수 있지만, 다음과 같이 ndim 을 통해 차원 수를 확인하다.
+`len(arr.shape)`를 통해서 차원이 개수를 확인할 수 있지만, 다음과 같이 ndim 을 통해 차원 수를 확인하다.
 
 ```python
 len(arr.shape)
@@ -65,7 +65,7 @@ arr.shape
 (1, 6)
 ```
 
-차원을 몇 개로 나눠야할지 모를 경우 -1 을 활용하다.
+차원을 몇 개로 나눠야할지 모를 경우 -1을 활용하다.
 
 ```python
 arr = arr.reshape(-1)

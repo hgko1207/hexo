@@ -45,7 +45,7 @@ np.min(image), np.max(image)
 (0, 255)
 ```
 
-## 그래프로 시각화 하기
+## 그래프로 시각화하기
 
 ```python
 plt.hist(image.ravel(), 256, [0, 256])

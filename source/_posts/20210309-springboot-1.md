@@ -12,7 +12,7 @@ date: 2021-03-09 13:52:07
 thumbnail: /images/thumbnail/spring.png
 ---
 
-## STS(Spring Tool Suite) 에서 빌드 방법
+## STS(Spring Tool Suite)에서 빌드 방법
 
 1. 메뉴 -> Run -> Run Configurations -> Maven Build(우클릭) -> New Configuration 클릭
 2. **[Name]** 입력 란에 작성

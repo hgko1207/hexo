@@ -12,7 +12,7 @@ date: 2021-05-12 16:58:49
 thumbnail: /images/thumbnail/android.png
 ---
 
-**Yahoo Weather API** 를 이용하여 현재 위치의 날씨 정보를 조회하는 방법에 대해 알아보겠습니다.
+**Yahoo Weather API**를 이용하여 현재 위치의 날씨 정보를 조회하는 방법에 대해 알아보겠습니다.
 
 ## 개발 환경
 
@@ -41,7 +41,7 @@ implementation 'zh.wang.android:yweathergetter4a:1.3.0'
 
 ## 코드 작성
 
-Activity 또는 Fragment 에 `YahooWeatherInfoListener` 인터페이스를 implements 하면 `gotWeatherInfo` 함수를 오버라이딩(Override)을 하게 됩니다.
+Activity 또는 Fragment에 `YahooWeatherInfoListener` 인터페이스를 implements 하면 `gotWeatherInfo` 함수를 오버라이딩(Override)을 하게 됩니다.
 
 ```java
 public class WeatherActivity extends Activity implements YahooWeatherInfoListener {
@@ -82,7 +82,7 @@ yahooWeather.setSearchMode(YahooWeather.SEARCH_MODE.GPS);
 yahooWeather.queryYahooWeatherByGPS(getApplicationContext(), this);
 ```
 
-날씨 정보를 한 번만 불러오는 것이 아니라 1분 마다 얻기 위해 Timer 를 사용하였습니다. Timer 를 사용하기 위해 위의 코드를 함수로 만들었습니다.
+날씨 정보를 한 번만 불러오는 것이 아니라 1분마다 얻기 위해 Timer를 사용하였습니다. Timer를 사용하기 위해 위의 코드를 함수로 만들었습니다.
 
 ```java
 Timer timer = new Timer();

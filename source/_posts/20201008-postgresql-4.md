@@ -1,5 +1,5 @@
 ---
-title: '[PostgreSQL] TimescaleDB 설치'
+title: '[PostgreSQL] TimescaleDB 설치 방법'
 categories:
   - Programming
   - DB
@@ -15,7 +15,7 @@ thumbnail: /images/thumbnail/postgresql.png
 
 ## TimescaleDB 란
 
-**TimescaleDB**는 빠른 수집, 복잡한 쿼리를 편리하게 사용하기 위해 설계된 오픈 소스 시계열 데이터베이스 입니다.
+**TimescaleDB**는 빠른 수집, 복잡한 쿼리를 편리하게 사용하기 위해 설계된 오픈 소스 시계열 데이터베이스입니다.
 
 PostgreSQL을 기반으로 하며 자동 파티셔닝과 SQL 지원을 제공합니다. PostgreSQL 보다 10 ~ 100배 빠른 쿼리를 수행하고 시계열에 대해 최적화가 되어 있습니다.
 
@@ -28,7 +28,7 @@ PostgreSQL을 기반으로 하며 자동 파티셔닝과 SQL 지원을 제공합
 
 ## 설치
 
-PostgreSQL이 설치 되어있어야 합니다. 미설치 시 [[PostgreSQL] CentOS 7에서 PostgreSQL 설치 및 시작](https://hgko1207.github.io/2020/09/10/postgresql-1/)을 참고해서 설치합니다.
+PostgreSQL이 설치되어있어야 합니다. 미설치 시 [[PostgreSQL] CentOS 7에서 PostgreSQL 설치 및 시작](https://hgko1207.github.io/2020/09/10/postgresql-1/)을 참고해서 설치합니다.
 
 ### 1. PostgreSQL 설치 확인
 
@@ -60,7 +60,7 @@ $ vi /var/lib/pgsql/11/data/postgresql.conf
 
 ### 4. TimescaleDB 다운로드
 
-다음 명령어를 복사해서 붙여넣습니다.
+다음 명령어를 복사해서 붙여 넣습니다.
 
 ```bash
 $ sudo cat > /etc/yum.repos.d/timescale_timescaledb.repo <<EOL

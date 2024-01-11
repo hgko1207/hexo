@@ -1,5 +1,5 @@
 ---
-title: '[PostgreSQL] 외부 접속 허용'
+title: '[PostgreSQL] 외부 접속 허용 설정'
 categories:
   - Programming
   - DB
@@ -7,6 +7,7 @@ categories:
 tags:
   - PostgreSQL
   - CentOS
+  - 외부접속허용
 date: 2020-09-11 10:20:47
 thumbnail: /images/thumbnail/postgresql.png
 ---
@@ -15,7 +16,7 @@ thumbnail: /images/thumbnail/postgresql.png
 
 ### 1. 사용자 비밀번호 설정
 
-외부에서 접속 하기 위해선 우선 `postgres` 비밀번호를 설정해야 합니다.
+외부에서 접속하기 위해선 우선 `postgres` 비밀번호를 설정해야 합니다.
 
 postgres 계정으로 접속합니다.
 
@@ -42,7 +43,7 @@ $ firewall-cmd --reload
 
 ### 3. 설정 파일 변경
 
-postgresql 접속 후 Data 디렉토리 확인을 할 수 있습니다.
+postgresql 접속 후 Data 디렉터리 확인을 할 수 있습니다.
 
 ```shell
 $ show data_directory;
@@ -96,6 +97,6 @@ $ sudo systemctl restart postgresql-11
 
 ## 참고
 
-아래 링크에서는 pg_hba.conf를 수정하지 않고 접근제어를 할 수 있도록 하는 방법이 설명되어 있는데 테스트 해보진 않았습니다.
+아래 링크에서는 pg_hba.conf를 수정하지 않고 접근제어를 할 수 있도록 하는 방법이 설명되어 있는데 테스트해보진 않았습니다.
 
 - [CentOS 7 에서 방화벽에 PostgreSQL 리스너 포트 등록하기](https://rastalion.me/centos-7-%EC%97%90%EC%84%9C-%EB%B0%A9%ED%99%94%EB%B2%BD%EC%97%90-postgresql-%EB%A6%AC%EC%8A%A4%EB%84%88-%ED%8F%AC%ED%8A%B8-%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0/)

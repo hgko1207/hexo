@@ -14,7 +14,7 @@ date: 2020-07-16 18:08:35
 thumbnail: /images/thumbnail/matplotlib.png
 ---
 
-Python 에서 **matplotlib** 를 사용하여 시각화하는 방법에 대해 알아보겠다.
+Python에서 **matplotlib**를 사용하여 시각화하는 방법에 대해 알아보겠다.
 
 ## Load Packages
 
