@@ -42,8 +42,8 @@ thumbnail: /images/thumbnail/satellite.png
 ![](/images/satellite/cele/size.png)
 
 1. X, Y 축에 대해 각각 공분산 값을 구하고 2x2 공분산 행렬을 계산
-2. i 수만큼 위의 수식으로 2x1(X, Y)의 Si 를 계산
-3. Si 의 크기를 가장 작은 것부터 가장 큰 것 순으로 정렬(크기는 아래 수식과 같음)
+2. i 수만큼 위의 수식으로 2x1(X, Y)의 Si를 계산
+3. Si의 크기를 가장 작은 것부터 가장 큰 것 순으로 정렬(크기는 아래 수식과 같음)
 
 ![](/images/satellite/cele/si.png)
 
@@ -54,7 +54,7 @@ thumbnail: /images/thumbnail/satellite.png
 
 ## LE(Linear Error)
 
-- Z축(고도)에 대한 오차를 측정합니다.
+- Z 축(고도)에 대한 오차를 측정합니다.
 - 지형의 수직 정확도를 측정합니다.(TIN, DEM, DSM 등)
 - 선형오차라고 부르며, LE 50, LE 90, LE 95 등의 형식으로 표현합니다.
 
@@ -65,7 +65,7 @@ thumbnail: /images/thumbnail/satellite.png
 - LE_XX = P(확률계수) \* 𝜎𝑧 (표준편차)
 
 1. 관측값에 대한 표준편차를 구함
-2. 다음의 표에서 p=90/100(0.90) 에 대한 확률 계수인 1.6449를 구함
+2. 다음의 표에서 p=90/100(0.90)에 대한 확률 계수인 1.6449를 구함
 3. 표준편차와 확률 계수를 곱함
 
 - LE_90 = 1.6449 \* (표준편차)
@@ -78,7 +78,7 @@ thumbnail: /images/thumbnail/satellite.png
 
 1. 기준점과 측정점을 통해 표준편차와 평균을 구함
 2. 위의 식(누적분포함수)에서 p 값을 계산
-3. p 값에 대해 오차 역함수(Inverse Error Function)을 구함
+3. p 값에 대해 오차 역함수(Inverse Error Function)를 구함
 4. 다음의 식을 통해 LE를 계산
 
 ![](/images/satellite/cele/le_2.png)
