@@ -22,7 +22,7 @@ thumbnail: /images/thumbnail/elasticsearch.png
 
 https://www.elastic.co/kr/downloads/elasticsearch
 
-현재 기준으로 8.5.3 버전이 최신입니다. 8.X 대 버전을 설치하므로 **Windows** 버튼을 클릭하여 다운로드 받습니다.
+현재 기준으로 8.5.3 버전이 최신입니다. 8.X 대 버전을 설치하므로 **Windows** 버튼을 클릭하여 다운로드합니다.
 
 ![](/images/elastic/elasticsearch/1.png)
 
@@ -36,7 +36,7 @@ https://www.elastic.co/kr/downloads/elasticsearch
 
 ## 실행하기
 
-엘라스틱서치를 실행해봅니다. bin 폴더에 있는 **elasticsearch.bat** 파일을 실행하면 됩니다. 윈도우에서 기본으로 제공하는 명령 프롬프트(CMD)을 실행하고 다음 명령어를 실행합니다.
+엘라스틱서치를 실행해 봅니다. bin 폴더에 있는 **elasticsearch.bat** 파일을 실행하면 됩니다. 윈도우에서 기본으로 제공하는 명령 프롬프트(CMD)을 실행하고 다음 명령어를 실행합니다.
 
 ```shell
 C:\elasticsearch-8.5.3> .\bin\elasticsearch.bat
@@ -65,7 +65,7 @@ curl을 사용하여 확인하기 위해서는 user와 password를 추가로 입
 curl -u [user]:[password] https://localhost:9200 -k
 ```
 
-user는 기본적으로 elastic 이고, password는 위에서 나온 정보를 입력하여 실행합니다.
+user는 기본적으로 elastic이고, password는 위에서 나온 정보를 입력하여 실행합니다.
 
 ```shell
 C:\elasticsearch-8.5.3> curl -u elastic:yJ454NS-=mdaBI9bBVM= https://localhost:9200 -k
@@ -90,13 +90,13 @@ C:\elasticsearch-8.5.3> curl -u elastic:yJ454NS-=mdaBI9bBVM= https://localhost:9
 
 엘라스틱서치가 잘 실행된 것을 확인할 수 있습니다.
 
-브라우저에서 http가 아닌 https로 변경된 https://localhost:9200 으로 접속해서 확인 할 수 있습니다.
+브라우저에서 http가 아닌 https로 변경된 https://localhost:9200 로 접속해서 확인할 수 있습니다.
 
 1. "고급" 버튼을 눌러 안전하지 않은 사이트로 이동하여 접속합니다.
 
 ![](/images/elastic/elasticsearch/9.png)
 
-2. elatic 계정과 비밀번호를 입력하면 아래 그림과 같이 정보를 확인 할 수 있습니다.
+2. elatic 계정과 비밀번호를 입력하면 아래 그림과 같이 정보를 확인할 수 있습니다.
 
 ![](/images/elastic/elasticsearch/10.png)
 

@@ -23,7 +23,7 @@ thumbnail: /images/thumbnail/elasticsearch.png
 
 ## 서버 상태 확인
 
-키바나의 서버 상태는 http://localhost:5601/status 에서 확인 할 수 있습니다.
+키바나의 서버 상태는 http://localhost:5601/status 에서 확인할 수 있습니다.
 
 ![](/images/elastic/kibana/6.png)
 

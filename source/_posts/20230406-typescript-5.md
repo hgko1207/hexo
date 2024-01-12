@@ -13,11 +13,11 @@ date: 2023-04-06 23:20:26
 thumbnail: /images/thumbnail/typescript.png
 ---
 
-**TypeScript** 에서 인터페이스(Interface)를 생성하고 사용하는 방법에 대해 알아보겠습니다.
+**TypeScript**에서 인터페이스(Interface)를 생성하고 사용하는 방법에 대해 알아보겠습니다.
 
 ## Interfaces
 
-객체의 모양을 특정해주기 위해 사용합니다. 여기서는 `firstName` 및 `lastName` 필드가 있는 객체를 설명하는 인터페이스를 사용합니다.
+객체의 모양을 특정해 주기 위해 사용합니다. 여기서는 `firstName` 및 `lastName` 필드가 있는 객체를 설명하는 인터페이스를 사용합니다.
 
 ```ts
 interface Person {
@@ -40,7 +40,7 @@ const eden: Player = {
 };
 ```
 
-인터페이스 이름이 같도록 3번 각각 만들어도 타입스크립트는 알아서 하나로 합쳐줍니다. Type 과 차이점입니다.
+인터페이스 이름이 같도록 3번 각각 만들어도 타입스크립트는 알아서 하나로 합쳐줍니다. Type과 차이점입니다.
 
 ```ts
 interface User {
@@ -106,9 +106,9 @@ class Player implements User, Human {
 }
 ```
 
-## Type Aliases 과 Interfaces 의 차이점
+## Type Aliases 과 Interfaces의 차이점
 
-Type Aliases 과 인터페이스는 매우 유사하며 많은 경우 자유롭게 선택할 수 있습니다. 인터페이스의 거의 모든 기능은 type 에서 사용할 수 있으며, 주요 차이점은 type 을 다시 열어 새 속성을 추가할 수 없는 것입니다. 반면 인터페이스는 항상 확장 가능합니다.
+Type Aliases 과 인터페이스는 매우 유사하며 많은 경우 자유롭게 선택할 수 있습니다. 인터페이스의 거의 모든 기능은 type에서 사용할 수 있으며, 주요 차이점은 type을 다시 열어 새 속성을 추가할 수 없는 것입니다. 반면 인터페이스는 항상 확장 가능합니다.
 
 ## 참고
 

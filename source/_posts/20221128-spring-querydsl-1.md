@@ -12,7 +12,7 @@ date: 2022-11-28 10:57:14
 thumbnail: /images/thumbnail/spring.png
 ---
 
-# Query DSL
+## Query DSL
 
 - JPA, JDO, SQL 같은 백엔드를 위해 type-safe SQL을 만드는 프레임워크
 - Domain Specific Language
@@ -27,7 +27,7 @@ thumbnail: /images/thumbnail/spring.png
 
 ## 동작 방식
 
-- Member java or Member table 의 메타 데이터를 참조하여 코드 생성기를 통해 QMember.java 를 생성합니다.
+- Member java or Member table의 메타 데이터를 참조하여 코드 생성기를 통해 QMember.java를 생성합니다.
 - APT: Annotation Processing Tool
 - Table Meta: Querydsl-maven-plugin
 
@@ -58,7 +58,7 @@ thumbnail: /images/thumbnail/spring.png
 
 Spring Boot 프로젝트의 pom.xml 에 의존성과 플러그인을 추가합니다.
 
-QueryDSL 을 사용하기 위해서는 com.querydsl 에서 제공하는 `querydsl-jpa` 와 `querydsl-apt` 에 대한 의존성이 필요합니다.
+QueryDSL을 사용하기 위해서는 com.querydsl에서 제공하는 `querydsl-jpa`와 `querydsl-apt`에 대한 의존성이 필요합니다.
 
 ```xml
 <!-- dependencies 에 추가 -->
@@ -78,7 +78,7 @@ QueryDSL 을 사용하기 위해서는 com.querydsl 에서 제공하는 `queryds
 </dependency>
 ```
 
-com.mysema.maven 에서 제공하는 apt-maven-plugin 을 설치합니다.
+com.mysema.maven에서 제공하는 apt-maven-plugin을 설치합니다.
 
 ```xml
 <!-- build - plugins 에 추가 -->
@@ -101,7 +101,7 @@ com.mysema.maven 에서 제공하는 apt-maven-plugin 을 설치합니다.
 </plugin>
 ```
 
-이제 프로젝트 우클릭 후 maven -> Update Project... 수행하면 Entity 에 대한 Q 클래스들이 `target/generated-sources/java` 경로에 생성된 것을 확인할 수 있습니다.
+이제 프로젝트 우클릭 후 maven -> Update Project... 수행하면 Entity에 대한 Q 클래스들이 `target/generated-sources/java` 경로에 생성된 것을 확인할 수 있습니다.
 
 ### 도메인 클래스 생성
 
@@ -153,7 +153,7 @@ public class TeamService {
 
 ### JPAQuery 사용 예
 
-`JPAQuery` 을 Bean 등록 후 사용 가능합니다.
+`JPAQuery`을 Bean 등록 후 사용 가능합니다.
 
 ```java
 @SpringBootApplication

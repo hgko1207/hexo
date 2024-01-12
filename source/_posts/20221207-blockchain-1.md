@@ -1,5 +1,5 @@
 ---
-title: '[Ethereum] ganache-cli 설치 및 실행'
+title: '[Ethereum] ganache-cli 설치 및 실행 방법'
 categories:
   - IT
   - BlockChain
@@ -13,15 +13,15 @@ date: 2022-12-07 10:20:28
 thumbnail: /images/thumbnail/blockchain.png
 ---
 
-**ganache-cli** 를 설치하고 실행하는 방법에 대해 알아보겠습니다.
+**ganache-cli**를 설치하고 실행하는 방법에 대해 알아보겠습니다.
 
 ## Ganache
 
-"가나슈"라고 읽으면 되고, 가상의 이더리움 네트워크를 생성해서 Smart Contract 를 실행할 수 있도록 해주는 프로그램입니다. 이런 가상 환경을 TestRPC 라고 합니다.
+"가나슈"라고 읽으면 되고, 가상의 이더리움 네트워크를 생성해서 Smart Contract를 실행할 수 있도록 해주는 프로그램입니다. 이런 가상 환경을 TestRPC라고 합니다.
 
 ## Ganache CLI
 
-Ganache CLI 는 빠르고 커스터마이징 가능한 블록체인 에뮬레이터인 TestRPC 의 최신 버전입니다. 실제 이더리움 노드를 실행하는 오버헤드 없이 블록체인을 호출할 수 있습니다.
+Ganache CLI는 빠르고 커스터마이징 가능한 블록체인 에뮬레이터인 TestRPC의 최신 버전입니다. 실제 이더리움 노드를 실행하는 오버헤드 없이 블록체인을 호출할 수 있습니다.
 
 - Transactions are “mined” instantly.
 - No transaction cost.
@@ -31,9 +31,9 @@ Ganache CLI 는 빠르고 커스터마이징 가능한 블록체인 에뮬레이
 
 ## NPM 설치
 
-Ganache 는 NPM 을 통해 설치할 수 있습니다.
+Ganache는 NPM을 통해 설치할 수 있습니다.
 
-먼저 NPM 이 설치되어 있어야 합니다. 이전 글 [Node.js 및 NPM 설치](https://hgko1207.github.io/2022/12/07/linux-24/) 을 참고해서 설치를 합니다.
+먼저 NPM이 설치되어 있어야 합니다. 이전 글 [Node.js 및 NPM 설치](https://hgko1207.github.io/2022/12/07/linux-24/) 을 참고해서 설치를 합니다.
 
 ## Ganache 설치
 
@@ -155,7 +155,7 @@ Base HD Path:  m/44'/60'/0'/0/{account_index}
 - `-l` or `--gasLimit`: 사용자 지정 가스 한도 설정(기본값은 90000)
 - `-f` or `--fork`: 주어진 블록에서 현재 실행 중인 다른 이더리움 클라이언트에서 분기합니다. 입력은 다른 클라이언트의 HTTP 주소 및 포트여야 합니다.(예: http://localhost:8545)
 - `-i` or `--networkId`: ganache-cli가 자신을 식별하는 데 사용할 네트워크 ID를 지정합니다.
-- `--db`: 체인 데이터베이스를 저장할 디렉토리 경로를 지정합니다. 데이터베이스가 이미 존재하는 경우 ganache-cli는 새 체인을 생성하는 대신 해당 체인을 초기화합니다.
+- `--db`: 체인 데이터베이스를 저장할 디렉터리 경로를 지정합니다. 데이터베이스가 이미 존재하는 경우 ganache-cli는 새 체인을 생성하는 대신 해당 체인을 초기화합니다.
 - `--debug`: Output VM opcodes for debugging
 - `--mem`: ganache-cli 메모리 사용량 통계를 출력합니다.
 - `--e`: 사용자 계정별 가스를 설정합니다.(기본값은 100)

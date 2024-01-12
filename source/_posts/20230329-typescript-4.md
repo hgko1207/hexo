@@ -13,7 +13,7 @@ date: 2023-03-29 14:20:34
 thumbnail: /images/thumbnail/typescript.png
 ---
 
-**TypeScript** 에서 클래스(Class)를 생성하고 사용하는 방법에 대해 알아보겠습니다.
+**TypeScript**에서 클래스(Class)를 생성하고 사용하는 방법에 대해 알아보겠습니다.
 
 ## 클래스(Class)
 
@@ -61,7 +61,7 @@ const eden = new Player("ko", "eden", "고수");
 
 ## 추상 클래스(Abstract Class)
 
-TypeScript 와 객체지향 프로그램이 가지고 있는 엄청 훌륭한 것은 추상 클래스(Abstract Class)라고 생각됩니다.
+TypeScript와 객체지향 프로그램이 가지고 있는 엄청 훌륭한 것은 추상 클래스(Abstract Class)라고 생각됩니다.
 
 추상클래스는 다른 클래스가 상속받을 수 있는 클래스입니다. 하지만 이 클래스는 직접 새로운 인스턴스를 만들 수는 없습니다.
 
@@ -102,7 +102,7 @@ eden.getFullName();
 
 ## Static Members
 
-클래스에는 static 멤버가 있을 수 있습니다. 이 멤버는 클래스의 특정 인스턴스와 연결되지 않습니다. 클래스 생성자 객체 자체를 통해 액세스할 수 있습니다. static 멤버는 동일한 public, protected 및 private 과 함께 사용할 수도 있습니다.
+클래스에는 static 멤버가 있을 수 있습니다. 이 멤버는 클래스의 특정 인스턴스와 연결되지 않습니다. 클래스 생성자 객체 자체를 통해 액세스 할 수 있습니다. static 멤버는 동일한 public, protected 및 private과 함께 사용할 수도 있습니다.
 
 ```ts
 class MyClass {

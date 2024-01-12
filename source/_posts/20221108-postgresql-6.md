@@ -32,7 +32,7 @@ $ dropuser hgko
 
 ### GROUP 생성, 수정, 삭제
 
-- **SYSID**: 내부의 GROUP ID 구분용 숫자 코드이며, 설정하지 않으면 자동으로 100부터 1씩 증가합니다. (1~99는 핵심적인 그룹을 위함) 자동으로 설정되게 하면됩니다.
+- **SYSID**: 내부의 GROUP ID 구분용 숫자 코드이며, 설정하지 않으면 자동으로 100부터 1씩 증가합니다. (1~99는 핵심적인 그룹을 위함) 자동으로 설정되게 하면 됩니다.
 
 #### GROUP 생성
 
@@ -85,11 +85,11 @@ CREATE USER test_user CREATEDB CREATEUSER IN GROUP test_group UNENCRYPTED PASSWO
 - [ LOGIN | NOLOGIN ]
 - [ ENCRYPTED | UNENCRYPTED ] PASSOWRD 'password'
 - VALID UNTIL 'timestamp'
-- IN ROLE role_name [, ...]
-- IN GROUP group_name [, ...]
-- ROLE role_name [, ...]
-- ADMIN role_name [, ...]
-- USER role_name [, ...]
+- IN ROLE role_name [,...]
+- IN GROUP group_name [,...]
+- ROLE role_name [,...]
+- ADMIN role_name [,...]
+- USER role_name [,...]
 - SYSID uid
 
 #### 사용자 수정

@@ -13,7 +13,7 @@ date: 2023-04-11 11:10:23
 thumbnail: /images/thumbnail/typescript.png
 ---
 
-NextJS, Create React App(CRA) 를 사용하지 않고 초기 프로젝트에 **TypeScript** 를 설치하고 설정하는 방법에 대해 알아보겠습니다.
+NextJS, Create React App(CRA)를 사용하지 않고 초기 프로젝트에 **TypeScript**를 설치하고 설정하는 방법에 대해 알아보겠습니다.
 
 ## 프로젝트 시작
 
@@ -24,7 +24,7 @@ $ mkdir typescripttest
 $ cd typescripttest
 ```
 
-다음 명령어를 실행하여 `package.json` 을 초기화합니다.
+다음 명령어를 실행하여 `package.json`을 초기화합니다.
 
 ```bash
 $ npm init -y
@@ -32,7 +32,7 @@ $ npm init -y
 
 ## TypeScript 설치
 
-다음 명령어를 실행하여 TypeScript 를 설치합니다.
+다음 명령어를 실행하여 TypeScript  설치합니다.
 
 ```bash
 $ npm i -D typescript
@@ -63,7 +63,7 @@ $ tsc --init
 
 ### Target (기본값: ES3)
 
-최신 브라우저는 모든 ES6 기능을 지원하므로 ES6 는 좋은 선택입니다. 코드가 이전 환경에 배포된 경우 더 낮은 target 을 설정하거나 최신 환경에서 코드 실행이 보장되는 경우 더 높은 target 을 설정하도록 선택할 수 있습니다.
+최신 브라우저는 모든 ES6 기능을 지원하므로 ES6는 좋은 선택입니다. 코드가 이전 환경에 배포된 경우 더 낮은 target을 설정하거나 최신 환경에서 코드 실행이 보장되는 경우 더 높은 target을 설정하도록 선택할 수 있습니다.
 
 ```json
 // tsconfig.json
@@ -97,7 +97,7 @@ $ tsc --init
 
 모든 엄격한 타입 검사 옵션을 활성화합니다. `strict` 플래그는 프로그램 정확성을 더 강력하게 보장하는 광범위한 타입 검사 동작을 가능하게 합니다.
 
-tsconfig.json 에서 `"strict": true` 를 통해 strict mode 로 해주면, Declaration Files 가 없는 경우에 대해서도 에러를 띄워줍니다.
+tsconfig.json 에서 `"strict": true`를 통해 strict mode로 해주면, Declaration Files 가 없는 경우에 대해서도 에러를 띄워줍니다.
 
 ```json
 {
