@@ -6,7 +6,7 @@ categories:
 tags:
   - Blockchain
   - 블록체인
-  - 메타마스크
+  - 암호화폐
 date: 2024-01-02 10:52:51
 thumbnail: /images/thumbnail/blockchain.png
 ---
