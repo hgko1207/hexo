@@ -1,1 +1,0 @@
-<h2 style="padding: 0.3em 0.5em; margin: 0.5em 0em; color: #000; border-left: 12px solid #517135; border-bottom: 1px #517135 solid;" data-ke-size="size26"><b>고기 없이도 가능한 단백질 섭취 방법</b></h2>
