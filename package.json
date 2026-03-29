@@ -29,6 +29,7 @@
     "hexo-renderer-markdown-it-plus": "^1.0.4",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
+    "hexo-wordcount": "^6.0.1",
     "markdown-it-task-lists": "^2.1.1"
   }
 }

@@ -7,7 +7,7 @@ title: 규니의 블로그
 subtitle: hgko's IT Blog
 description: Information related to IT
 author: Hyeong Gyun Ko
-language: en
+language: ko
 timezone: Asia/Seoul
 keywords: IT, Web, Mobile
 
@@ -145,8 +145,8 @@ robotstxt:
 # sitemap auto generator
 sitemap:
   path: sitemap.xml
-  tag: false
-  category: false
+  tag: true
+  category: true
 
 feed:
   type: rss2

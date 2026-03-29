@@ -11,7 +11,7 @@ customize:
     logo:
         width: 180
         height: 60
-        url: images/logo.png
+        url: /images/logo.png
     theme_color: '#006bde'
     highlight: tomorrow-night
     sidebar: right # sidebar position, options: left, right
@@ -87,6 +87,12 @@ comment:
         client_secret: # OAuth application client secret
         admin: # GitHub repo owner and collaborators who can initialize github issues
                # Can either be a string or an array.
+    giscus:
+        on: false
+        repo: hgko1207/hgko1207.github.io
+        repo_id: # https://giscus.app 에서 발급받은 값 입력
+        category: Announcements
+        category_id: # https://giscus.app 에서 발급받은 값 입력
 
 # Share
 share: default # options: jiathis, bdshare, addtoany, default
@@ -95,10 +101,10 @@ share: default # options: jiathis, bdshare, addtoany, default
 plugins:
     lightgallery: true # options: true, false
     justifiedgallery: true # options: true, false
-    google_analytics: UA-166318275-1 # enter the tracking ID for your Google Analytics
+    google_analytics: G-73CH3S1C0L # enter the tracking ID for your Google Analytics
     google_adsense:
-      publisher_id: # enter the adsense publisher ID (pub-XXXXXXXXXXXXXXX) for your google adsense
-      ad_slot: # the id of your add unit
+      publisher_id: pub-7581566810202853
+      ad_slot: 1131844921
     baidu_analytics: # enter Baidu Analytics hash key
     bing_site_verification: # enter Bing verification key here
     naver-site-verification: 8974a1bf7460b68dfde9ce6e43e6538f4ed56eaf
@@ -109,7 +115,7 @@ plugins:
       public: # enter true if you want a link to your public stats. Must be configured on statcouter as well.
       on: # enter true to enable statcounter
     mathjax: false # options: true, false
-    counter: false # for post words count and time of reading, need hexo-wordcount: https://github.com/willin/hexo-wordcount
+    counter: true # for post words count and time of reading, need hexo-wordcount: https://github.com/willin/hexo-wordcount
     cookie_consent: false
     twitter_conversion_tracking:
       enabled: false
@@ -126,4 +132,4 @@ miscellaneous:
 
 poweredby: true
 
-google_analytics: UA-166318275-1
+google_analytics: G-73CH3S1C0L

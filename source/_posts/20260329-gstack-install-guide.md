@@ -14,7 +14,7 @@ tags:
   - AI코딩
   - 클로드코드
 date: 2026-03-29 00:38:16
-thumbnail: /images/thumbnail/Claude.png
+thumbnail: /images/thumbnail/claude.png
 ---
 
 > Garry Tan (Y Combinator CEO)이 공개한 오픈소스 Claude Code 스킬 모음입니다.

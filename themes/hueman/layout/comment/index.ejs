@@ -19,6 +19,8 @@
         <%- partial('comment/valine') %>
     <% } else if (theme.comment.gitalk.on) { %>
         <%- partial('comment/gitalk') %>
+    <% } else if (theme.comment.giscus && theme.comment.giscus.on) { %>
+        <%- partial('comment/giscus') %>
     <% } %>
     </section>
 <% } %>

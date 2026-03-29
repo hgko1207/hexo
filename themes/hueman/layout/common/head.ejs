@@ -32,11 +32,16 @@
     %>
     <meta name="keywords" content="<%= keywords.join(',') %>" />
     <% } %>
+    <% var descText = page.description || (page.excerpt ? strip_tags(page.excerpt) : '') || config.description || ''; %>
+    <% descText = descText.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim(); %>
+    <meta name="description" content="<%= descText.substring(0, 160) %>" />
     <%- open_graph({
         image:          thumbnail(page),
         fb_app_id:      theme.miscellaneous.open_graph.fb_app_id,
         fb_admins:      theme.miscellaneous.open_graph.fb_admins,
         twitter_id:     theme.miscellaneous.open_graph.twitter_id,
+        twitter_card:   'summary_large_image',
+        description:    descText.substring(0, 200),
     }) %>
     <%- meta(page) %>
 
