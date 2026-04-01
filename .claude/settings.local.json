@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for year:*)",
+      "Bash(do echo:*)",
+      "Read(//d//**)",
+      "Bash(done)",
+      "Bash(grep -v \"^--$\")",
+      "Bash(npm install:*)",
+      "Bash(node -e \"const pkg = require\\(''./package.json''\\); console.log\\(''hexo-wordcount:'', pkg.dependencies[''hexo-wordcount'']\\)\")",
+      "Bash(npx hexo:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4001/2025/05/01/devops-4/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4001/)",
+      "Bash(netstat -ano)",
+      "Bash(curl -s http://localhost:4001/2025/05/01/devops-4/)",
+      "Bash(curl -v http://localhost:4001/2025/05/01/devops-4/)",
+      "Bash(taskkill //F //PID 73236)",
+      "Bash(grep -o background-image.*logo 'd:/01. hgko/Blog/blog/public/css/style.css')"
+    ]
+  }
+}
