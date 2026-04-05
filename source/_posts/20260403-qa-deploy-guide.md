@@ -1,5 +1,5 @@
 ---
-title: gstack 디자인 가이드
+title: gstack QA & 배포 가이드
 categories:
   - Programming
   - AI
