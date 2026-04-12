@@ -165,27 +165,27 @@ UI 개발
 
 ## 상황별 빠른 선택 가이드
 
-| 상황 | 명령어 |
-|------|--------|
-| 아이디어 검증 | `/office-hours` |
-| 플랜 검토 (빠르게) | `/autoplan` |
-| 플랜 검토 (깊게) | `/plan-ceo-review` → `/plan-eng-review` → `/plan-design-review` |
-| 버그 찾기 | `/investigate` |
-| 코드 리뷰 | `/review` |
-| 코드 이중 검증 | `/review` + `/codex review` |
-| UI 품질 개선 | `/design-review` |
-| 새 디자인 시스템 | `/design-consultation` |
-| QA (수정 포함) | `/qa` |
-| QA (리포트만) | `/qa-only` |
-| 성능 확인 | `/benchmark` |
-| 배포 (PR 생성) | `/ship` |
-| 배포 (풀 배포) | `/ship` → `/land-and-deploy` |
-| 배포 후 모니터링 | `/canary` |
-| 보안 감사 | `/cso` |
-| 위험 작업 전 | `/careful` 또는 `/guard` |
-| 주간 회고 | `/retro` |
-| 문서 업데이트 | `/document-release` |
-| gstack 업데이트 | `/gstack-upgrade` |
+| 상황               | 명령어                                                          |
+| ------------------ | --------------------------------------------------------------- |
+| 아이디어 검증      | `/office-hours`                                                 |
+| 플랜 검토 (빠르게) | `/autoplan`                                                     |
+| 플랜 검토 (깊게)   | `/plan-ceo-review` → `/plan-eng-review` → `/plan-design-review` |
+| 버그 찾기          | `/investigate`                                                  |
+| 코드 리뷰          | `/review`                                                       |
+| 코드 이중 검증     | `/review` + `/codex review`                                     |
+| UI 품질 개선       | `/design-review`                                                |
+| 새 디자인 시스템   | `/design-consultation`                                          |
+| QA (수정 포함)     | `/qa`                                                           |
+| QA (리포트만)      | `/qa-only`                                                      |
+| 성능 확인          | `/benchmark`                                                    |
+| 배포 (PR 생성)     | `/ship`                                                         |
+| 배포 (풀 배포)     | `/ship` → `/land-and-deploy`                                    |
+| 배포 후 모니터링   | `/canary`                                                       |
+| 보안 감사          | `/cso`                                                          |
+| 위험 작업 전       | `/careful` 또는 `/guard`                                        |
+| 주간 회고          | `/retro`                                                        |
+| 문서 업데이트      | `/document-release`                                             |
+| gstack 업데이트    | `/gstack-upgrade`                                               |
 
 ---
 
@@ -234,5 +234,6 @@ UI 개발
 ```
 
 ---
+
 **출처**: [gstack GitHub](https://github.com/garrytan/gstack) — Garry Tan (Y Combinator CEO)
 **태그**: #ClaudeCode #gstack #워크플로우 #실전패턴
